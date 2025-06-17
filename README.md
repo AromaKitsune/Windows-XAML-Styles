@@ -1,5 +1,5 @@
 # Windows XAML Styles
-My custom Windows XAML styles for Windhawk's various XAML styler mods
+A collection of my custom Windows XAML styles for Windhawk's various XAML styler mods.
 
 ## File Explorer
 ![File Explorer](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/2025-06-16_18-35-40.png)
