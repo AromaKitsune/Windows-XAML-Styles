@@ -13,4 +13,4 @@ A collection of my custom Windows XAML styles for Windhawk's various XAML styler
 ## Notification Center
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/MediaControls.png)
 
-* Large album art image for the Media Controls
+* Large album art image for the Quick Actions' Media Controls
