@@ -5,7 +5,7 @@ A collection of my custom Windows XAML styles for Windhawk's various XAML styler
 
 For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-explorer-styler)
 
-![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/2025-06-16_18-35-40.png)
+![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/FileExplorer.png)
 
 * Custom arrow glyphs (back, forward, up, more)
 * Mica effect extended to the Command Bar
