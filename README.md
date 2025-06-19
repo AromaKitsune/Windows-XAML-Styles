@@ -11,7 +11,7 @@ For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-
 * Mica effect extended to the Command Bar
 * Dynamic image container height for the Details Pane
 * Removed the tab's Close button (to close the tab, middle-click it or press Ctrl+W)
-* Context Menu: Removed the Share options
+* Context Menu: Removed the Share options & "Show more options"
 
 ## Notification Center
 
