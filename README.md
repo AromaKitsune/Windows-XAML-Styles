@@ -22,7 +22,7 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
 * Large album art image for the Quick Actions' Media Controls
 
 
-## How to Use Custom XAML Styles
+## How to apply Custom XAML Styles
 
 - Install [Windhawk](https://windhawk.net/)
 - Launch Windhawk
