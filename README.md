@@ -51,4 +51,4 @@ These custom styles can force remove them for Spotlight pics too.
 
 ## How to make my own custom XAML styles?
 
-* Check out the XAML styling guide [here](https://github.com/bbmaster123/FWFU/blob/main/uwpspy.md).
+Check out the XAML styling guide [here](https://github.com/bbmaster123/FWFU/blob/main/uwpspy.md).
