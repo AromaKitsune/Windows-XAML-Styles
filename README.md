@@ -47,4 +47,4 @@ These custom styles can force remove them for Spotlight pics too.
 - Copy the whole code
 - Go back to the Windhawk app
 - Paste the JSON code into the "Mod settings" text box
-- Click "Save"
+- Click "Save", and the changes take effect instantly
