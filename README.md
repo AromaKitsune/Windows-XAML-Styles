@@ -21,6 +21,18 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
 
 * Large album art image for the Quick Actions' Media Controls
 
+## Lock Screen
+
+For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler)
+- fork the mod and change the executable to `LockApp.exe`
+
+![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/LockScreen.png)
+
+* Moved the Clock & Date HUD to the top-left corner of the screen
+* Remove the UI elements for Fun facts, tips & "Like the image that you see?",
+those can be turned off via Settings → Personalisation → Lock screen, but it affects only the non-Spotlight pics.
+These custom styles can force remove them for Spotlight pics too.
+* Large album art image for the Media Controls
 
 ## How to apply Custom XAML Styles
 
