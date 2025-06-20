@@ -48,3 +48,7 @@ These custom styles can force remove them for Spotlight pics too.
 - Go back to the Windhawk app
 - Paste the JSON code into the "Mod settings" text box
 - Click "Save", and the changes take effect instantly
+
+## How to make my own custom XAML styles?
+
+* Check out the XAML styling guide [here](https://github.com/bbmaster123/FWFU/blob/main/uwpspy.md).
