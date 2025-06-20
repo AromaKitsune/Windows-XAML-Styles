@@ -7,7 +7,7 @@ For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-
 
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/FileExplorer.png)
 
-* Custom arrow glyphs (back, forward, up, more)
+* Custom button glyphs: Back, Forward, Up, More
 * Mica effect extended to the Command Bar
 * Dynamic image container height for the Details Pane
 * Removed the tab's Close button (to close the tab, middle-click it or press Ctrl+W)
@@ -20,3 +20,20 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/MediaControls.png)
 
 * Large album art image for the Quick Actions' Media Controls
+
+
+## How to Use Custom XAML Styles
+
+- Install [Windhawk](https://windhawk.net/)
+- Launch Windhawk
+- Explore the mods
+- Search and pick the Styler mod you want to install
+- Click "Details", then "Install"
+- Go to the "Advanced" tab
+- Clear everything in the "Mod settings" text box
+- Go to this GitHub repo
+- Open the JSON file for a specific Styler mod
+- Copy the whole code
+- Go back to the Windhawk app
+- Paste the JSON code into the "Mod settings" text box
+- Click "Save"
