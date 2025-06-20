@@ -25,9 +25,9 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
 ## How to apply Custom XAML Styles
 
 - Install [Windhawk](https://windhawk.net/)
-- Launch Windhawk
+- Launch the Windhawk app
 - Explore the mods
-- Search and pick the Styler mod you want to install
+- Search and pick a Styler mod you want to install
 - Click "Details", then "Install"
 - Go to the "Advanced" tab
 - Clear everything in the "Mod settings" text box
