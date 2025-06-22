@@ -61,7 +61,7 @@ StackPanel#TimeAndDatePanel > TextBlock#Date
 
 Style:
 ```
-HorizontalAlignment=Lef
+HorizontalAlignment=Left
 ```
 
 ## Bottom-right icons
