@@ -28,7 +28,7 @@
   "controlStyles[7].target": "Grid#MediaControlsContainer",
   "controlStyles[7].styles[0]": "HorizontalAlignment=Right",
   "controlStyles[7].styles[1]": "VerticalAlignment=Top",
-  "controlStyles[7].styles[2]": "Margin=0,30,30,0",
+  "controlStyles[7].styles[2]": "Margin=0,40,40,0",
   "// Media Controls - Album Art, Title & Artist names container //": "",
   "controlStyles[8].target": "Grid#MediaTransportControls",
   "controlStyles[8].styles[0]": "Width=350",
