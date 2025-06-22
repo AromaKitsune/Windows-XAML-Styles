@@ -41,7 +41,7 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 
 Target process: `SystemSettings.exe`
 
-![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/SystemSettings.png)
+![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/Settings.png)
 
 * Replace the username text with anything you want
 * Replace the "Local Account" text or email address text (if linked with a MS account) with anything you want
