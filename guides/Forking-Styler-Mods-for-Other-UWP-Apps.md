@@ -1,12 +1,11 @@
 # Forking Styler Mods for Other UWP Apps
 This section shows how to fork the Styler mods for other UWP apps such as Lock Screen.
 
-1. Install [Windhawk](https://windhawk.net/)
-2. Launch the Windhawk app
-3. Explore the mods
-4. Search and pick a "Windows 11 Start Menu Styler" mod
-5. Click "Details", then "Install"
-6. After install, click the "Fork" button
+1. Launch the Windhawk app
+2. Explore the mods
+3. Search and pick a "Windows 11 Start Menu Styler" mod
+4. Click "Details", then "Install"
+5. After install, click the "Fork" button
 
   ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/Fork1.png)
 
