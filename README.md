@@ -35,6 +35,18 @@ those can be turned off via Settings → Personalisation → Lock screen, but it
 These custom styles can force remove them for Spotlight pics too.
 * Large album art image for the Media Controls
 
+## Settings
+
+For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - See the forking Styler mods guide on the bottom of the page.
+
+Target process: `SystemSettings.exe`
+
+![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/SystemSettings.png)
+
+* Replace the username text with anything you want
+* Replace the "Local Account" text or email address text (if linked with a MS account) with anything you want
+* Removed the MS 365 and OneDrive buttons from the System page
+
 ## How to apply Custom XAML Styles
 
 1. Install [Windhawk](https://windhawk.net/)
