@@ -23,7 +23,7 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
 
 ## Lock Screen
 
-For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - See the mods forking guide on the bottom of the page.
+For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - See the forking Styler mods guide on the bottom of the page.
 
 Target process: `LockApp.exe`
 
