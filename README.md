@@ -23,7 +23,7 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
 
 ## Lock Screen
 
-For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - See the forking Styler mods guide on the bottom of the page.
+For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - See the forking Styler mod guide on the bottom of the page.
 
 Target process: `LockApp.exe`
 
@@ -37,7 +37,7 @@ These custom styles can force remove them for Spotlight pics too.
 
 ## Settings
 
-For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - See the forking Styler mods guide on the bottom of the page.
+For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - See the forking Styler mod guide on the bottom of the page.
 
 Target process: `SystemSettings.exe`
 
@@ -63,7 +63,7 @@ Target process: `SystemSettings.exe`
 12. Paste the JSON code into the "Mod settings" text box
 13. Click "Save", and the changes take effect instantly
 
-For Lock Screen and Settings, follow the [forking Styler mods guide](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mods-for-Other-UWP-Apps.md).
+For Lock Screen and Settings, follow the [forking Styler mod guide](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md).
 
 ## How to make my own custom XAML styles?
 

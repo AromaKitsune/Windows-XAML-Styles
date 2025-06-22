@@ -22,4 +22,4 @@ While customising the Lock Screen, you cannot copy the target names to clipboard
 8. Use the text extraction (OCR) feature and copy all texts
 9. Paste the texts into Notepad. Since the OCR is not perfect, make sure to correct the spellings of target names
 
-Once you got those target names, add them to a [forked Styler mod](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mods-for-Other-UWP-Apps.md).
+Once you got those target names, add them to a [forked Styler mod](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md).
