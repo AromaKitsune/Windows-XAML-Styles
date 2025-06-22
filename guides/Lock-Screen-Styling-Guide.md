@@ -9,7 +9,7 @@ If this is your first time customising the XAML styles, check out the UWPSpy gui
 - Press `Enter` then immediately `Win`+`L`
 - The UWPSpy window should appear on the Lock Screen, you can now customise it
 
-![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/LockScreenCustomization.mp4)
+[Video in action](https://drive.google.com/file/d/196NVuEpOtcZAGzzDaRucDCyfrcdYlghp/view?usp=sharing)
 
 While customising the Lock Screen, you cannot copy the target names to clipboard. To workaround this:
 - Take a screenshot of the UWPSpy window by pressing `Win`+`PrtScr`, or just `PrtScr`
