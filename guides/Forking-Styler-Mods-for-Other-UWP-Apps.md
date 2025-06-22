@@ -17,5 +17,14 @@ This section shows how to fork the Styler mods for other UWP apps such as Lock S
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/Fork3.png)
 
 9. When done, click the "Compile Mod" button
-
-10. Now you can copy the JSON code from this GitHub repo and paste it into the forked mod settings → Advanced tab → "Mod settings" text box
+10. Click "Exit Editing Mode"
+11. Find the forked Styler mod
+12. Click "Details"
+13. Go to the "Advanced" tab
+14. Clear everything in the "Mod settings" text box
+15. Go to this GitHub repo
+16. Open the JSON file for a specific Styler mod
+17. Copy the whole code
+18. Go back to the Windhawk app
+19. Paste the JSON code into the "Mod settings" text box
+20. Click "Save", and the changes take effect instantly
