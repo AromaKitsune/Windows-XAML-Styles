@@ -23,3 +23,44 @@ While customising the Lock Screen, you cannot copy the target names to clipboard
 9. Paste the texts into Notepad. Since the OCR is not perfect, make sure to correct the spellings of target names
 
 Once you got those target names, add them to a [forked Styler mod](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md).
+
+## Clock & Date HUD
+
+### Clock & Date HUD container
+
+```
+StackPanel#TimeAndDatePanel
+```
+
+### Clock HUD
+
+```
+StackPanel#TimePanel > TextBlock#Time
+```
+
+### Date HUD
+
+```
+StackPanel#TimeAndDatePanel > TextBlock#Date
+```
+
+## Bottom-right icons
+
+### Bottom-right icons container
+
+```
+StackPanel#StatusProviderPanel
+```
+
+### Network icon
+
+```
+Grid#Networklcon
+```
+
+### Battery indicator icon
+
+```
+Image#BatteryStatusProvider
+```
+
