@@ -43,7 +43,7 @@ Target process: `SystemSettings.exe`
 
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/Settings.png)
 
-* Replace the username text with anything you want
+* Replace the user name text with anything you want
 * Replace the "Local Account" text or email address text (if linked with a MS account) with anything you want
 * Removed the MS 365 and OneDrive buttons from the System page
 
