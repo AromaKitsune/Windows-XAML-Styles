@@ -12,20 +12,14 @@ If this is your first time customising the XAML styles, check out the UWPSpy gui
 [Video in action](https://drive.google.com/file/d/196NVuEpOtcZAGzzDaRucDCyfrcdYlghp/view?usp=sharing)
 
 While customising the Lock Screen, you cannot copy the target names to clipboard. To workaround this:
-1. Take a screenshot of the UWPSpy window by pressing `Win`+`PrtScr`, or just `PrtScr`
-2. Unlock your PC, you will lose the UWPSpy window and you need to re-spy to customise the Lock Screen again
-3. Launch MS Paint
-4. Paste the screenshot by pressing `Ctrl`+`V`
-5. Save it as PNG file
-6. Launch Snipping Tool from Start Menu
-7. Click the `•••` button → Open file
-8. Open the saved screenshot file
-9. Use the text extraction (OCR) feature
-
-If it says the texts are too small to detect:
-1. Zoom in the screenshot in the Snipping too app
-2. Take a screenshot again with `Shift`+`Win`+`S`
-3. Click the Snipping Tool notification to replace the current screenshot with a zoomed-in one
-4. Try using the OCR again
+1. Resize the UWPSpy window so it shows the tree-view of target names you want to copy
+2. Take a screenshot by pressing `Win`+`PrtScr`, or just `PrtScr`
+3. Unlock your PC, you will lose the UWPSpy window and you need to re-spy to customise the Lock Screen again
+4. Launch MS Paint
+5. Paste the screenshot by pressing `Ctrl`+`V`
+6. Take a screenshot of the UWPSpy window's tree-view with `Shift`+`Win`+`S`
+7. Click the Snipping Tool notification to launch Snipping Tool
+8. Use the text extraction (OCR) feature and copy all texts
+9. Paste the texts into Notepad. Since the OCR is not perfect, make sure to correct the spellings of target names
 
 Once you got those target names, add them to a [forked Styler mod](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mods-for-Other-UWP-Apps.md).
