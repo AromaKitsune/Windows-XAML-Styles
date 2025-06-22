@@ -86,4 +86,3 @@ Target:
 ```
 Image#BatteryStatusProvider
 ```
-
