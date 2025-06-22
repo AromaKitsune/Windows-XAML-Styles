@@ -23,5 +23,12 @@
   "controlStyles[6].target": "Grid#PaneRoot",
   "controlStyles[6].styles[0]": "Background=#00000000",
   "// Misc //": "",
-  "theme": ""
+  "theme": "",
+  "disableNewStartMenuLayout": 0,
+  "webContentStyles[0].target": "",
+  "webContentStyles[0].styles[0]": "",
+  "webContentCustomJs": "",
+  "styleConstants[0]": "",
+  "resourceVariables[0].variableKey": "",
+  "resourceVariables[0].value": ""
 }
