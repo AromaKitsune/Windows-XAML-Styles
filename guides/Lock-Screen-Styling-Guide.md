@@ -27,3 +27,5 @@ If it says the texts are too small to detect:
 2. Take a screenshot again with `Shift`+`Win`+`S`
 3. Click the Snipping Tool notification to replace the current screenshot with a zoomed-in one
 4. Try using the OCR again
+
+Once you got those target names, add them to a [forked Styler mod](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mods-for-Other-UWP-Apps.md).
