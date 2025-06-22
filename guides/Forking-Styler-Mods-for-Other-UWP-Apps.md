@@ -10,7 +10,9 @@ This section shows how to fork the Styler mods for other UWP apps such as Lock S
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/Fork1.png)
 
 6. On the editor, change the ID and name of a mod
-7. Remove the two lines of target processes, and replace the remaining target process with a different one: `LockApp.exe` for Lock Screen
+7. Remove the two lines of target processes, and replace the remaining target process with a different one:
+  - `LockApp.exe` for Lock Screen
+  - `SystemSettings.exe` for Settings
 
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/Fork2.png)
 
