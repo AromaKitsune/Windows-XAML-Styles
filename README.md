@@ -63,9 +63,11 @@ Target process: `SystemSettings.exe`
 12. Paste the JSON code into the "Mod settings" text box
 13. Click "Save", and the changes take effect instantly
 
+For Lock Screen and Settings, follow the [forking Styler mods guide](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mods-for-Other-UWP-Apps.md).
+
 ## How to make my own custom XAML styles?
 
-Check out the UWPSpy guide [here](https://github.com/bbmaster123/FWFU/blob/main/uwpspy.md).
+Follow the UWPSpy guide [here](https://github.com/bbmaster123/FWFU/blob/main/uwpspy.md).
 
-For other UWP apps such as Lock screen, check out the [forking Styler mods guide](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mods-for-Other-UWP-Apps.md)
-and [Lock Screen styling guide](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Lock-Screen-Styling-Guide.md).
+Once you know how to customise the UWP apps and want to customise the Lock Screen, check out the
+[Lock Screen styling guide](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Lock-Screen-Styling-Guide.md).
