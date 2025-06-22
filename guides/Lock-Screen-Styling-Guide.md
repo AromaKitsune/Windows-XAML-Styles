@@ -28,38 +28,61 @@ Once you got those target names, add them to a [forked Styler mod](https://githu
 
 ### Clock & Date HUD container
 
+Target:
 ```
 StackPanel#TimeAndDatePanel
 ```
 
+Styles:
+```
+VerticalAlignment=Top
+HorizontalAlignment=Left
+Margin=50,20,0,0
+```
+
 ### Clock HUD
 
+Target:
 ```
 StackPanel#TimePanel > TextBlock#Time
 ```
 
+Style:
+```
+HorizontalAlignment=Left
+```
+
 ### Date HUD
 
+Target:
 ```
 StackPanel#TimeAndDatePanel > TextBlock#Date
+```
+
+Style:
+```
+HorizontalAlignment=Lef
 ```
 
 ## Bottom-right icons
 
 ### Bottom-right icons container
 
+Target:
 ```
 StackPanel#StatusProviderPanel
 ```
 
 ### Network icon
 
+Target:
 ```
 Grid#Networklcon
 ```
 
 ### Battery indicator icon
 
+Target:
 ```
 Image#BatteryStatusProvider
 ```
