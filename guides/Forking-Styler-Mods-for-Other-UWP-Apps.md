@@ -1,5 +1,5 @@
-# Forking Mods for Other UWP Apps
-This section shows how to fork the styler mods for other UWP apps such as Lock Screen.
+# Forking Styler Mods for Other UWP Apps
+This section shows how to fork the Styler mods for other UWP apps such as Lock Screen.
 
 1. Install [Windhawk](https://windhawk.net/)
 2. Launch the Windhawk app

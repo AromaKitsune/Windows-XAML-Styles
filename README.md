@@ -55,5 +55,5 @@ These custom styles can force remove them for Spotlight pics too.
 
 Check out the UWPSpy guide [here](https://github.com/bbmaster123/FWFU/blob/main/uwpspy.md).
 
-For other UWP apps such as Lock screen, check out the [forking mods guide](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mods-for-Other-UWP-Apps.md)
+For other UWP apps such as Lock screen, check out the [forking Styler mods guide](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mods-for-Other-UWP-Apps.md)
 and [Lock Screen styling guide](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Lock-Screen-Styling-Guide.md).
