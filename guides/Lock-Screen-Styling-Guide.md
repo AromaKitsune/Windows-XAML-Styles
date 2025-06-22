@@ -3,7 +3,7 @@ This section shows how to customise the Lock Screen for Windows 10 and Windows 1
 
 If this is your first time customising the XAML styles, check out the UWPSpy guide [here](https://github.com/bbmaster123/FWFU/blob/main/uwpspy.md).
 
-1. Launch UWPSpy
+1. Launch UWPSpy as administrator
 2. Look for `LockApp.exe`. If it doesn't show up, lock your PC at least once by pressing `Win`+`L`, unlock your PC, then click "Refresh"
 3. While `LockApp.exe` is selected, press `Tab` twice so it selects the "Spy" button
 4. Press `Enter` then immediately `Win`+`L`
@@ -14,7 +14,7 @@ If this is your first time customising the XAML styles, check out the UWPSpy gui
 While customising the Lock Screen, you cannot copy the target names to clipboard. To workaround this:
 1. Resize the UWPSpy window so it shows the tree-view of target names you want to copy
 2. Take a screenshot by pressing `Win`+`PrtScr`, or just `PrtScr`
-3. Unlock your PC, you will lose the UWPSpy window and you need to re-spy to customise the Lock Screen again
+3. Unlock your PC
 4. Launch MS Paint
 5. Paste the screenshot by pressing `Ctrl`+`V`
 6. Take a screenshot of the UWPSpy window's tree-view with `Shift`+`Win`+`S`
