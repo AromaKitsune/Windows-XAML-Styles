@@ -37,19 +37,19 @@ These custom styles can force remove them for Spotlight pics too.
 
 ## How to apply Custom XAML Styles
 
-- Install [Windhawk](https://windhawk.net/)
-- Launch the Windhawk app
-- Explore the mods
-- Search and pick a Styler mod you want to install
-- Click "Details", then "Install"
-- Go to the "Advanced" tab
-- Clear everything in the "Mod settings" text box
-- Go to this GitHub repo
-- Open the JSON file for a specific Styler mod
-- Copy the whole code
-- Go back to the Windhawk app
-- Paste the JSON code into the "Mod settings" text box
-- Click "Save", and the changes take effect instantly
+1. Install [Windhawk](https://windhawk.net/)
+2. Launch the Windhawk app
+3. Explore the mods
+4. Search and pick a Styler mod you want to install
+5. Click "Details", then "Install"
+6. Go to the "Advanced" tab
+7. Clear everything in the "Mod settings" text box
+8. Go to this GitHub repo
+9. Open the JSON file for a specific Styler mod
+10. Copy the whole code
+11. Go back to the Windhawk app
+12. Paste the JSON code into the "Mod settings" text box
+13. Click "Save", and the changes take effect instantly
 
 ## How to make my own custom XAML styles?
 
