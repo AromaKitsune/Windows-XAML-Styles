@@ -1,5 +1,5 @@
 # Windows XAML Styles
-A collection of my custom Windows XAML styles for Windhawk's various XAML styler mods.
+A collection of my custom Windows XAML styles for Windhawk's various XAML styler mods for Windows 11.
 
 ## File Explorer
 
@@ -10,7 +10,7 @@ For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-
 * Custom button glyphs: Back, Forward, Up, More
 * Mica effect extended to the Command Bar
 * Dynamic image container height for the Details Pane
-* Removed the tab's Close button (to close the tab, middle-click it or press Ctrl+W)
+* Removed the tab's Close button (to close the tab, middle-click it or press `Ctrl`+`W`)
 * Context Menu: Removed the Share options & "Show more options"
 
 ## Notification Center
@@ -23,7 +23,7 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
 
 ## Lock Screen
 
-For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - fork the mod and change the target process to `LockApp.exe`
+For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - See the mods forking guide on the bottom of the page. Target process: `LockApp.exe`
 
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/LockScreen.png)
 
@@ -51,4 +51,7 @@ These custom styles can force remove them for Spotlight pics too.
 
 ## How to make my own custom XAML styles?
 
-Check out the XAML styling guide [here](https://github.com/bbmaster123/FWFU/blob/main/uwpspy.md).
+Check out the UWPSpy guide [here](https://github.com/bbmaster123/FWFU/blob/main/uwpspy.md).
+
+For other UWP apps such as Lock screen, check out the [forking mods guide](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mods-for-Other-UWP-Apps.md)
+and [Lock Screen styling guide](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Lock-Screen-Customization.md).
