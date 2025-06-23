@@ -23,9 +23,7 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
 
 ## Lock Screen
 
-For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - See the forking Styler mod guide on the bottom of the page.
-
-Target process: `LockApp.exe`
+For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - Target process: `LockApp.exe`
 
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/LockScreen.png)
 
@@ -37,9 +35,7 @@ These custom styles can force remove them for Spotlight pics too.
 
 ## Settings
 
-For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - See the forking Styler mod guide on the bottom of the page.
-
-Target process: `SystemSettings.exe`
+For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - Target process: `SystemSettings.exe`
 
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/Settings.png)
 
