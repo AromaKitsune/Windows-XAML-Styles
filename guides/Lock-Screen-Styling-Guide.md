@@ -1,7 +1,7 @@
 # Lock Screen Styling Guide
 This section shows how to customise the Lock Screen for Windows 10 and Windows 11.
 
-If this is your first time customising the XAML styles, check out the UWPSpy guide [here](https://github.com/bbmaster123/FWFU/blob/main/uwpspy.md).
+If this is your first time customising the XAML styles, check out the [UWPSpy usage guide](https://github.com/bbmaster123/FWFU/blob/main/uwpspy.md).
 
 1. Launch UWPSpy as administrator
 2. Look for `LockApp.exe`. If it doesn't show up, lock your PC at least once by pressing `Win`+`L`, unlock your PC, then click "Refresh"
@@ -11,8 +11,8 @@ If this is your first time customising the XAML styles, check out the UWPSpy gui
 
 [Video in action](https://drive.google.com/file/d/196NVuEpOtcZAGzzDaRucDCyfrcdYlghp/view?usp=sharing)
 
-While customising the Lock Screen, you cannot copy the target names to clipboard. To workaround this:
-1. Resize the UWPSpy window so it shows the tree-view of target names you want to copy
+While customising the Lock Screen, you cannot copy the target elements texts to clipboard. To workaround this:
+1. Resize the UWPSpy window so it shows the tree-view of target elements you want to copy
 2. Take a screenshot by pressing `Win`+`PrtScr`, or just `PrtScr`
 3. Unlock your PC
 4. Launch MS Paint
@@ -20,9 +20,9 @@ While customising the Lock Screen, you cannot copy the target names to clipboard
 6. Take a screenshot of the UWPSpy window's tree-view with `Shift`+`Win`+`S`
 7. Click the Snipping Tool notification to launch Snipping Tool
 8. Use the text extraction (OCR) feature and copy all texts
-9. Paste the texts into Notepad. Since the OCR is not perfect, make sure to correct the spellings of target names
+9. Paste the texts into Notepad. Since the OCR is not perfect, make sure to correct the spellings of target elements
 
-Once you got those target names, add them to a [forked Styler mod](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md).
+Once you got those target elements, add them to a [forked Styler mod](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md).
 
 ## Clock & Date HUD
 

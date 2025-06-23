@@ -49,6 +49,8 @@ Target process: `SystemSettings.exe`
 
 ## How to apply Custom XAML Styles
 
+### File Explorer, Notification Center
+
 1. Install [Windhawk](https://windhawk.net/)
 2. Launch the Windhawk app
 3. Explore the mods
@@ -63,11 +65,13 @@ Target process: `SystemSettings.exe`
 12. Paste the JSON code into the "Mod settings" text box
 13. Click "Save", and the changes take effect instantly
 
-For Lock Screen and Settings, follow the [forking Styler mod guide](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md).
+### Lock Screen, Settings
+
+Follow the [forking Styler mod guide](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md).
 
 ## How to make my own custom XAML styles?
 
-Follow the UWPSpy guide [here](https://github.com/bbmaster123/FWFU/blob/main/uwpspy.md).
+Follow the [UWPSpy usage guide](https://github.com/bbmaster123/FWFU/blob/main/uwpspy.md).
 
-Once you know how to customise the UWP apps and want to customise the Lock Screen, check out the
+Once you know how to customise the UWP apps and want to customise the Lock Screen too, check out the
 [Lock Screen styling guide](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Lock-Screen-Styling-Guide.md).
