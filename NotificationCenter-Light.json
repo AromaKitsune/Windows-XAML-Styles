@@ -69,7 +69,7 @@
   "// Text Input - Translucent Theme                                                //": "",
   "// Add `TextInputHost.exe` to the custom process inclusion list,                 //": "",
   "// and restart `TextInputHost.exe` with Task Manager for changes to take effect. //": "",
-  "// Go to Settings → Personalization → Text input, and use Dark theme.            //": "",
+  "// Go to System Settings → Personalization → Text input, and use Dark theme.     //": "",
   "controlStyles[16].target": "// Grid#SuggestionUIGrid",
   "controlStyles[16].styles[0]": "Background:=<AcrylicBrush TintColor=\"Black\" TintLuminosityOpacity=\"0.12\" TintOpacity=\"0\" Opacity=\"1\" FallbackColor=\"#70262626\"/>",
   "// Text Input - Title Bar text //": "",

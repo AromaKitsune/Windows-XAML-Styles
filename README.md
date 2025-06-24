@@ -29,15 +29,15 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 
 * Moved the Clock & Date HUD to the top-left corner of the screen
 * Removed the UI elements for Fun facts, tips & "Like the image that you see?",
-those can be turned off via Settings → Personalisation → Lock screen, but it affects only the non-Spotlight pics.
+those can be turned off via System Settings → Personalisation → Lock screen, but it affects only the non-Spotlight pics.
 These custom styles can force remove them for Spotlight pics too.
 * Large album art image for the Media Controls
 
-## Settings
+## System Settings
 
 For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - Target process: `SystemSettings.exe`
 
-![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/Settings.png)
+![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/SystemSettings.png)
 
 * Replace the user name text with anything you want
 * Replace the "Local Account" text or email address text (if linked with a MS account) with anything you want
@@ -62,7 +62,7 @@ First, install [Windhawk](https://windhawk.net/).
 11. Paste the JSON code into the "Mod settings" text box
 12. Click "Save", and the changes take effect instantly
 
-### Lock Screen, Settings
+### Lock Screen, System Settings
 
 Follow the [forking Styler mod guide](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md).
 
