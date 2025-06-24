@@ -45,21 +45,22 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 
 ## How to apply Custom XAML Styles
 
+First, install [Windhawk](https://windhawk.net/).
+
 ### File Explorer, Notification Center
 
-1. Install [Windhawk](https://windhawk.net/)
-2. Launch the Windhawk app
-3. Explore the mods
-4. Search and pick a Styler mod you want to install
-5. Click "Details", then "Install"
-6. Go to the "Advanced" tab
-7. Clear everything in the "Mod settings" text box
-8. Go to this GitHub repo
-9. Open the JSON file for a specific Styler mod
-10. Copy the whole code
-11. Go back to the Windhawk app
-12. Paste the JSON code into the "Mod settings" text box
-13. Click "Save", and the changes take effect instantly
+1. Launch the Windhawk app
+2. Explore the mods
+3. Search and pick a Styler mod you want to install
+4. Click "Details", then "Install"
+5. Go to the "Advanced" tab
+6. Clear everything in the "Mod settings" text box
+7. Go to this GitHub repo
+8. Open the JSON file for a specific Styler mod
+9. Copy the whole code
+10. Go back to the Windhawk app
+11. Paste the JSON code into the "Mod settings" text box
+12. Click "Save", and the changes take effect instantly
 
 ### Lock Screen, Settings
 
