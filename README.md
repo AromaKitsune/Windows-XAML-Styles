@@ -51,7 +51,7 @@ First, install [Windhawk](https://windhawk.net/).
 
 1. Launch the Windhawk app
 2. Explore the mods
-3. Search and pick a Styler mod you want to install
+3. Search and pick a Styler mod for a specific process
 4. Click "Details", then "Install"
 5. Go to the "Advanced" tab
 6. Clear everything in the "Mod settings" text box
