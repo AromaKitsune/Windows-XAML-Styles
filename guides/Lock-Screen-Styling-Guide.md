@@ -9,7 +9,7 @@ If this is your first time customising the XAML styles, check out the [UWPSpy us
 4. Press `Enter` then immediately `Win`+`L`
 5. The UWPSpy window should appear on the Lock Screen, you can now customise it
 
-[Video in action](https://drive.google.com/file/d/196NVuEpOtcZAGzzDaRucDCyfrcdYlghp/view?usp=sharing)
+https://github.com/user-attachments/assets/0d58605e-544b-4918-99bf-126fc54bafec
 
 While customising the Lock Screen, you cannot copy the target elements texts to clipboard. To workaround this:
 1. Resize the UWPSpy window so it shows the tree-view of target elements you want to copy
