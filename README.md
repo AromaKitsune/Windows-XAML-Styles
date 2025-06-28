@@ -20,6 +20,7 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/MediaControls.png)
 
 * Large album art image for the Quick Actions' Media Controls
+* Translucent Text Input - Read the "additional configuration" section after first applying styles
 
 ## Lock Screen
 
@@ -65,6 +66,21 @@ First, install [Windhawk](https://windhawk.net/).
 ### Lock Screen, System Settings
 
 Follow the [forking Styler mod guide](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md).
+
+
+## Additional configuration
+
+### Translucent Text Input
+
+1. Launch the Windhawk app
+2. Find the "Windows 11 Notification Center Styler" mod
+3. Click "Details"
+4. Go to the "Advanced" tab
+5. Add `TextInputHost.exe` to the custom process inclusion list
+6. Click "Save
+7. Go to System Settings → Personalisation → Text input, and use Dark theme
+8. Restart `TextInputHost.exe` with Task Manager for changes to take effect
+
 
 ## How to make my own custom XAML styles?
 
