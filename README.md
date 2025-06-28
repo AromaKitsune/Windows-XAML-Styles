@@ -77,7 +77,7 @@ Follow the [forking Styler mod guide](https://github.com/AromaKitsune/Windows-XA
 3. Click "Details"
 4. Go to the "Advanced" tab
 5. Add `TextInputHost.exe` to the custom process inclusion list
-6. Click "Save
+6. Click "Save"
 7. Go to System Settings → Personalisation → Text input, and use Dark theme
 8. Restart `TextInputHost.exe` with Task Manager for changes to take effect
 
