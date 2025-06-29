@@ -3,8 +3,8 @@ This section shows how to customise the Lock Screen for Windows 10 and Windows 1
 
 If this is your first time customising the XAML styles, check out the [UWPSpy usage guide](https://github.com/bbmaster123/FWFU/blob/main/uwpspy.md).
 
-![NOTE]
-Custom lock screen styles do not preserve after log out or system restart since Windhawk mods are loaded into RAM.
+> [!NOTE]
+> Custom lock screen styles do not preserve after log out or system restart since Windhawk mods are loaded into RAM.
 
 1. Launch UWPSpy as administrator
 2. Look for `LockApp.exe`. If it doesn't show up, lock your PC at least once by pressing `Win`+`L`, unlock your PC, then click "Refresh"
