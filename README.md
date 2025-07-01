@@ -12,6 +12,7 @@ For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-
 * Dynamic image container height for the Details Pane
 * Removed the tab's Close button (to close the tab, middle-click it or press `Ctrl`+`W`)
 * Context Menu: Removed the Share options & "Show more options"
+* Context Menu: Removed the "Search the Microsoft Store" menu item from the "Open with" sub-menu
 
 ## Notification Center
 
