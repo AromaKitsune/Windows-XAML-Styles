@@ -10,8 +10,8 @@ For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-
 * Custom button glyphs: Back, Forward, Up, More
 * Mica effect extended to the Command Bar
 * Dynamic image container height for the Details Pane
-* Removed the tab's Close button (to close the tab, middle-click it or press `Ctrl`+`W`)
-* Context Menu: Removed the Share options & "Show more options"
+* Removed the tab's Close button - To close the tab, middle-click it or press `Ctrl`+`W`
+* Context Menu: Removed the Share options & "Show more options" - To use the legacy context menu, hold Shift + right-click
 * Context Menu: Removed the "Search the Microsoft Store" menu item from the "Open with" sub-menu
 
 ## Notification Center
