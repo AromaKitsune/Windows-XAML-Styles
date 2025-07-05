@@ -80,7 +80,7 @@ StackPanel#StatusProviderPanel
 
 Target:
 ```
-Grid#Networklcon
+Grid#NetworkIcon
 ```
 
 ### Battery indicator icon
