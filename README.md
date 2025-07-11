@@ -51,18 +51,18 @@ First, install [Windhawk](https://windhawk.net/).
 
 ### File Explorer, Notification Center
 
-1. Launch the Windhawk app
-2. Explore the mods
-3. Search and pick a Styler mod for a specific process
-4. Click "Details", then "Install"
-5. Go to the "Advanced" tab
-6. Clear everything in the "Mod settings" text box
-7. Go to this GitHub repo
-8. Open the JSON file for a specific Styler mod
-9. Copy the whole code
-10. Go back to the Windhawk app
-11. Paste the JSON code into the "Mod settings" text box
-12. Click "Save", and the changes take effect instantly
+1. Launch the Windhawk app.
+2. Explore the mods.
+3. Search and pick a Styler mod for a specific process.
+4. Click "Details", then "Install".
+5. Go to the "Advanced" tab.
+6. Clear everything in the "Mod settings" text box.
+7. Go to this GitHub repo.
+8. Open the JSON file for a specific Styler mod.
+9. Copy the whole code.
+10. Go back to the Windhawk app.
+11. Paste the JSON code into the "Mod settings" text box.
+12. Click "Save", and the changes take effect instantly.
 
 ### Lock Screen, System Settings
 
@@ -73,14 +73,14 @@ Follow the [forking Styler mod guide](https://github.com/AromaKitsune/Windows-XA
 
 ### Translucent Text Input
 
-1. Launch the Windhawk app
-2. Find the "Windows 11 Notification Center Styler" mod
-3. Click "Details"
-4. Go to the "Advanced" tab
-5. Add `TextInputHost.exe` to the custom process inclusion list
-6. Click "Save"
-7. Go to System Settings → Personalisation → Text input, and use Dark theme
-8. Restart `TextInputHost.exe` with Task Manager for changes to take effect
+1. Launch the Windhawk app.
+2. Find the "Windows 11 Notification Center Styler" mod.
+3. Click "Details".
+4. Go to the "Advanced" tab.
+5. Add `TextInputHost.exe` to the custom process inclusion list.
+6. Click "Save".
+7. Go to System Settings → Personalisation → Text input, and use Dark theme.
+8. Restart `TextInputHost.exe` with Task Manager for changes to take effect.
 
 
 ## How to make my own custom XAML styles?
