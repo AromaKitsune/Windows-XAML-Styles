@@ -6,7 +6,7 @@ If this is your first time customising the XAML styles, check out the [UWPSpy us
 > [!NOTE]
 > Custom lock screen styles do not preserve after log out or system restart since Windhawk mods are loaded into RAM.
 
-1. Launch UWPSpy **as administrator**.
+1. Launch UWPSpy.
 2. Look for `LockApp.exe`. If it doesn't show up, lock your PC at least once by pressing `Win`+`L`, unlock your PC, then click "Refresh".
 3. While `LockApp.exe` is selected, press `Tab` twice so it selects the "Spy" button.
 4. Press `Enter` then immediately `Win`+`L`.
@@ -20,7 +20,7 @@ While customising the Lock Screen, you cannot copy the target elements texts to 
 3. Unlock your PC.
 4. Launch MS Paint.
 5. Paste the screenshot by pressing `Ctrl`+`V`.
-6. Take a screenshot of the UWPSpy window's tree-view with `Shift`+`Win`+`S`.
+6. Take a screenshot of the UWPSpy window's tree-view with `Win`+`Shift`+`S`.
 7. Click the Snipping Tool notification to launch Snipping Tool.
 8. Use the text extraction (OCR) feature and copy all texts.
 9. Paste the texts into Notepad. Since the OCR is not perfect, make sure to manually correct the spellings of target elements.

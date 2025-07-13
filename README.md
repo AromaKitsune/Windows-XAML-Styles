@@ -7,12 +7,14 @@ For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-
 
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/FileExplorer.png)
 
-* Custom button glyphs: Back, Forward, Up, More
+* Alternative button glyphs: Back, Forward, Up, More
 * Mica effect extended to the Command Bar
 * Dynamic image container height for the Details Pane
-* Removed the tab's Close button - To close the tab, middle-click it or press `Ctrl`+`W`
-* Context Menu: Removed the Share options & "Show more options" - To use the legacy context menu, hold Shift + right-click
+* Removed the tab's Close button - To close the tab, middle-click it or press `Ctrl`+`W`.
+* Context Menu: Removed the Share options & "Show more options" - To use the legacy context menu, hold Shift + right-click.
 * Context Menu: Removed the "Search the Microsoft Store" menu item from the "Open with" sub-menu
+  * For other languages, replace `Search the Microsoft Store` in `MenuFlyoutItem[Text=Search the Microsoft Store]`.
+* Italicised search box text, the same way it was in Windows Vista and 7
 
 ## Notification Center
 
@@ -21,7 +23,7 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/MediaControls.png)
 
 * Large album art image for the Quick Actions' Media Controls
-* Translucent Text Input - Read the "additional configuration" section after first applying styles
+* Translucent Text Input background - Read the "additional configuration" section after first applying styles.
 
 ## Lock Screen
 
@@ -30,10 +32,11 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/LockScreen.png)
 
 * Moved the Clock & Date HUD to the top-left corner of the screen
+* Large album art image for the Media Controls
+* Translucent Media Controls background
 * Removed the UI elements for Fun facts, tips & "Like the image that you see?",
 those can be turned off via System Settings → Personalisation → Lock screen, but it affects only the non-Spotlight pics.
 These custom styles can force remove them for Spotlight pics too.
-* Large album art image for the Media Controls
 
 ## System Settings
 
@@ -58,7 +61,7 @@ First, install [Windhawk](https://windhawk.net/).
 5. Go to the "Advanced" tab.
 6. Clear everything in the "Mod settings" text box.
 7. Go to this GitHub repo.
-8. Open the JSON file for a specific Styler mod.
+8. Open the JSON file for a specific process.
 9. Copy the whole code.
 10. Go back to the Windhawk app.
 11. Paste the JSON code into the "Mod settings" text box.

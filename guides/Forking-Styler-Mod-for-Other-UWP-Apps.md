@@ -17,8 +17,10 @@ This section shows how to fork a Styler mod for other UWP apps such as Lock Scre
   - `LockApp.exe` for Lock Screen
   - `SystemSettings.exe` for System Settings
 
+Before:
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/Fork2.png)
 
+After:
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/Fork3.png)
 
 8. When done, click the "Compile Mod" button.
@@ -28,7 +30,7 @@ This section shows how to fork a Styler mod for other UWP apps such as Lock Scre
 12. Go to the "Advanced" tab.
 13. Clear everything in the "Mod settings" text box.
 14. Go to this GitHub repo.
-15. Open the JSON file for a specific Styler mod.
+15. Open the JSON file for a specific process.
 16. Copy the whole code.
 17. Go back to the Windhawk app.
 18. Paste the JSON code into the "Mod settings" text box.
