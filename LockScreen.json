@@ -31,7 +31,7 @@
   "controlStyles[7].styles[2]": "Margin=0,40,40,0",
   "// Media Controls - Album Art, Title & Artist names container //": "",
   "controlStyles[8].target": "Grid#MediaTransportControls",
-  "controlStyles[8].styles[0]": "Background:=<AcrylicBrush TintColor=\"Black\" TintLuminosityOpacity=\"0.12\" TintOpacity=\"0\" Opacity=\"1\" FallbackColor=\"#70262626\"/>",
+  "controlStyles[8].styles[0]": "Background:=<WindhawkBlur BlurAmount=\"25\" TintColor=\"#25323232\" />",
   "controlStyles[8].styles[1]": "BorderThickness=0",
   "controlStyles[8].styles[2]": "Width=512",
   "controlStyles[8].styles[3]": "Height=242",

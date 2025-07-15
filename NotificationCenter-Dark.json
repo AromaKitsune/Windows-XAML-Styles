@@ -71,7 +71,7 @@
   "// and restart `TextInputHost.exe` with Task Manager for changes to take effect. //": "",
   "// Go to System Settings → Personalization → Text input, and use Dark theme.     //": "",
   "controlStyles[16].target": "Grid#SuggestionUIGrid",
-  "controlStyles[16].styles[0]": "Background:=<AcrylicBrush TintColor=\"Black\" TintLuminosityOpacity=\"0.12\" TintOpacity=\"0\" Opacity=\"1\" FallbackColor=\"#70262626\"/>",
+  "controlStyles[16].styles[0]": "Background:=<WindhawkBlur BlurAmount=\"25\" TintColor=\"#25323232\" />",
   "// Text Input - Title Bar text //": "",
   "controlStyles[17].target": "StackPanel#SuggestionUIContainerTitleTextPanel",
   "controlStyles[17].styles[0]": "IsHitTestVisible=1",
