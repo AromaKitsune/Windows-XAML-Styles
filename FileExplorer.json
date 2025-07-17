@@ -45,7 +45,7 @@
   "controlStyles[10].styles[3]": "Height=16",
   "// Command Bar //": "",
   "controlStyles[11].target": "Grid#CommandBarControlRootGrid",
-  "controlStyles[11].styles[0]": "Background:=<SolidColorBrush Color=\"{ThemeResource LayerOnMicaBaseAltFillColorDefault}\" Opacity=\"1\"/>",
+  "controlStyles[11].styles[0]": "Background:=<SolidColorBrush Color=\"{ThemeResource LayerOnMicaBaseAltFillColorDefault}\" Opacity=\"1\" />",
   "controlStyles[11].styles[1]": "BorderThickness=0,0,0,1",
   "controlStyles[12].target": "CommandBar#FileExplorerCommandBar",
   "controlStyles[12].styles[0]": "Background=Transparent",
