@@ -46,7 +46,7 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 
 * Replace the user name text with anything you want
 * Replace the "Local Account" text or email address text (if linked with a MS account) with anything you want
-* Removed the MS 365 and OneDrive buttons from the System page
+* Removed the MS 365 and OneDrive buttons from the System section
 
 ## How to apply Custom XAML Styles
 

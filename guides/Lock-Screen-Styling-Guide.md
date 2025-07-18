@@ -8,7 +8,7 @@ If this is your first time customising the XAML styles, check out the [UWPSpy us
 
 1. Launch UWPSpy.
 2. Look for `LockApp.exe`. If it doesn't show up, lock your PC at least once by pressing `Win`+`L`, unlock your PC, then click "Refresh".
-3. While `LockApp.exe` is selected, press `Tab` twice so it selects the "Spy" button.
+3. Select `LockApp.exe`.
 4. Press `Enter` then immediately `Win`+`L`.
 5. The UWPSpy window should appear on the Lock Screen, you can now customise it.
 
