@@ -39,9 +39,9 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 * Media Controls:
   * Large album art image
   * Translucent background
-* Removed the UI elements for Fun facts, tips & "Like the image that you see?",
+* Removed the UI elements for Fun Facts, Tips, and "Like the image that you see?",
 those can be turned off via System Settings → Personalisation → Lock screen, but it affects only the non-Spotlight pics.
-These custom styles can force remove them for Spotlight pics too.
+These custom styles can force remove them from Spotlight pics too.
 
 ## System Settings
 

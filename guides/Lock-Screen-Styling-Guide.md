@@ -27,9 +27,10 @@ While customising the Lock Screen, you cannot copy the target elements texts to 
 
 Once you got those target elements, add them to a [forked Styler mod](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md).
 
-## Clock & Date HUD
 
-### Clock & Date HUD container
+## Time & Date HUD
+
+### Time & Date HUD container
 
 Target:
 ```
@@ -43,7 +44,7 @@ HorizontalAlignment=Left
 Margin=50,20,0,0
 ```
 
-### Clock HUD
+### Time HUD
 
 Target:
 ```
