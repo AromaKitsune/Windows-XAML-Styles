@@ -7,14 +7,18 @@ For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-
 
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/FileExplorer.png)
 
-* Alternative button glyphs: Back, Forward, Up, More
-* Mica effect extended to the Command Bar
-* Dynamic image container height for the Details Pane
 * Removed the tab's Close button - To close the tab, middle-click it or press `Ctrl`+`W`.
-* Context Menu: Removed the Share options & "Show more options" - To use the legacy context menu, hold Shift + right-click.
-* Context Menu: Removed the "Search the Microsoft Store" menu item from the "Open with" sub-menu
-  * For other languages, replace `Search the Microsoft Store` in `MenuFlyoutItem[Text=Search the Microsoft Store]`.
-* Italicised search box text, the same way it was in Windows Vista and 7
+* Navigation Bar & Command Bar:
+  * Alternative button glyphs: Back, Forward, Up, More
+  * Mica effect extended to the Command Bar
+  * Italicised search box text, the same way it was in Windows Vista and 7
+* Details Pane:
+  * Dynamic image container height
+  * Removed the Share button
+* Context Menu:
+  * Removed the Share options & "Show more options" - To use the legacy context menu, hold Shift + right-click.
+  * Removed the "Search the Microsoft Store" menu item from the "Open with" sub-menu -
+    For other languages, replace `Search the Microsoft Store` in `MenuFlyoutItem[Text=Search the Microsoft Store]`.
 
 ## Notification Center
 
@@ -31,9 +35,10 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/LockScreen.png)
 
-* Moved the Clock & Date HUD to the top-left corner of the screen
-* Large album art image for the Media Controls
-* Translucent Media Controls background
+* Moved the Time & Date HUD to the top-left corner of the screen
+* Media Controls:
+  * Large album art image
+  * Translucent background
 * Removed the UI elements for Fun facts, tips & "Like the image that you see?",
 those can be turned off via System Settings → Personalisation → Lock screen, but it affects only the non-Spotlight pics.
 These custom styles can force remove them for Spotlight pics too.
