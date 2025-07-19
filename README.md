@@ -74,8 +74,17 @@ First, install [Windhawk](https://windhawk.net/).
 
 ### Lock Screen, System Settings
 
-Follow the [forking Styler mod guide](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md).
-
+1. [Fork a Styler mod](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md).
+2. Find the forked Styler mod in the "Installed Mods" section.
+3. Click "Details".
+4. Go to the "Advanced" tab.
+5. Clear everything in the "Mod settings" text box.
+6. Go to this GitHub repo.
+7. Open the JSON file for a specific process.
+8. Copy the whole code.
+9. Go back to the Windhawk app.
+10. Paste the JSON code into the "Mod settings" text box.
+11. Click "Save", and the changes take effect instantly.
 
 ## Additional configuration
 
