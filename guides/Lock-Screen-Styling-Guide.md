@@ -74,6 +74,34 @@ Style:
 HorizontalAlignment=Left
 ```
 
+
+## Fun Facts, Tips, and "Like the image that you see?"
+
+### Fun Facts / Tips
+
+Target:
+```
+LockApp.Hotspot
+```
+
+Style:
+```
+Visibility=Collapsed
+```
+
+### "Like the image that you see?"
+
+Target:
+```
+LockApp.InfoHotspot
+```
+
+Style:
+```
+Visibility=Collapsed
+```
+
+
 ## Bottom-right icons
 
 ### Bottom-right icons container
