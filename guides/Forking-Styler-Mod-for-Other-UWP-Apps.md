@@ -1,5 +1,5 @@
 # Forking Styler Mod for Other UWP Apps
-This section shows how to fork a Styler mod for other UWP apps such as Lock Screen.
+This section shows how to fork a Styler mod to target other UWP processes such as Lock Screen.
 
 > [!NOTE]
 > Custom lock screen styles do not preserve after log out or system restart since Windhawk mods are loaded into RAM.
