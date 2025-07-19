@@ -9,8 +9,17 @@ If this is your first time customising the XAML styles, check out the [UWPSpy us
 1. Launch UWPSpy.
 2. Look for `LockApp.exe`. If it doesn't show up, lock your PC at least once by pressing `Win`+`L`, unlock your PC, then click "Refresh".
 3. Select `LockApp.exe`.
-4. Press `Enter` then immediately `Win`+`L`.
+4. Now get your key presses timing ready. Press `Enter` then immediately `Win`+`L`.
 5. The UWPSpy window should appear on the Lock Screen, you can now customise it.
+
+If you're customising the lock screen in a virtual machine, use an AutoHotkey script that lets you lock your session with `Ctrl`+`L`.
+```
+^l::DllCall("user32.dll\LockWorkStation")
+```
+
+Other methods (without AHK). Not recommended because you have to do it fast, and the timing is tricky.
+* VirtualBox: `Enter` → `Right Ctrl`+`Delete` → `Enter`
+* VMware Workstation: `Enter` → `Ctrl`+`Alt`+`Insert` → `Enter`
 
 https://github.com/user-attachments/assets/0d58605e-544b-4918-99bf-126fc54bafec
 
