@@ -17,7 +17,7 @@ If you're customising the lock screen in a virtual machine, use an AutoHotkey sc
 ^l::DllCall("user32.dll\LockWorkStation")
 ```
 
-Other methods (without AHK). Not recommended because you have to do it fast, and the timing is tricky.
+`Ctrl`+`Alt`+`Del` method (without AHK). Not recommended because you have to do it fast, and the timing is tricky.
 * VirtualBox: `Enter` → `Right Ctrl`+`Delete` → `Enter`
 * VMware Workstation: `Enter` → `Ctrl`+`Alt`+`Insert` → `Enter`
 
