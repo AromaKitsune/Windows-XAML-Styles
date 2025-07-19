@@ -25,8 +25,13 @@ While customising the Lock Screen, you cannot copy the target elements texts to 
 8. Use the text extraction (OCR) feature and copy all texts.
 9. Paste the texts into Notepad. Since the OCR is not perfect, make sure to manually correct the spellings of target elements.
 
-Once you got those target elements, [fork a Styler mod](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md)
-and add them to the "Settings" tab.
+Once you got those target elements:
+1. [Fork a Styler mod](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md).
+2. Find the forked Styler mod in the "Installed Mods" section.
+3. Click "Details".
+4. Go to the "Settings" tab.
+5. Add those targets and styles in the "Control styles" section.
+6. Click "Save", and the changes take effect instantly.
 
 
 ## Time & Date HUD
