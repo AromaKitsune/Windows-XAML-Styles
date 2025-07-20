@@ -1,5 +1,5 @@
 # Lock Screen Styling Guide
-This section shows how to customise the Lock Screen for Windows 10 and Windows 11.
+This section shows how to customise the Lock Screen on Windows 10 and Windows 11.
 
 If this is your first time customising the XAML styles, check out the [UWPSpy usage guide](https://github.com/bbmaster123/FWFU/blob/main/uwpspy.md).
 
@@ -12,7 +12,7 @@ If this is your first time customising the XAML styles, check out the [UWPSpy us
 4. Now get your key presses timing ready. Press `Enter` then immediately `Win`+`L`.
 5. The UWPSpy window should appear on the Lock Screen, you can now customise it.
 
-If you're customising the lock screen in a virtual machine, use an AutoHotkey script that lets you lock your session with `Ctrl`+`L`.
+If you're customising the lock screen in a virtual machine, use an AutoHotkey script that lets you lock your guest OS session with `Ctrl`+`L`.
 ```
 ^l::DllCall("user32.dll\LockWorkStation")
 ```

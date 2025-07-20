@@ -16,7 +16,8 @@ For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-
   * Dynamic image container height
   * Removed the Share button
 * Context Menu:
-  * Removed the Share options & "Show more options" - To use the legacy context menu, hold Shift + right-click.
+  * Removed the two "Share" menu items
+  * Removed the "Show more options" menu item - To use the legacy context menu, hold Shift + right-click.
   * Removed the "Search the Microsoft Store" menu item from the "Open with" sub-menu -
     For other languages, replace `Search the Microsoft Store` in `MenuFlyoutItem[Text=Search the Microsoft Store]`.
 
