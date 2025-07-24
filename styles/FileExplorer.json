@@ -139,6 +139,9 @@
   "controlStyles[38].styles[1]": "Visibility=Collapsed",
   "controlStyles[39].target": "CommandBarOverflowPresenter#SecondaryItemsControl > Grid#LayoutRoot > ScrollViewer > Border#Root > Grid > ScrollContentPresenter#ScrollContentPresenter > ItemsPresenter#ItemsPresenter > StackPanel > AppBarSeparator",
   "controlStyles[39].styles[0]": "Visibility=Collapsed",
+  "controlStyles[40].target": "TextBlock#KeyboardAcceleratorTextLabel",
+  "controlStyles[40].styles[0]": "// [ Context Menu - Keyboard Accelerator Text Labels ]",
+  "controlStyles[40].styles[1]": "Visibility=Collapsed",
   "// Misc //": "",
   "theme": "",
   "explorerFrameContainerHeight": 0,
@@ -151,11 +154,11 @@
   "resourceVariables[0].variableKey": "",
   "resourceVariables[0].value": "",
   "// Command Bar - Center align the buttons //": "",
-  "controlStyles[40].target": "// CommandBar#FileExplorerCommandBar",
-  "controlStyles[40].styles[0]": "// [ Command Bar - Center align the buttons ] [Part 1/2]",
-  "controlStyles[40].styles[1]": "HorizontalAlignment=Center",
-  "controlStyles[40].styles[2]": "Padding=0,0,0,0",
-  "controlStyles[41].target": "// CommandBar#FileExplorerSecondaryCommandBar",
-  "controlStyles[41].styles[0]": "// [ Command Bar - Center align the buttons ] [Part 2/2]",
-  "controlStyles[41].styles[1]": "Grid.Column=0"
+  "controlStyles[41].target": "// CommandBar#FileExplorerCommandBar",
+  "controlStyles[41].styles[0]": "// [ Command Bar - Center align the buttons ] [Part 1/2]",
+  "controlStyles[41].styles[1]": "HorizontalAlignment=Center",
+  "controlStyles[41].styles[2]": "Padding=0,0,0,0",
+  "controlStyles[42].target": "// CommandBar#FileExplorerSecondaryCommandBar",
+  "controlStyles[42].styles[0]": "// [ Command Bar - Center align the buttons ] [Part 2/2]",
+  "controlStyles[42].styles[1]": "Grid.Column=0"
 }
