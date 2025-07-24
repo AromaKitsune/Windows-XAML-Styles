@@ -142,6 +142,9 @@
   "controlStyles[40].target": "TextBlock#KeyboardAcceleratorTextLabel",
   "controlStyles[40].styles[0]": "// [ Context Menu - Keyboard Accelerator Text Labels ]",
   "controlStyles[40].styles[1]": "Visibility=Collapsed",
+  "controlStyles[41].target": "TextBlock#KeyboardAcceleratorTextBlock",
+  "controlStyles[41].styles[0]": "// [ Tab Context Menu - Keyboard Accelerator Text Label: Ctrl+W for \"Close tab\" ]",
+  "controlStyles[41].styles[1]": "Visibility=Collapsed",
   "// Misc //": "",
   "theme": "",
   "explorerFrameContainerHeight": 0,
@@ -154,11 +157,11 @@
   "resourceVariables[0].variableKey": "",
   "resourceVariables[0].value": "",
   "// Command Bar - Center align the buttons //": "",
-  "controlStyles[41].target": "// CommandBar#FileExplorerCommandBar",
-  "controlStyles[41].styles[0]": "// [ Command Bar - Center align the buttons ] [Part 1/2]",
-  "controlStyles[41].styles[1]": "HorizontalAlignment=Center",
-  "controlStyles[41].styles[2]": "Padding=0,0,0,0",
-  "controlStyles[42].target": "// CommandBar#FileExplorerSecondaryCommandBar",
-  "controlStyles[42].styles[0]": "// [ Command Bar - Center align the buttons ] [Part 2/2]",
-  "controlStyles[42].styles[1]": "Grid.Column=0"
+  "controlStyles[42].target": "// CommandBar#FileExplorerCommandBar",
+  "controlStyles[42].styles[0]": "// [ Command Bar - Center align the buttons ] [Part 1/2]",
+  "controlStyles[42].styles[1]": "HorizontalAlignment=Center",
+  "controlStyles[42].styles[2]": "Padding=0,0,0,0",
+  "controlStyles[43].target": "// CommandBar#FileExplorerSecondaryCommandBar",
+  "controlStyles[43].styles[0]": "// [ Command Bar - Center align the buttons ] [Part 2/2]",
+  "controlStyles[43].styles[1]": "Grid.Column=0"
 }
