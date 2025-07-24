@@ -5,6 +5,12 @@ A collection of my custom Windows XAML styles for Windhawk's various XAML styler
 
 For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-explorer-styler)
 
+[JSON code](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/FileExplorer.json)
+[JSON code](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/NotificationCenter-Dark.json)
+[JSON code](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/NotificationCenter-Light.json)
+[JSON code](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/LockScreen.json)
+[JSON code](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/SystemSettings.json)
+
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/FileExplorer.png)
 
 * Removed the tab's Close button - To close the tab, middle-click it or press `Ctrl`+`W`.
@@ -83,7 +89,7 @@ First, install [Windhawk](https://windhawk.net/).
 
 ## Additional configuration
 
-### Translucent Text Input
+### Translucent Text Input Background
 
 1. Launch the Windhawk app.
 2. Find the "Windows 11 Notification Center Styler" mod.
