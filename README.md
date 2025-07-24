@@ -5,11 +5,7 @@ A collection of my custom Windows XAML styles for Windhawk's various XAML styler
 
 For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-explorer-styler)
 
-[JSON code](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/FileExplorer.json)
-[JSON code](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/NotificationCenter-Dark.json)
-[JSON code](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/NotificationCenter-Light.json)
-[JSON code](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/LockScreen.json)
-[JSON code](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/SystemSettings.json)
+[JSON code](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/styles/FileExplorer.json)
 
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/FileExplorer.png)
 
@@ -31,6 +27,9 @@ For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-
 
 For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11-notification-center-styler)
 
+[JSON code (for Dark theme)](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/styles/NotificationCenter-Dark.json)
+| [JSON code (for Light theme)](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/styles/NotificationCenter-Light.json)
+
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/MediaControls.png)
 
 * Large album art image for the Quick Actions' Media Controls
@@ -39,6 +38,8 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
 ## Lock Screen
 
 For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - Target process: `LockApp.exe`
+
+[JSON code](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/styles/LockScreen.json)
 
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/LockScreen.png)
 
@@ -53,6 +54,8 @@ These custom styles can force remove them from Spotlight pics too.
 ## System Settings
 
 For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - Target process: `SystemSettings.exe`
+
+[JSON code](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/styles/SystemSettings.json)
 
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/SystemSettings.png)
 
