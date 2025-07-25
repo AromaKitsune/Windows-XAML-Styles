@@ -13,7 +13,7 @@ For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-
 * Navigation Bar & Command Bar:
   * Alternative button glyphs: Back, Forward, Up, More
   * Mica effect extended to the Command Bar
-  * Italicised search box text, the same way it was in Windows Vista and 7
+  * Italicised search box text - The same way it was in Windows Vista and 7
 * Details Pane:
   * Dynamic image container height
   * Removed the Share button
@@ -61,9 +61,8 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/SystemSettings.png)
 
-* Replace the user name text with anything you want
-* Replace the "Local Account" text or email address text (if linked with a MS account) with anything you want
-  * Read the "further configuration" section after first applying styles.
+* Custom user pane text, replace the user name text and "Local Account" text (or email address text, if linked with a MS account) with anything you want -
+  Read the "further configuration" section after first applying styles.
 * Removed the MS 365 and OneDrive buttons from the System section
 * Made the network data usage indicator bars less eyesore with Dark theme
 * Made the (Bluetooth) device names split into multi-lines instead of ellipsis

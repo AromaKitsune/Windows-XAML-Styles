@@ -31,8 +31,9 @@ While customising the Lock Screen, you cannot copy the target elements texts to 
 5. Paste the screenshot by pressing `Ctrl`+`V`.
 6. Take a screenshot of the UWPSpy window's tree-view with `Win`+`Shift`+`S`.
 7. Click the Snipping Tool notification to launch Snipping Tool.
-8. Use the text extraction (OCR) feature and copy all texts.
-9. Paste the texts into Notepad. Since the OCR is not perfect, make sure to manually correct the spellings of target elements.
+8. Use the text extraction (OCR) program such as Snipping Tool's text extraction feature or PowerToys' Text Extractor module.
+9. Copy all texts.
+10. Paste the texts into Notepad. Since the OCR is not perfect, make sure to manually correct the spellings of target elements.
 
 Once you got those target elements:
 1. [Fork a Styler mod](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md).
