@@ -35,7 +35,7 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/MediaControls.png)
 
 * Large album art image for the Quick Actions' Media Controls
-* Translucent Text Input background - Read the "additional configuration" section after first applying styles.
+* Translucent Text Input background - Read the "further configuration" section after first applying styles.
 
 ## Lock Screen
 
@@ -63,7 +63,10 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 
 * Replace the user name text with anything you want
 * Replace the "Local Account" text or email address text (if linked with a MS account) with anything you want
+  * Read the "further configuration" section after first applying styles.
 * Removed the MS 365 and OneDrive buttons from the System section
+* Made the network data usage indicator bars less eyesore with Dark theme
+* Made the (Bluetooth) device names split into multi-lines instead of ellipsis
 
 ## How to apply Custom XAML Styles
 
@@ -90,17 +93,67 @@ First, install [Windhawk](https://windhawk.net/).
 6. Paste the JSON code into the "Mod settings" text box.
 7. Click "Save", and the changes take effect instantly.
 
-## Additional configuration
 
-### Translucent Text Input Background
+## Further configuration
 
-1. Launch the Windhawk app.
-2. Find the "Windows 11 Notification Center Styler" mod.
-3. Go to the mod's "Advanced" tab.
-4. Add `TextInputHost.exe` to the custom process inclusion list.
-5. Click "Save".
-6. Go to System Settings → Personalisation → Text input, and use Dark theme.
-7. Restart `TextInputHost.exe` with Task Manager for changes to take effect.
+### Notification Center: Translucent Text Input Background
+
+<details>
+  <summary>
+    Click to expand
+  </summary>
+  <ol>
+    <li>
+      <p>Launch the Windhawk app.</p>
+    </li>
+    <li>
+      <p>Find the "Windows 11 Notification Center Styler" mod.</p>
+    </li>
+    <li>
+      <p>Go to the mod's "Advanced" tab.</p>
+    </li>
+    <li>
+      <p>Add <code>TextInputHost.exe</code> to the custom process inclusion list.</p>
+    </li>
+    <li>
+      <p>Click "Save".</p>
+    </li>
+    <li>
+      <p>Go to System Settings → Personalisation → Text input, and use Dark theme.</p>
+    </li>
+    <li>
+      <p>Restart <code>TextInputHost.exe</code> with Task Manager for changes to take effect.</p>
+    </li>
+  </ol>
+</details>
+
+### System Settings: Custom User Pane Text
+
+<details>
+  <summary>
+    Click to expand
+  </summary>
+  <ol>
+    <li>
+      <p>Launch the Windhawk app.</p>
+    </li>
+    <li>
+      <p>Find the forked Styler mod in the "Installed Mods" section.</p>
+    </li>
+    <li>
+      <p>Go to the mod's "Settings" tab.</p>
+    </li>
+    <li>
+      <p>Uncomment (remove <code>// </code> from) the first two targets: <code>TextBlock#UserName</code> and <code>TextBlock#UserAccount</code>.</p>
+    </li>
+    <li>
+      <p>Edit the text in <code>Text=</code>.</p>
+    </li>
+    <li>
+      <p>Click "Save".</p>
+    </li>
+  </ol>
+</details>
 
 
 ## How to make my own custom XAML styles?
