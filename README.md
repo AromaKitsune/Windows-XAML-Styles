@@ -72,25 +72,23 @@ First, install [Windhawk](https://windhawk.net/).
 ### File Explorer, Notification Center
 
 1. Launch the Windhawk app.
-2. Explore the mods.
-3. Search and pick a Styler mod for a specific process.
-4. Click "Details", then "Install".
-5. Go to the "Advanced" tab.
-6. Clear everything in the "Mod settings" text box.
-7. Copy the JSON code from this GitHub repo.
-8. Paste the JSON code into the "Mod settings" text box.
-9. Click "Save", and the changes take effect instantly.
+2. Click the "Explore" button.
+3. Find and install the "Windows 11 [process] Styler" mod.
+4. Go to the mod's "Advanced" tab.
+5. Clear everything in the "Mod settings" text box.
+6. Copy the JSON code from this GitHub repo.
+7. Paste the JSON code into the "Mod settings" text box.
+8. Click "Save", and the changes take effect instantly.
 
 ### Lock Screen, System Settings
 
 1. [Fork a Styler mod](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md).
 2. Find the forked Styler mod in the "Installed Mods" section.
-3. Click "Details".
-4. Go to the "Advanced" tab.
-5. Clear everything in the "Mod settings" text box.
-6. Copy the JSON code from this GitHub repo.
-7. Paste the JSON code into the "Mod settings" text box.
-8. Click "Save", and the changes take effect instantly.
+3. Go to the mod's "Advanced" tab.
+4. Clear everything in the "Mod settings" text box.
+5. Copy the JSON code from this GitHub repo.
+6. Paste the JSON code into the "Mod settings" text box.
+7. Click "Save", and the changes take effect instantly.
 
 ## Additional configuration
 
@@ -98,12 +96,11 @@ First, install [Windhawk](https://windhawk.net/).
 
 1. Launch the Windhawk app.
 2. Find the "Windows 11 Notification Center Styler" mod.
-3. Click "Details".
-4. Go to the "Advanced" tab.
-5. Add `TextInputHost.exe` to the custom process inclusion list.
-6. Click "Save".
-7. Go to System Settings → Personalisation → Text input, and use Dark theme.
-8. Restart `TextInputHost.exe` with Task Manager for changes to take effect.
+3. Go to the mod's "Advanced" tab.
+4. Add `TextInputHost.exe` to the custom process inclusion list.
+5. Click "Save".
+6. Go to System Settings → Personalisation → Text input, and use Dark theme.
+7. Restart `TextInputHost.exe` with Task Manager for changes to take effect.
 
 
 ## How to make my own custom XAML styles?
