@@ -104,25 +104,25 @@ First, install [Windhawk](https://windhawk.net/).
   </summary>
   <ol>
     <li>
-      <p>Launch the Windhawk app.</p>
+      Launch the Windhawk app.
     </li>
     <li>
-      <p>Find the "Windows 11 Notification Center Styler" mod.</p>
+      Find the "Windows 11 Notification Center Styler" mod.
     </li>
     <li>
-      <p>Go to the mod's "Advanced" tab.</p>
+      Go to the mod's "Advanced" tab.
     </li>
     <li>
-      <p>Add <code>TextInputHost.exe</code> to the custom process inclusion list.</p>
+      Add <code>TextInputHost.exe</code> to the custom process inclusion list.
     </li>
     <li>
-      <p>Click "Save".</p>
+      Click "Save".
     </li>
     <li>
-      <p>Go to System Settings → Personalisation → Text input, and use Dark theme.</p>
+      Go to System Settings → Personalisation → Text input, and use Dark theme.
     </li>
     <li>
-      <p>Restart <code>TextInputHost.exe</code> with Task Manager for changes to take effect.</p>
+      Restart <code>TextInputHost.exe</code> with Task Manager for changes to take effect.
     </li>
   </ol>
 </details>
@@ -135,22 +135,22 @@ First, install [Windhawk](https://windhawk.net/).
   </summary>
   <ol>
     <li>
-      <p>Launch the Windhawk app.</p>
+      Launch the Windhawk app.
     </li>
     <li>
-      <p>Find the forked Styler mod in the "Installed Mods" section.</p>
+      Find the forked Styler mod in the "Installed Mods" section.
     </li>
     <li>
-      <p>Go to the mod's "Settings" tab.</p>
+      Go to the mod's "Settings" tab.
     </li>
     <li>
-      <p>Uncomment (remove <code>// </code> from) the first two targets: <code>TextBlock#UserName</code> and <code>TextBlock#UserAccount</code>.</p>
+      Uncomment (remove <code>// </code> from) the first two targets: <code>TextBlock#UserName</code> and <code>TextBlock#UserAccount</code>.
     </li>
     <li>
-      <p>Edit the text in <code>Text=</code>.</p>
+      Edit the text in <code>Text=</code>.
     </li>
     <li>
-      <p>Click "Save".</p>
+      Click "Save".
     </li>
   </ol>
 </details>
