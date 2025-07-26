@@ -64,6 +64,7 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 * Custom user pane text, replace the user name text and "Local Account" text (or email address text, if linked with a MS account) with anything you want -
   Read the "further configuration" section after first applying styles.
 * Removed the MS 365 and OneDrive buttons from the System section
+* Changed the pill shaped search box to a rectangle shaped one
 * Made the network data usage indicator bars less eyesore with Dark theme
 * Made the (Bluetooth) device names split into multi-lines instead of ellipsis
 
