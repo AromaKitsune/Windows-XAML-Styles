@@ -3,7 +3,7 @@ A collection of my custom Windows XAML styles for Windhawk's various XAML styler
 
 
 ## Table of contents
-* Styled UWP Apps
+* Styles for UWP Apps
   * [File Explorer](https://github.com/AromaKitsune/Windows-XAML-Styles?tab=readme-ov-file#file-explorer)
   * [Notification Center](https://github.com/AromaKitsune/Windows-XAML-Styles?tab=readme-ov-file#notification-center)
   * [Lock Screen](https://github.com/AromaKitsune/Windows-XAML-Styles?tab=readme-ov-file#notification-center)
