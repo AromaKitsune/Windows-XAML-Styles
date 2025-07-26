@@ -81,7 +81,7 @@ First, install [Windhawk](https://windhawk.net/).
 5. Clear everything in the "Mod settings" text box.
 6. Copy the JSON code from this GitHub repo.
 7. Paste the JSON code into the "Mod settings" text box.
-8. Click "Save", and the changes take effect instantly.
+8. Click "Save settings", and the changes take effect instantly.
 
 ### Lock Screen, System Settings
 
@@ -91,7 +91,7 @@ First, install [Windhawk](https://windhawk.net/).
 4. Clear everything in the "Mod settings" text box.
 5. Copy the JSON code from this GitHub repo.
 6. Paste the JSON code into the "Mod settings" text box.
-7. Click "Save", and the changes take effect instantly.
+7. Click "Save settings", and the changes take effect instantly.
 
 
 ## Further configuration
@@ -116,7 +116,7 @@ First, install [Windhawk](https://windhawk.net/).
       Add <code>TextInputHost.exe</code> to the custom process inclusion list.
     </li>
     <li>
-      Click "Save".
+      Click "Save settings".
     </li>
     <li>
       Go to System Settings → Personalisation → Text input, and use Dark theme.
@@ -150,7 +150,7 @@ First, install [Windhawk](https://windhawk.net/).
       Edit the text in <code>Text=</code>.
     </li>
     <li>
-      Click "Save".
+      Click "Save settings".
     </li>
   </ol>
 </details>

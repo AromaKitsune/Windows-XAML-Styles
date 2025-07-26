@@ -29,11 +29,9 @@ While customising the Lock Screen, you cannot copy the target elements texts to 
 3. Unlock your PC.
 4. Launch MS Paint.
 5. Paste the screenshot by pressing `Ctrl`+`V`.
-6. Take a screenshot of the UWPSpy window's tree-view with `Win`+`Shift`+`S`.
-7. Click the Snipping Tool notification to launch Snipping Tool.
-8. Use the text extraction (OCR) program such as Snipping Tool's text extraction feature or PowerToys' Text Extractor module.
-9. Copy all texts.
-10. Paste the texts into Notepad. Since the OCR is not perfect, make sure to manually correct the spellings of target elements.
+6. Use the text extraction (OCR) method such as Snipping Tool's text extraction feature or PowerToys' Text Extractor module.
+7. Copy all texts.
+8. Paste the texts into Notepad. Since the OCR is not perfect, make sure to manually correct the spellings of target elements.
 
 Once you got those target elements:
 1. [Fork a Styler mod](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md).
@@ -41,7 +39,7 @@ Once you got those target elements:
 3. Click "Details".
 4. Go to the "Settings" tab.
 5. Add those targets and styles in the "Control styles" section.
-6. Click "Save", and the changes take effect instantly.
+6. Click "Save settings", and the changes take effect instantly.
 
 
 ## Time & Date HUD
