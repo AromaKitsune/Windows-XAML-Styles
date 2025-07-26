@@ -9,7 +9,7 @@ If this is your first time customising the XAML styles, check out the [UWPSpy us
 1. Launch UWPSpy.
 2. Look for `LockApp.exe`. If it doesn't show up, lock your PC at least once by pressing `Win`+`L`, unlock your PC, then click "Refresh".
 3. Select `LockApp.exe`.
-4. Now get your key presses timing ready, press `Enter` then immediately `Win`+`L`.
+4. Now get your key presses timing ready; press `Enter` then immediately `Win`+`L`.
 5. The UWPSpy window should appear on the Lock Screen, you can now customise it.
 
 If you're customising the lock screen in a virtual machine, use an AutoHotkey script that lets you lock your guest OS session with `Ctrl`+`L`.
@@ -36,7 +36,7 @@ While customising the Lock Screen, you cannot copy the target elements texts to 
 Once you got those target elements:
 1. [Fork a Styler mod](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md).
 2. Find the forked Styler mod in the "Installed Mods" section.
-3. Go to the "Settings" tab.
+3. Go to the mod's "Settings" tab.
 4. Add those targets and styles in the "Control styles" section.
 5. Click "Save settings", and the changes take effect instantly.
 
