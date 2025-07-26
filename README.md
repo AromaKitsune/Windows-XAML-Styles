@@ -1,6 +1,19 @@
 # Windows XAML Styles
 A collection of my custom Windows XAML styles for Windhawk's various XAML styler mods for Windows 11.
 
+
+## Table of contents
+* Styled UWP Apps
+  * [File Explorer](https://github.com/AromaKitsune/Windows-XAML-Styles?tab=readme-ov-file#file-explorer)
+  * [Notification Center](https://github.com/AromaKitsune/Windows-XAML-Styles?tab=readme-ov-file#notification-center)
+  * [Lock Screen](https://github.com/AromaKitsune/Windows-XAML-Styles?tab=readme-ov-file#notification-center)
+  * [System Settings](https://github.com/AromaKitsune/Windows-XAML-Styles?tab=readme-ov-file#system-settings)
+* Info
+  * [How to apply Custom XAML Styles](https://github.com/AromaKitsune/Windows-XAML-Styles?tab=readme-ov-file#how-to-apply-custom-xaml-styles)
+  * [Further configuration](https://github.com/AromaKitsune/Windows-XAML-Styles?tab=readme-ov-file#further-configuration)
+  * [How to make my own custom XAML styles?](https://github.com/AromaKitsune/Windows-XAML-Styles?tab=readme-ov-file#how-to-make-my-own-custom-xaml-styles)
+
+
 ## File Explorer
 
 For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-explorer-styler)
@@ -66,7 +79,7 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 * Removed the MS 365 and OneDrive buttons from the System section
 * Changed the pill shaped search box to a rectangle shaped one
 * Made the network data usage indicator bars less eyesore with Dark theme
-* Made the (Bluetooth) device names split into multi-lines instead of ellipsis
+* Made the (Bluetooth) device names wrap into multi-lines instead of ellipsis
 
 ## How to apply Custom XAML Styles
 
