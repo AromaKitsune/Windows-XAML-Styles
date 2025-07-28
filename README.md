@@ -49,6 +49,12 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
 
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/MediaControls.png)
 
+* Notification Center:
+  * Dynamic notifications container height
+  * Compact "No new notifications" view
+* Calendar:
+  * Square shaped day/month/year slots instead of circle shaped ones
+  * Removed the focus assist section
 * Large album art image for the Quick Actions' Media Controls
 * Translucent Text Input background
   * ℹ️ Read the "further configuration" section after first applying styles.
