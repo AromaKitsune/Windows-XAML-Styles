@@ -22,7 +22,8 @@ For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-
 
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/FileExplorer.png)
 
-* Removed the tab's Close button - To close the tab, middle-click it or press `Ctrl`+`W`.
+* Removed the tab's Close button
+  * ℹ️ To close the tab, middle-click it or press `Ctrl`+`W`.
 * Navigation Bar & Command Bar:
   * Alternative button glyphs: Back, Forward, Up, More
   * Mica effect extended to the Command Bar
@@ -32,11 +33,12 @@ For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-
   * Removed the Share button
 * Context Menu:
   * Removed the two "Share" menu items
-  * Removed the "Show more options" menu item - To use the legacy context menu, hold Shift + right-click.
-  * Removed the "Search the Microsoft Store" menu item from the "Open with" sub-menu -
-    For other languages, replace `Search the Microsoft Store` in `MenuFlyoutItem[Text=Search the Microsoft Store]`.
-  * Removed the keyboard accelerator text labels (such as: `Enter`, `Ctrl+Shift+C`, `Alt+Enter`, etc.) -
-    Only the text labels are removed, without affecting the keyboard shortcuts' functionality.
+  * Removed the "Show more options" menu item
+    * ℹ️ To use the legacy context menu, hold Shift + right-click.
+  * Removed the "Search the Microsoft Store" menu item from the "Open with" sub-menu
+    * ℹ️ For other languages, replace `Search the Microsoft Store` in `MenuFlyoutItem[Text=Search the Microsoft Store]`.
+  * Removed the keyboard accelerator text labels (such as: `Enter`, `Ctrl+Shift+C`, `Alt+Enter`, etc.)
+    * ℹ️ Only the text labels are removed, without affecting the keyboard shortcuts' functionality.
 
 ## Notification Center
 
@@ -48,7 +50,8 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/MediaControls.png)
 
 * Large album art image for the Quick Actions' Media Controls
-* Translucent Text Input background - Read the "further configuration" section after first applying styles.
+* Translucent Text Input background
+  * ℹ️ Read the "further configuration" section after first applying styles.
 
 ## Lock Screen
 
@@ -62,9 +65,9 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 * Media Controls:
   * Large album art image
   * Translucent background
-* Removed the UI elements for Fun Facts, Tips, and "Like the image that you see?",
-those can be turned off via System Settings → Personalisation → Lock screen, but it affects only the non-Spotlight pics.
-These custom styles can force remove them from Spotlight pics too.
+* Removed the UI elements for Fun Facts, Tips, and "Like the image that you see?"
+  * ℹ️ Those can be turned off via System Settings → Personalisation → Lock screen, but it affects only the non-Spotlight pics.
+    These custom styles can force remove them from Spotlight pics too.
 
 ## System Settings
 
@@ -74,8 +77,8 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/SystemSettings.png)
 
-* Custom user pane text, replace the user name text and "Local Account" text (or email address text, if linked with a MS account) with anything you want -
-  Read the "further configuration" section after first applying styles.
+* Custom user profile text - Replace the user name text and "Local Account" text (or email address text, if linked with a MS account) with anything you want
+  * ℹ️ Read the "further configuration" section after first applying styles.
 * Removed the MS 365 and OneDrive buttons from the System section
 * Changed the pill shaped search box to a rectangle shaped one
 * Made the network data usage indicator bars less eyesore with Dark theme
