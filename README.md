@@ -143,7 +143,7 @@ First, install [Windhawk](https://windhawk.net/).
   </ol>
 </details>
 
-### System Settings: Custom User Pane Text
+### System Settings: Custom User Profile Text
 
 <details>
   <summary>
