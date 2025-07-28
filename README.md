@@ -53,7 +53,7 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
   * Dynamic notifications container height
   * Compact "No new notifications" view
 * Calendar:
-  * Square shaped day/month/year slots instead of circle shaped ones
+  * Changed the circle shaped day/month/year slots to square shaped ones
   * Removed the focus assist section
 * Large album art image for the Quick Actions' Media Controls
 * Translucent Text Input background
