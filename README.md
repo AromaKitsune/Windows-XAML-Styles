@@ -22,6 +22,7 @@ For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-
 
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/FileExplorer.png)
 
+### List of UI tweaks:
 * Removed the tab's Close button
   * ℹ️ To close the tab, middle-click it or press `Ctrl`+`W`.
 * Navigation Bar & Command Bar:
@@ -49,6 +50,7 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
 
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/MediaControls.png)
 
+### List of UI tweaks:
 * Notification Center:
   * Dynamic notifications container height
   * Compact "No new notifications" view
@@ -67,6 +69,7 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/LockScreen.png)
 
+### List of UI tweaks:
 * Moved the Time & Date HUD to the top-left corner of the screen
 * Media Controls:
   * Large album art image
@@ -83,6 +86,7 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/SystemSettings.png)
 
+### List of UI tweaks:
 * Custom user profile text - Replace the user name text and "Local Account" text (or email address text, if linked with a MS account) with anything you want
   * ℹ️ Read the "further configuration" section after first applying styles.
 * Removed the MS 365 and OneDrive buttons from the System section
