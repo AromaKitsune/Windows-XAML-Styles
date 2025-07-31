@@ -41,6 +41,7 @@ For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-
   * Removed the keyboard accelerator text labels (such as: `Enter`, `Ctrl+Shift+C`, `Alt+Enter`, etc.)
     * ℹ️ Only the text labels are removed, without affecting the keyboard shortcuts' functionality.
 
+
 ## Notification Center
 
 For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11-notification-center-styler)
@@ -61,6 +62,7 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
 * Translucent Text Input background
   * ℹ️ Read the "further configuration" section after first applying styles.
 
+
 ## Lock Screen
 
 For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - Target process: `LockApp.exe`
@@ -78,6 +80,7 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
   * ℹ️ Those can be turned off via System Settings → Personalisation → Lock screen, but it affects only the non-Spotlight pics.
     These custom styles can force remove them from Spotlight pics too.
 
+
 ## System Settings
 
 For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - Target process: `SystemSettings.exe`
@@ -94,39 +97,79 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 * Made the network data usage indicator bars less eyesore with Dark theme
 * Made the (Bluetooth) device names wrap into multi-lines instead of ellipsis
 
+
 ## How to apply Custom XAML Styles
 
 First, install [Windhawk](https://windhawk.net/).
 
-### File Explorer, Notification Center
+<details>
+  <summary>
+    <b>File Explorer, Notification Center</b>
+  </summary>
+  <ol>
+    <li>
+      Launch the Windhawk app.
+    </li>
+    <li>
+      Click the "Explore" button.
+    </li>
+    <li>
+      Find and install the "Windows 11 [process] Styler" mod.
+    </li>
+    <li>
+      Go to the mod's "Advanced" tab.
+    </li>
+    <li>
+      Clear everything in the "Mod settings" text box.
+    </li>
+    <li>
+      Copy the JSON code from this GitHub repo.
+    </li>
+    <li>
+      Paste the JSON code into the "Mod settings" text box.
+    </li>
+    <li>
+      Click "Save", and the changes take effect instantly.
+    </li>
+  </ol>
+</details>
 
-1. Launch the Windhawk app.
-2. Click the "Explore" button.
-3. Find and install the "Windows 11 [process] Styler" mod.
-4. Go to the mod's "Advanced" tab.
-5. Clear everything in the "Mod settings" text box.
-6. Copy the JSON code from this GitHub repo.
-7. Paste the JSON code into the "Mod settings" text box.
-8. Click "Save", and the changes take effect instantly.
-
-### Lock Screen, System Settings
-
-1. [Fork a Styler mod](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md).
-2. Find the forked Styler mod in the "Installed Mods" section.
-3. Go to the mod's "Advanced" tab.
-4. Clear everything in the "Mod settings" text box.
-5. Copy the JSON code from this GitHub repo.
-6. Paste the JSON code into the "Mod settings" text box.
-7. Click "Save", and the changes take effect instantly.
+<details>
+  <summary>
+    <b>Lock Screen, System Settings</b>
+  </summary>
+  <ol>
+    <li>
+      <a href="https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md">
+      Fork a Styler mod</a>.
+    </li>
+    <li>
+      Find the forked Styler mod in the "Installed Mods" section.
+    </li>
+    <li>
+      Go to the mod's "Advanced" tab.
+    </li>
+    <li>
+      Clear everything in the "Mod settings" text box.
+    </li>
+    <li>
+      Copy the JSON code from this GitHub repo.
+    </li>
+    <li>
+      Paste the JSON code into the "Mod settings" text box.
+    </li>
+    <li>
+      Click "Save", and the changes take effect instantly.
+    </li>
+  </ol>
+</details>
 
 
 ## Further configuration
 
-### Notification Center: Translucent Text Input Background
-
 <details>
   <summary>
-    Click to expand
+    <b>Notification Center: Translucent Text Input Background</b>
   </summary>
   <ol>
     <li>
@@ -153,11 +196,9 @@ First, install [Windhawk](https://windhawk.net/).
   </ol>
 </details>
 
-### System Settings: Custom User Profile Text
-
 <details>
   <summary>
-    Click to expand
+    <b>System Settings: Custom User Profile Text</b>
   </summary>
   <ol>
     <li>
