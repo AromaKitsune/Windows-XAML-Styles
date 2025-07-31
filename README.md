@@ -95,7 +95,7 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 * Removed the MS 365 and OneDrive buttons from the System section
 * Changed the pill shaped search box to a rectangle shaped one
 * Made the network data usage indicator bars less eyesore with Dark theme
-* Made the (Bluetooth) device names wrap into multi-lines instead of ellipsis
+* Added an extra line for (Bluetooth) device names
 
 
 ## How to apply Custom XAML Styles
