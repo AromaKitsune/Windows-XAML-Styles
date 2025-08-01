@@ -51,6 +51,8 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
 
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/MediaControls.png)
 
+![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/NotificationCenter.png)
+
 ### List of UI tweaks:
 * Notification Center:
   * Dynamic notifications container height
