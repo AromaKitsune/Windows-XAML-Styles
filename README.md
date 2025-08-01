@@ -5,7 +5,7 @@ A collection of my custom Windows XAML styles for Windhawk's various XAML styler
 ## Table of contents
 * Styles for UWP Apps
   * [File Explorer](https://github.com/AromaKitsune/Windows-XAML-Styles?tab=readme-ov-file#file-explorer)
-  * [Notification Center](https://github.com/AromaKitsune/Windows-XAML-Styles?tab=readme-ov-file#notification-center)
+  * [Notification Center & Control Center](https://github.com/AromaKitsune/Windows-XAML-Styles?tab=readme-ov-file#notification-center)
   * [Lock Screen](https://github.com/AromaKitsune/Windows-XAML-Styles?tab=readme-ov-file#lock-screen)
   * [System Settings](https://github.com/AromaKitsune/Windows-XAML-Styles?tab=readme-ov-file#system-settings)
 * Info
@@ -42,7 +42,7 @@ For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-
     * ℹ️ Only the text labels are removed, without affecting the keyboard shortcuts' functionality.
 
 
-## Notification Center
+## Notification Center & Control Center
 
 For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11-notification-center-styler)
 
@@ -60,7 +60,7 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
 * Calendar:
   * Changed the circle shaped day/month/year slots to square shaped ones
   * Removed the focus assist section
-* Large album art image for the Quick Actions' Media Controls
+* Large album art image for the Control Center's Media Controls
 * Translucent Text Input background
   * ℹ️ Read the "further configuration" section after first applying styles.
 
@@ -171,7 +171,7 @@ First, install [Windhawk](https://windhawk.net/).
 
 <details>
   <summary>
-    <b>Notification Center: Translucent Text Input Background</b>
+    <b>Translucent Text Input Background</b>
   </summary>
   <ol>
     <li>
