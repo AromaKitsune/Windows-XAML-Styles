@@ -106,7 +106,7 @@ First, install [Windhawk](https://windhawk.net/).
 
 <details>
   <summary>
-    <b>File Explorer, Notification Center</b>
+    <b>File Explorer, Notification Center & Control Center</b>
   </summary>
   <ol>
     <li>
