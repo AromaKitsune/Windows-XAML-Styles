@@ -4,14 +4,14 @@ A collection of my custom Windows XAML styles for Windhawk's various XAML styler
 
 ## Table of contents
 * Styles for UWP Apps
-  * [File Explorer](https://github.com/AromaKitsune/Windows-XAML-Styles?tab=readme-ov-file#file-explorer)
-  * [Notification Center & Control Center](https://github.com/AromaKitsune/Windows-XAML-Styles?tab=readme-ov-file#notification-center)
-  * [Lock Screen](https://github.com/AromaKitsune/Windows-XAML-Styles?tab=readme-ov-file#lock-screen)
-  * [System Settings](https://github.com/AromaKitsune/Windows-XAML-Styles?tab=readme-ov-file#system-settings)
+  * [File Explorer](#file-explorer)
+  * [Notification Center & Control Center](#notification-center)
+  * [Lock Screen](#lock-screen)
+  * [System Settings](#system-settings)
 * Info
-  * [How to apply Custom XAML Styles](https://github.com/AromaKitsune/Windows-XAML-Styles?tab=readme-ov-file#how-to-apply-custom-xaml-styles)
-  * [Further configuration](https://github.com/AromaKitsune/Windows-XAML-Styles?tab=readme-ov-file#further-configuration)
-  * [How to make my own custom XAML styles?](https://github.com/AromaKitsune/Windows-XAML-Styles?tab=readme-ov-file#how-to-make-my-own-custom-xaml-styles)
+  * [How to apply Custom XAML Styles](#how-to-apply-custom-xaml-styles)
+  * [Further configuration](#further-configuration)
+  * [How to make my own custom XAML styles?](#how-to-make-my-own-custom-xaml-styles)
 
 
 ## File Explorer
@@ -219,7 +219,7 @@ First, install [Windhawk](https://windhawk.net/).
       Edit the text in <code>Text=</code>.
     </li>
     <li>
-      Click "Save settings".
+      Click "Save settings", and the changes take effect the next time you launch the Settings app.
     </li>
   </ol>
 </details>

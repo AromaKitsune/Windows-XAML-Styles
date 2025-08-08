@@ -32,7 +32,7 @@
   "// - The navigation pane background becomes opaque, resulting in no Mica effect //": "",
   "// - The section header is center aligned when leaving the Background section   //": "",
   "controlStyles[9].target": "Grid#PaneRoot",
-  "controlStyles[9].styles[0]": "Background=#00000000",
+  "controlStyles[9].styles[0]": "Background=Transparent",
   "controlStyles[10].target": "SystemSettings.View.AlignableContentControl#PermanentNavViewHeaderAlignControl",
   "controlStyles[10].styles[0]": "HorizontalAlignment=Left",
   "// Misc //": "",
