@@ -5,7 +5,7 @@ A collection of my custom Windows XAML styles for Windhawk's various XAML styler
 ## Table of contents
 * Styles for UWP Apps
   * [File Explorer](#file-explorer)
-  * [Notification Center & Control Center](#notification-center)
+  * [Notification Center & Control Center](#notification-center--control-center)
   * [Lock Screen](#lock-screen)
   * [System Settings](#system-settings)
 * Info
