@@ -39,7 +39,7 @@ For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-
   * Removed the "Search the Microsoft Store" menu item from the "Open with" sub-menu
     * ℹ️ For other languages, replace `Search the Microsoft Store` in `MenuFlyoutItem[Text=Search the Microsoft Store]`.
   * Removed the keyboard accelerator text labels (such as: `Enter`, `Ctrl+Shift+C`, `Alt+Enter`, etc.)
-    * ℹ️ Only the text labels are removed, without affecting the keyboard shortcuts' functionality.
+    * ℹ️ Only the text labels are removed, without affecting the keyboard shortcuts' functionality :)
 
 
 ## Notification Center & Control Center
@@ -92,7 +92,8 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/SystemSettings.png)
 
 ### List of UI tweaks:
-* Custom user profile text - Replace the user name text and "Local Account" text (or email address text, if linked with a MS account) with anything you want
+* Custom user profile text - Replace the user name text and "Local Account" text (or email address text, if linked with a MS account) with anything you want.
+  No more leaking your real/full name and email address! :D
   * ℹ️ Read the "further configuration" section after first applying styles.
 * Removed the MS 365 and OneDrive buttons from the System section
 * Changed the pill shaped search box to a rectangle shaped one
