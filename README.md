@@ -144,7 +144,15 @@ First, install [Windhawk](https://windhawk.net/).
   <ol>
     <li>
       <a href="https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md">
-      Fork a Styler mod</a>.
+      Fork a Styler mod</a>, changing a target process to:
+      <ul>
+        <li>
+          <code>LockApp.exe</code> for Lock Screen
+        </li>
+        <li>
+          <code>SystemSettings.exe</code> for System Settings
+        </li>
+      </ul>
     </li>
     <li>
       Find the forked Styler mod in the "Installed Mods" section.
@@ -162,7 +170,7 @@ First, install [Windhawk](https://windhawk.net/).
       Paste the JSON code into the "Mod settings" text box.
     </li>
     <li>
-      Click "Save", and the changes take effect instantly.
+      Click "Save", and the changes take effect instantly. If the Settings app is open, close and relaunch it.
     </li>
   </ol>
 </details>
