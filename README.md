@@ -155,7 +155,7 @@ First, install [Windhawk](https://windhawk.net/).
 
 <details>
   <summary>
-    <b>Lock Screen, System Settings</b>
+    <b>Lock Screen, System Settings, Windows Security</b>
   </summary>
   <ol>
     <li>
