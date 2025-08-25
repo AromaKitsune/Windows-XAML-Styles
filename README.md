@@ -1,6 +1,8 @@
 # Windows XAML Styles
 A collection of my custom Windows XAML styles for Windhawk's various XAML styler mods for Windows 11.
 
+These styles have been tested on Win11, version 24H2.
+
 
 ## Table of contents
 * Styles for UWP Apps
@@ -8,6 +10,7 @@ A collection of my custom Windows XAML styles for Windhawk's various XAML styler
   * [Notification Center & Control Center](#notification-center--control-center)
   * [Lock Screen](#lock-screen)
   * [System Settings](#system-settings)
+  * [Windows Security](#windows-security)
 * Info
   * [How to apply Custom XAML Styles](#how-to-apply-custom-xaml-styles)
   * [Further configuration](#further-configuration)
@@ -97,8 +100,21 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
   * ℹ️ Read the "further configuration" section after first applying styles.
 * Removed the MS 365 and OneDrive buttons from the System section
 * Changed the pill shaped search box to a rectangle shaped one
-* Made the network data usage indicator bars less eyesore with Dark theme
+* Made the unfilled portion of network data usage indicator bars less eyesore with Dark theme
 * Wrapped the (Bluetooth) device names into two lines
+
+
+## Windows Security
+
+For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - Target process: `SecHealthUI.exe`
+
+[JSON code](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/styles/WindowsSecurity.json)
+
+![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/WindowsSecurity.png)
+
+### List of UI tweaks:
+* Acrylic background
+* Semi-bold text font for page title - The same way it is in Windows 11's System Settings
 
 
 ## How to apply Custom XAML Styles
@@ -152,6 +168,9 @@ First, install [Windhawk](https://windhawk.net/).
         <li>
           <code>SystemSettings.exe</code> for System Settings
         </li>
+        <li>
+          <code>SecHealthUI.exe</code> for Windows Security
+        </li>
       </ul>
     </li>
     <li>
@@ -170,7 +189,7 @@ First, install [Windhawk](https://windhawk.net/).
       Paste the JSON code into the "Mod settings" text box.
     </li>
     <li>
-      Click "Save", and the changes take effect instantly. If the Settings app is open, close and relaunch it.
+      Click "Save", and the changes take effect instantly. If the System Settings or Windows Security app is open, close and relaunch it.
     </li>
   </ol>
 </details>

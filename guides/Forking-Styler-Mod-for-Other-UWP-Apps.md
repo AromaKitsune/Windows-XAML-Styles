@@ -15,6 +15,7 @@ This section shows how to fork a Styler mod to target other UWP processes such a
 6. Remove the two lines of target processes, and replace the remaining target process with a different one:
   - `LockApp.exe` for Lock Screen
   - `SystemSettings.exe` for System Settings
+  - `SecHealthUI.exe` for Windows Security
 
 Before:
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/Fork2.png)
