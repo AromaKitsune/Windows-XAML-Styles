@@ -114,7 +114,7 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 
 ### List of UI tweaks:
 * Acrylic background
-* Semi-bold text font for page title - The same way it is in Windows 11's System Settings
+* Semi-bold page title font - The same way it is in Windows 11's System Settings
 
 
 ## How to apply Custom XAML Styles
