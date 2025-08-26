@@ -109,9 +109,9 @@ Visibility=Collapsed
 ```
 
 
-## Bottom-right icons
+## Status icons
 
-### Bottom-right icons container
+### Status icons container
 
 Target:
 ```
