@@ -98,7 +98,7 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 * Custom user profile text - Replace the user name text and "Local Account" text (or email address text, if linked with a MS account) with anything you want.
   No more leaking your real/full name and email address! :D
   * ℹ️ Read the "further configuration" section after first applying styles.
-* Removed the MS 365 and OneDrive buttons from the System section
+* Removed the MS 365 and OneDrive buttons from the System page
 * Changed the pill shaped search box to a rectangle shaped one
 * Made the unfilled portion of network data usage indicator bars less eyesore with Dark theme
 * Wrapped the (Bluetooth) device names into two lines
