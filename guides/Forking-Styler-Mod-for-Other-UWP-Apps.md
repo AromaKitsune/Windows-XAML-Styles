@@ -2,12 +2,12 @@
 This section shows how to fork a Styler mod to target other UWP processes such as Lock Screen.
 
 > [!NOTE]
-> Custom lock screen styles do not preserve after log out or system restart since Windhawk mods are loaded into RAM.
+> Custom lock screen styles do not preserve after log out or system restart.
 
 1. Launch the Windhawk app.
 2. Click the "Explore" button.
-3. Find and install the "Windows 11 Start Menu Styler" mod.
-4. After install, click the "Fork" button.
+3. Find the "Windows 11 Start Menu Styler" mod.
+4. Click the "Fork" button.
 
 ![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/Fork1.png)
 
