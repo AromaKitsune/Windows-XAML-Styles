@@ -23,6 +23,9 @@ If you're customising the lock screen in a virtual machine, use an AutoHotkey sc
 
 https://github.com/user-attachments/assets/0d58605e-544b-4918-99bf-126fc54bafec
 
+**Note:** Don't just use `Margin` to move the Time and Date HUD as shown in this video.
+Instead, use `HorizontalAlignment` and `VerticalAlignment` so it aligns well with different screen resolutions.
+
 While customising the Lock Screen, you cannot copy the target elements texts to clipboard. To workaround this:
 1. Resize the UWPSpy window so it shows the tree-view of target elements you want to copy.
 2. Take a screenshot by pressing `Win`+`PrtScr`, or just `PrtScr`.
@@ -40,6 +43,8 @@ Once you got those target elements:
 4. Add those targets and styles in the "Control styles" section.
 5. Click "Save settings", and the changes take effect instantly.
 
+
+## List of target UI elements (Windows 11)
 
 ## Time & Date HUD
 
