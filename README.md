@@ -123,7 +123,7 @@ First, install [Windhawk](https://windhawk.net/).
 
 <details>
   <summary>
-    <b>File Explorer, Notification Center & Control Center</b>
+    <b>File Explorer / Notification Center & Control Center</b>
   </summary>
   <ol>
     <li>
@@ -155,7 +155,7 @@ First, install [Windhawk](https://windhawk.net/).
 
 <details>
   <summary>
-    <b>Lock Screen, System Settings, Windows Security</b>
+    <b>Lock Screen / System Settings / Windows Security</b>
   </summary>
   <ol>
     <li>
