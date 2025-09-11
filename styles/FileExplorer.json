@@ -120,6 +120,7 @@
   "controlStyles[32].target": "AppBarButton#Windows.ModernShare",
   "controlStyles[32].styles[0]": "// [ Context Menu - Share (Grid) ]",
   "controlStyles[32].styles[1]": "Width=0",
+  "controlStyles[32].styles[2]": "IsEnabled=0",
   "controlStyles[33].target": "Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBar > Grid#LayoutRoot > Grid#OuterContentRoot > Grid#ContentRoot > Grid#PrimaryItemsRoot > ItemsControl#PrimaryItemsControl > ItemsPresenter > StackPanel > AppBarSeparator",
   "controlStyles[33].styles[0]": "Visibility=Collapsed",
   "controlStyles[34].target": "AppBarButton#Windows.ModernShareFlyout",
