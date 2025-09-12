@@ -79,8 +79,14 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 ### List of UI tweaks:
 * Moved the Time & Date HUD to the top-left corner of the screen
 * Media Controls:
-  * Large album art image
   * Translucent background
+  * Large album art image
+* Widgets:
+  * Translucent background
+  * Aligned to the bottom-left of screen instead of bottom-center
+  * Custom title text - Replace the Weather location name with anything you want.
+  No more leaking your current location! :D
+    * ℹ️ Read the "further configuration" section after first applying styles.
 * Removed the UI elements for Fun Facts, Tips, and "Like the image that you see?"
   * ℹ️ Those can be turned off via System Settings → Personalisation → Lock screen, but it affects only the non-Spotlight pics.
     These custom styles can force remove them from Spotlight pics too.
@@ -222,6 +228,38 @@ First, install [Windhawk](https://windhawk.net/).
     </li>
     <li>
       Restart <code>TextInputHost.exe</code> with Task Manager for changes to take effect.
+    </li>
+  </ol>
+</details>
+
+<details>
+  <summary>
+    <b>Lock Screen: Custom Widgets Title Text</b>
+  </summary>
+  <ol>
+    <li>
+      Launch the Windhawk app.
+    </li>
+    <li>
+      Find the forked Styler mod in the "Installed Mods" section.
+    </li>
+    <li>
+      Go to the mod's "Settings" tab.
+    </li>
+    <li>
+      Add <code>StackPanel#WidgetGroupPanel > ContentPresenter[1] > LockCanvas.LockCanvasWidgetFrame > Grid > Grid#WidgetFrameGrid > Grid > ContentControl#WidgetHeaderContent > ContentPresenter > Widgets.UWP.WidgetView.WidgetHeader > Grid > StackPanel#DefaultTitleStackPanel > TextBlock</code>
+      to the Target text box.
+      <ul>
+        <li>
+          The number [1] in <code>ContentPresenter[1]</code> corresponds to Widgets' 1st slot. To change the Weather widget's title (location name) in the 2nd/3rd/4th slot, change [1] to [2], [3], or [4].
+        </li>
+      </ul>
+    </li>
+    <li>
+      Add <code>Text=</code> to the Styles text box, and type anything after it - example: <code>Text=Windhawk Streets</code>.
+    </li>
+    <li>
+      Click "Save", and the changes take effect instantly.
     </li>
   </ol>
 </details>
