@@ -33,7 +33,7 @@
   "controlStyles[11].target": "ControlCenter.ControlCenterPage",
   "controlStyles[11].styles[0]": "RenderTransform:=<RotateTransform Angle=\"-90\" />",
   "controlStyles[11].styles[1]": "RenderTransformOrigin=0.5,0.5",
-  "controlStyles[12].target": "ControlCenter.ControlCenterPage > Windows.UI.Xaml.Controls.Grid#RootGrid",
+  "controlStyles[12].target": "ControlCenter.ControlCenterPage > Grid#RootGrid",
   "controlStyles[12].styles[0]": "RenderTransform:=<RotateTransform Angle=\"90\" />",
   "controlStyles[12].styles[1]": "RenderTransformOrigin=0.5,0.5",
   "// Media Controls //": "",
