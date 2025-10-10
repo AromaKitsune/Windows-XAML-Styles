@@ -63,7 +63,9 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
 * Calendar:
   * Changed the circle shaped day/month/year slots to square shaped ones
   * Removed the focus assist section
-* Large album art image for the Control Center's Media Controls
+* Control Center
+  * Appears from the right (instead of bottom), just like the Notification Center
+  * Large album art image for the Media Controls
 * Translucent Text Input background
   * ℹ️ Read the "further configuration" section after first applying styles.
 
@@ -259,7 +261,7 @@ First, install [Windhawk](https://windhawk.net/).
       Add <code>Text=</code> to the Styles text box, and type anything after it - example: <code>Text=Windhawk Streets</code>.
     </li>
     <li>
-      Click "Save", and the changes take effect instantly.
+      Click "Save settings", and the changes take effect instantly.
     </li>
   </ol>
 </details>
