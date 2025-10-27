@@ -21,9 +21,9 @@ These styles have been tested on Win11, version 24H2.
 
 For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-explorer-styler)
 
-[JSON code](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/styles/FileExplorer.json)
+[JSON code](/styles/FileExplorer.json)
 
-![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/FileExplorer.png)
+![](/screenshots/FileExplorer.png)
 
 ### List of UI tweaks:
 * Removed the tab's Close button
@@ -49,12 +49,12 @@ For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-
 
 For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11-notification-center-styler)
 
-[JSON code (for Dark theme)](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/styles/NotificationCenter-Dark.json)
-| [JSON code (for Light theme)](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/styles/NotificationCenter-Light.json)
+[JSON code (for Dark theme)](/styles/NotificationCenter-Dark.json)
+| [JSON code (for Light theme)](/styles/NotificationCenter-Light.json)
 
-![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/MediaControls.png)
+![](/screenshots/MediaControls.png)
 
-![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/NotificationCenter.png)
+![](/screenshots/NotificationCenter.png)
 
 ### List of UI tweaks:
 * Notification Center:
@@ -74,9 +74,9 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
 
 For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - Target process: `LockApp.exe`
 
-[JSON code](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/styles/LockScreen.json)
+[JSON code](/styles/LockScreen.json)
 
-![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/LockScreen.png)
+![](/screenshots/LockScreen.png)
 
 ### List of UI tweaks:
 * Moved the Time & Date HUD to the top-left corner of the screen
@@ -98,9 +98,9 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 
 For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - Target process: `SystemSettings.exe`
 
-[JSON code](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/styles/SystemSettings.json)
+[JSON code](/styles/SystemSettings.json)
 
-![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/SystemSettings.png)
+![](/screenshots/SystemSettings.png)
 
 ### List of UI tweaks:
 * Custom user profile text - Replace the user name text and "Local Account" text (or email address text, if linked with a MS account) with anything you want.
@@ -116,9 +116,9 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 
 For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - Target process: `SecHealthUI.exe`
 
-[JSON code](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/styles/WindowsSecurity.json)
+[JSON code](/styles/WindowsSecurity.json)
 
-![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/WindowsSecurity.png)
+![](/screenshots/WindowsSecurity.png)
 
 ### List of UI tweaks:
 * Acrylic background
@@ -167,7 +167,7 @@ First, install [Windhawk](https://windhawk.net/).
   </summary>
   <ol>
     <li>
-      <a href="https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md">
+      <a href="/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md">
       Fork a Styler mod</a>, changing a target process to:
       <ul>
         <li>
@@ -298,4 +298,4 @@ First, install [Windhawk](https://windhawk.net/).
 Follow the [UWPSpy usage guide](https://github.com/bbmaster123/FWFU/blob/main/uwpspy.md).
 
 Once you know how to customise the UWP apps and want to customise the Lock Screen too, check out the
-[Lock Screen styling guide](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/guides/Lock-Screen-Styling-Guide.md).
+[Lock Screen styling guide](/guides/Lock-Screen-Styling-Guide.md).

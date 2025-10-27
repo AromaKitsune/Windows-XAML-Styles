@@ -9,7 +9,7 @@ This section shows how to fork a Styler mod to target other UWP processes such a
 3. Find the "Windows 11 Start Menu Styler" mod.
 4. Click the "Fork" button.
 
-![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/Fork1.png)
+![](/screenshots/Fork1.png)
 
 5. On the editor, change an ID and name of a mod.
 6. Remove the two lines of target processes, and replace the remaining target process with a different one:
@@ -18,10 +18,10 @@ This section shows how to fork a Styler mod to target other UWP processes such a
   - `SecHealthUI.exe` for Windows Security
 
 Before:
-![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/Fork2.png)
+![](/screenshots/Fork2.png)
 
 After:
-![](https://github.com/AromaKitsune/Windows-XAML-Styles/blob/main/screenshots/Fork3.png)
+![](/screenshots/Fork3.png)
 
 7. When done, click the "Compile Mod" button.
 8. Click "Exit Editing Mode", and this compiled mod should appear in the "Installed Mods" section.
