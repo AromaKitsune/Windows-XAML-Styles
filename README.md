@@ -1,7 +1,7 @@
 # Windows XAML Styles
 A collection of my custom Windows XAML styles for Windhawk's various XAML styler mods for Windows 11.
 
-These styles have been tested on Win11, version 24H2.
+These styles have been tested on Win11, version 25H2.
 
 
 ## Table of contents
