@@ -1,0 +1,208 @@
+theme: ''
+disableNewStartMenuLayout: 0
+
+controlStyles:
+  # Main Background
+  - target: SecHealthUIAppShell.AppShell#SechealthUI
+    styles:
+      - Background:=$MainBgColor
+  - target: Frame#frame > ContentPresenter
+    styles:
+      - Background=Transparent
+  - target: Grid#ContentRoot > Border > Grid#ContentGrid
+    styles:
+      - Background=Transparent
+      - BorderBrush=Transparent
+
+  # Navigation Pane
+  - target: Grid#PaneRoot
+    styles:
+      - Background:=$MainBgColor
+
+  # Page Title
+  - target: TextBlock#title
+    styles:
+      - FontSize=28
+      - FontWeight=SemiBold
+  - target: TextBlock#subTitle
+    styles:
+      - FontSize=16
+  - target: TextBlock#PageTitle
+    styles:
+      - FontSize=28
+      - FontWeight=SemiBold
+  - target: TextBlock#PageSubtitle
+    styles:
+      - FontSize=16
+
+  # Home
+  - target: SecHealthUIAppShell.DashboardHostPage > Grid#DashboardHostPageParentGrid
+    styles:
+      - Background=Transparent
+  - target: SecHealthUIAppShell.DashboardTileGridView#DashboardTileGridView > Border > ScrollViewer#ScrollViewer > Border#Root > Grid > ScrollContentPresenter#ScrollContentPresenter > ItemsPresenter > ItemsWrapGrid > GridViewItem > Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter#Root > Border
+    styles:
+      - Background=Transparent
+  - target: SecHealthUIAppShell.DashboardTileListView#DashboardTileListView > Border > ScrollViewer#ScrollViewer > Border#Root > Grid > ScrollContentPresenter#ScrollContentPresenter > ItemsPresenter > ItemsStackPanel > ListViewItem > Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter#Root > Border
+    styles:
+      - Background=Transparent
+
+  # Virus & threat protection
+  - target: SecHealthUIAppShell.ThreatPillar.ThreatProtectionPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Virus & threat protection: Scan options
+  - target: SecHealthUIAppShell.ThreatPillar.ThreatAdvancedScanPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Virus & threat protection: Allowed threats
+  - target: SecHealthUIAppShell.ThreatPillar.ThreatAllowedThreatPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Virus & threat protection: Virus & threat protection settings
+  - target: SecHealthUIAppShell.ThreatPillar.ThreatSettingsPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Virus & threat protection: Virus & threat protection settings: Dev Drive protection
+  - target: SecHealthUIAppShell.ThreatPillar.DevVolumesDetailsPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Virus & threat protection: Virus & threat protection settings: Exclusions
+  - target: SecHealthUIAppShell.ThreatPillar.ThreatExclusionsPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Virus & threat protection: Protection updates
+  - target: SecHealthUIAppShell.ThreatPillar.ThreatUpdatesPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Virus & threat protection: Ransomware protection
+  - target: SecHealthUIAppShell.ThreatPillar.ThreatRansomwarePage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Virus & threat protection: Ransomware protection: Protected folders
+  - target: SecHealthUIAppShell.ThreatPillar.ThreatFolderGuardProtectedFoldersPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Virus & threat protection: Ransomware protection: Allow an app through Controlled folder access
+  - target: SecHealthUIAppShell.ThreatPillar.ThreatFolderGuardAllowAppPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Account protection
+  - target: SecHealthUIAppShell.AccountPillar.AccountPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Firewall & network protection
+  - target: SecHealthUIAppShell.FirewallPillar.FirewallPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Firewall & network protection: Domain network
+  - target: SecHealthUIAppShell.FirewallPillar.FirewallDomainPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Firewall & network protection: Private network
+  - target: SecHealthUIAppShell.FirewallPillar.FirewallPrivatePage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Firewall & network protection: Public network
+  - target: SecHealthUIAppShell.FirewallPillar.FirewallPublicPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # App & browser control
+  - target: SecHealthUIAppShell.AppBrowserPillar.AppBrowserPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # App & browser control: Smart App Control
+  - target: SecHealthUIAppShell.AppBrowserPillar.SmartAppSettingsPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # App & browser control: Reputation-based protection
+  - target: SecHealthUIAppShell.AppBrowserPillar.SmartScreenPuaSettingsPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # App & browser control: Exploit protection
+  - target: SecHealthUIAppShell.AppBrowserPillar.ExploitMitigationPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Device security
+  - target: SecHealthUIAppShell.HardwarePillar.HardwarePage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Device security: Core isolation
+  - target: SecHealthUIAppShell.HardwarePillar.ManageCoreSecurityPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Device security: Security processor details
+  - target: SecHealthUIAppShell.HardwarePillar.ManageTPMPage > ScrollViewer > Border#Root > Grid > ScrollContentPresenter#ScrollContentPresenter > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Device security: Security processor details: Security processor troubleshooting
+  - target: SecHealthUIAppShell.HardwarePillar.AdvancedTpmPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Device performance & health
+  - target: SecHealthUIAppShell.HealthPillar.HealthPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Family options
+  - target: SecHealthUIAppShell.FamilyPillar.FamilyPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Protection history
+  - target: SecHealthUIAppShell.SettingsPillar.HistoryPage > Grid > StackPanel > Grid#ContentGrid
+    styles:
+      - Background=Transparent
+
+  # Settings
+  - target: SecHealthUIAppShell.SettingsPillar.SettingsPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Settings: Security providers
+  - target: SecHealthUIAppShell.SettingsPillar.ProviderPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Settings: Notifications
+  - target: SecHealthUIAppShell.SettingsPillar.NotificationPage > Grid > Grid
+    styles:
+      - Background=Transparent
+
+  # Settings: About
+  - target: SecHealthUIAppShell.SettingsPillar.AboutPage > Grid
+    styles:
+      - Background=Transparent
+
+webContentStyles:
+  - target: ''
+    styles:
+      - ''
+webContentCustomJs: ''
+styleConstants:
+  - MainBgColor=<AcrylicBrush BackgroundSource="HostBackdrop" TintColor="{StaticResource SystemChromeAltHighColor}" TintOpacity="0.8" FallbackColor="{StaticResource SystemChromeMediumColor}" />
+resourceVariables:
+  - variableKey: ''
+    value: ''

@@ -1,0 +1,188 @@
+theme: ''
+
+controlStyles:
+  # Notification Center - Shrink the notification center height
+  - target: Grid#NotificationCenterGrid
+    styles:
+      - VerticalAlignment=2
+      - MinHeight:=
+
+  # Notification Center - Empty
+  - target: TextBlock#NoNotificationsTextBlock
+    styles:
+      - Margin=0,0,0,24
+  - target: Grid#DoNotDisturbSubtext
+    styles:
+      - Visibility=Collapsed
+
+  # Calendar
+  - target: CalendarView#CalendarControl > Border
+    styles:
+      - Padding=0,0,0,4
+
+  # Calendar - Days
+  - target: CalendarViewDayItem
+    styles:
+      - CornerRadius=4
+  - target: CalendarViewDayItem > Border
+    styles:
+      - CornerRadius=4
+
+  # Calendar - Months
+  - target: Windows.UI.Xaml.Controls.Primitives.CalendarPanel#YearViewPanel > Windows.UI.Xaml.Controls.Control
+    styles:
+      - CornerRadius=4
+  - target: Windows.UI.Xaml.Controls.Primitives.CalendarPanel#YearViewPanel > Windows.UI.Xaml.Controls.Control > Border
+    styles:
+      - CornerRadius=4
+
+  # Calendar - Years
+  - target: Windows.UI.Xaml.Controls.Primitives.CalendarPanel#DecadeViewPanel > Windows.UI.Xaml.Controls.Control
+    styles:
+      - CornerRadius=4
+  - target: Windows.UI.Xaml.Controls.Primitives.CalendarPanel#DecadeViewPanel > Windows.UI.Xaml.Controls.Control > Border
+    styles:
+      - CornerRadius=4
+
+  # Calendar - Hide the focus assist section
+  - target: ActionCenter.FocusSessionControl
+    styles:
+      - Height=0
+
+  # Control Center - Appear from the right
+  - target: ControlCenter.ControlCenterPage
+    styles:
+      - RenderTransform:=<RotateTransform Angle="-90" />
+      - RenderTransformOrigin=0.5,0.5
+  - target: ControlCenter.ControlCenterPage > Grid#RootGrid
+    styles:
+      - RenderTransform:=<RotateTransform Angle="90" />
+      - RenderTransformOrigin=0.5,0.5
+
+  # Media Controls
+  - target: Grid#MediaTransportControlsRegion
+    styles:
+      - Height=470
+
+  # Media Controls - Album Art, Title & Artist names container
+  - target: Grid#AlbumTextAndArtContainer
+    styles:
+      - Height=347
+
+  # Media Controls - Album Art
+  - target: Grid#ThumbnailImage
+    styles:
+      - Width=300
+      - Height=300
+      - HorizontalAlignment=Center
+      - VerticalAlignment=Top
+      - Grid.Column=1
+      - Margin=0,0,0,0
+  - target: Grid#ThumbnailImage > Border
+    styles:
+      - CornerRadius=10
+
+  # Media Controls - Title & Artist names container
+  - target: StackPanel#PrimaryAndSecondaryTextContainer
+    styles:
+      - VerticalAlignment=Bottom
+
+  # Media Controls - Title & Artist names
+  - target: StackPanel#PrimaryAndSecondaryTextContainer > TextBlock#TitleText
+    styles:
+      - TextAlignment=Center
+  - target: StackPanel#PrimaryAndSecondaryTextContainer > TextBlock#SubtitleText
+    styles:
+      - TextAlignment=Center
+
+  # Media Controls - Media Buttons container
+  - target: ListView#MediaButtonsListView
+    styles:
+      - VerticalAlignment=Top
+      - Margin=0,12,0,0
+      - Height=48
+
+  # Media Controls - Media Buttons: Previous, Play/Pause, Next
+  - target: Windows.UI.Xaml.Controls.Primitives.RepeatButton#PreviousButton
+    styles:
+      - Margin=4,0,0,0
+  - target: Button#PlayPauseButton
+    styles:
+      - Margin=26,0,26,0
+  - target: Windows.UI.Xaml.Controls.Primitives.RepeatButton#NextButton
+    styles:
+      - Margin=0,0,4,0
+
+  # Media Controls - Media Buttons' visual states
+  - target: Windows.UI.Xaml.Controls.Primitives.RepeatButton#PreviousButton > ContentPresenter#ContentPresenter@CommonStates
+    styles:
+      - Background@Normal:=<SolidColorBrush Color="{ThemeResource ControlFillColorDefault}" />
+      - Background@PointerOver:=<SolidColorBrush Color="{ThemeResource ControlFillColorSecondary}" />
+      - Background@Pressed:=<SolidColorBrush Color="{ThemeResource ControlFillColorTertiary}" />
+      - BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"> <GradientStop Color="{ThemeResource ControlStrokeColorDefault}" Offset="0.7" /> <GradientStop Color="{ThemeResource ControlStrokeColorSecondary}" Offset="0.97" /> </LinearGradientBrush>
+      - BorderThickness=1
+      - Width=40
+      - Height=40
+      - Padding=0
+  - target: Button#PlayPauseButton > ContentPresenter#ContentPresenter@CommonStates
+    styles:
+      - Background@Normal:=<SolidColorBrush Color="{ThemeResource ControlFillColorDefault}" />
+      - Background@PointerOver:=<SolidColorBrush Color="{ThemeResource ControlFillColorSecondary}" />
+      - Background@Pressed:=<SolidColorBrush Color="{ThemeResource ControlFillColorTertiary}" />
+      - BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"> <GradientStop Color="{ThemeResource ControlStrokeColorDefault}" Offset="0.7" /> <GradientStop Color="{ThemeResource ControlStrokeColorSecondary}" Offset="0.97" /> </LinearGradientBrush>
+      - BorderThickness=1
+      - Width=40
+      - Height=40
+      - Padding=0
+  - target: Windows.UI.Xaml.Controls.Primitives.RepeatButton#NextButton > ContentPresenter#ContentPresenter@CommonStates
+    styles:
+      - Background@Normal:=<SolidColorBrush Color="{ThemeResource ControlFillColorDefault}" />
+      - Background@PointerOver:=<SolidColorBrush Color="{ThemeResource ControlFillColorSecondary}" />
+      - Background@Pressed:=<SolidColorBrush Color="{ThemeResource ControlFillColorTertiary}" />
+      - BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"> <GradientStop Color="{ThemeResource ControlStrokeColorDefault}" Offset="0.7" /> <GradientStop Color="{ThemeResource ControlStrokeColorSecondary}" Offset="0.97" /> </LinearGradientBrush>
+      - BorderThickness=1
+      - Width=40
+      - Height=40
+      - Padding=0
+
+  # Text Input - Translucent Background
+  # Add `TextInputHost.exe` to the custom process inclusion list,
+  # and restart `TextInputHost.exe` with Task Manager for changes to take effect.
+  # Go to System Settings → Personalization → Text input, and use Dark theme.
+  - target: // Grid#SuggestionUIGrid
+    styles:
+      - Background:=<WindhawkBlur BlurAmount="25" TintColor="#25323232" />
+
+  # Text Input - Title Bar text
+  - target: StackPanel#SuggestionUIContainerTitleTextPanel
+    styles:
+      - IsHitTestVisible=1
+      - // Visibility=Collapsed
+  - target: // StackPanel#SuggestionUIContainerTitleTextPanel > TextBlock#SuggestionUIContainerTitleTextBlock
+    styles:
+      - Text=Text input
+  - target: // StackPanel#SuggestionUIContainerTitleTextPanel > Border
+    styles:
+      - Visibility=Collapsed
+  - target: // StackPanel#SuggestionUIContainerTitleTextPanel > TextBlock#WhitespaceTextBlock
+    styles:
+      - Visibility=Collapsed
+
+  # Media Controls - Title & Artist names (23H2)
+  - target: StackPanel#PrimaryAndSecondaryTextContainer > TextBlock#Title
+    styles:
+      - TextAlignment=Center
+  - target: StackPanel#PrimaryAndSecondaryTextContainer > TextBlock#Subtitle
+    styles:
+      - TextAlignment=Center
+
+  # Fix the Wi-Fi/Bluetooth toggle switch misalignment
+  - target: ToggleSwitch#HeaderToggleSwitch > Grid > Grid
+    styles:
+      - MinWidth:=
+
+styleConstants:
+  - ''
+resourceVariables:
+  - variableKey: ''
+    value: ''

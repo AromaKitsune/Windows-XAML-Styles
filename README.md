@@ -21,7 +21,7 @@ These styles have been tested on Win11, version 25H2.
 
 For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-explorer-styler)
 
-[JSON code](/styles/FileExplorer.json)
+[YAML code](/styles/FileExplorer.yaml)
 
 ![](/screenshots/FileExplorer.png)
 
@@ -49,8 +49,8 @@ For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-
 
 For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11-notification-center-styler)
 
-[JSON code (for Dark theme)](/styles/NotificationCenter-Dark.json)
-| [JSON code (for Light theme)](/styles/NotificationCenter-Light.json)
+[YAML code (for Dark theme)](/styles/NotificationCenter-Dark.yaml)
+| [YAML code (for Light theme)](/styles/NotificationCenter-Light.yaml)
 
 ![](/screenshots/MediaControls.png)
 
@@ -74,7 +74,7 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
 
 For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - Target process: `LockApp.exe`
 
-[JSON code](/styles/LockScreen.json)
+[YAML code](/styles/LockScreen.yaml)
 
 ![](/screenshots/LockScreen.png)
 
@@ -98,7 +98,7 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 
 For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - Target process: `SystemSettings.exe`
 
-[JSON code](/styles/SystemSettings.json)
+[YAML code](/styles/SystemSettings.yaml)
 
 ![](/screenshots/SystemSettings.png)
 
@@ -116,7 +116,7 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 
 For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - Target process: `SecHealthUI.exe`
 
-[JSON code](/styles/WindowsSecurity.json)
+[YAML code](/styles/WindowsSecurity.yaml)
 
 ![](/screenshots/WindowsSecurity.png)
 
@@ -144,16 +144,16 @@ First, install [Windhawk](https://windhawk.net/).
       Find and install the "Windows 11 [process] Styler" mod.
     </li>
     <li>
-      Go to the mod's "Advanced" tab.
+      Go to the mod's "Settings" tab.
     </li>
     <li>
-      Clear everything in the "Mod settings" text box.
+      Switch to "Textual mode" and clear everything in the text editor.
     </li>
     <li>
-      Copy the JSON code from this GitHub repo.
+      Copy the YAML code from this GitHub repo.
     </li>
     <li>
-      Paste the JSON code into the "Mod settings" text box.
+      Paste the YAML code into the mod settings' text editor.
     </li>
     <li>
       Click "Save", and the changes take effect instantly.
@@ -185,16 +185,16 @@ First, install [Windhawk](https://windhawk.net/).
       Find the forked Styler mod in the "Installed Mods" section.
     </li>
     <li>
-      Go to the mod's "Advanced" tab.
+      Go to the mod's "Settings" tab.
     </li>
     <li>
-      Clear everything in the "Mod settings" text box.
+      Switch to "Textual mode" and clear everything in the text editor.
     </li>
     <li>
-      Copy the JSON code from this GitHub repo.
+      Copy the YAML code from this GitHub repo.
     </li>
     <li>
-      Paste the JSON code into the "Mod settings" text box.
+      Paste the YAML code into the mod settings' text editor.
     </li>
     <li>
       Click "Save", and the changes take effect instantly. If the System Settings or Windows Security app is open, close and relaunch it.

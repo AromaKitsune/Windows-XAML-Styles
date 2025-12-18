@@ -1,0 +1,237 @@
+theme: ''
+
+controlStyles:
+  # Tab - Remove the Close Button
+  - target: Button#CloseButton
+    styles:
+      - Visibility=Collapsed
+
+  # Navigation Bar - Address Bar & Search Box
+  - target: // Grid#FileExplorerAddressBarGrid > FileExplorerExtensions.AddressBarControl > Grid#PART_LayoutRoot
+    styles:
+      - // Light // BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"> <GradientStop Color="{ThemeResource ControlStrokeColorDefault}" Offset="0.7" /> <GradientStop Color="{ThemeResource ControlStrokeColorSecondary}" Offset="0.97" /> </LinearGradientBrush>
+      - // Dark // BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"> <GradientStop Color="{ThemeResource ControlStrokeColorSecondary}" Offset="0.1" /> <GradientStop Color="{ThemeResource ControlStrokeColorDefault}" Offset="0.11" /> </LinearGradientBrush>
+      - BorderThickness=1
+  - target: // AutoSuggestBox#FileExplorerSearchBox
+    styles:
+      - // Light // BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"> <GradientStop Color="{ThemeResource ControlStrokeColorDefault}" Offset="0.7" /> <GradientStop Color="{ThemeResource ControlStrokeColorSecondary}" Offset="0.97" /> </LinearGradientBrush>
+      - // Dark // BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"> <GradientStop Color="{ThemeResource ControlStrokeColorSecondary}" Offset="0.1" /> <GradientStop Color="{ThemeResource ControlStrokeColorDefault}" Offset="0.11" /> </LinearGradientBrush>
+      - BorderThickness=1
+  - target: AutoSuggestBox#FileExplorerSearchBox > Grid#LayoutRoot > TextBox#TextBox > Grid > ContentControl#PlaceholderTextContentPresenter > ContentPresenter > TextBlock
+    styles:
+      - FontStyle=Italic
+      - FontFamily=Segoe UI
+
+  # Navigation Bar - Back Button
+  - target: AppBarButton#backButton > Grid#Root > Grid#ContentRoot > Viewbox#ContentViewbox
+    styles:
+      - Width=16
+      - Height=16
+      - HorizontalAlignment=Center
+      - Margin=10,8,10,10
+  - target: AppBarButton#backButton > Grid#Root > Grid#ContentRoot > Viewbox#ContentViewbox > Border > ContentPresenter#Content > FontIcon
+    styles:
+      - Glyph=
+
+  # Navigation Bar - Forward Button
+  - target: AppBarButton#forwardButton > Grid#Root > Grid#ContentRoot > Viewbox#ContentViewbox
+    styles:
+      - Width=16
+      - Height=16
+      - HorizontalAlignment=Center
+      - Margin=10,8,10,10
+  - target: AppBarButton#forwardButton > Grid#Root > Grid#ContentRoot > Viewbox#ContentViewbox > Border > ContentPresenter#Content > FontIcon
+    styles:
+      - Glyph=
+
+  # Navigation Bar - Up Button
+  - target: AppBarButton#upButton > Grid#Root > Grid#ContentRoot > Viewbox#ContentViewbox
+    styles:
+      - Width=16
+      - Height=16
+      - HorizontalAlignment=Center
+      - Margin=10,8,10,10
+  - target: AppBarButton#upButton > Grid#Root > Grid#ContentRoot > Viewbox#ContentViewbox > Border > ContentPresenter#Content > FontIcon
+    styles:
+      - Glyph=
+
+  # Navigation Bar - More Button
+  - target: Button#MoreButton > Grid > ContentPresenter#ContentPresenter > FontIcon#EllipsisIcon
+    styles:
+      - Glyph=
+      - FontSize=16
+      - Width=16
+      - Height=16
+
+  # Command Bar
+  - target: Grid#CommandBarControlRootGrid
+    styles:
+      - Background:=<SolidColorBrush Color="{ThemeResource LayerOnMicaBaseAltFillColorDefault}" Opacity="1" />
+      - BorderThickness=0,0,0,1
+  - target: CommandBar#FileExplorerCommandBar
+    styles:
+      - Background=Transparent
+      - Margin=0,-4,0,0
+  - target: CommandBar#FileExplorerSecondaryCommandBar
+    styles:
+      - Margin=0,-4,0,0
+
+  # Command Bar - Remove the Buttons
+  # Share, Set as BG, Rotate left/right
+  - target: CommandBar#FileExplorerCommandBar > Grid#LayoutRoot > Grid#ContentRoot > Grid > ItemsControl#PrimaryItemsControl > ItemsPresenter > StackPanel > AppBarButton[7]
+    styles:
+      - // [ Command Bar - Share Button ]
+      - Visibility=Collapsed
+  - target: CommandBar#FileExplorerCommandBar > Grid#LayoutRoot > Grid#ContentRoot > Grid > ItemsControl#PrimaryItemsControl > ItemsPresenter > StackPanel > AppBarButton[21]
+    styles:
+      - '// [ Command Bar - Image: Set as background ]'
+      - Visibility=$CommandBarItemsVisibilityState
+  - target: CommandBar#FileExplorerCommandBar > Grid#LayoutRoot > Grid#ContentRoot > Grid > ItemsControl#PrimaryItemsControl > ItemsPresenter > StackPanel > AppBarButton[22]
+    styles:
+      - '// [ Command Bar - Image: Rotate left ]'
+      - Visibility=$CommandBarItemsVisibilityState
+  - target: CommandBar#FileExplorerCommandBar > Grid#LayoutRoot > Grid#ContentRoot > Grid > ItemsControl#PrimaryItemsControl > ItemsPresenter > StackPanel > AppBarButton[23]
+    styles:
+      - '// [ Command Bar - Image: Rotate right ]'
+      - Visibility=$CommandBarItemsVisibilityState
+  - target: CommandBar#FileExplorerCommandBar > Grid#LayoutRoot > Grid#ContentRoot > Grid > ItemsControl#PrimaryItemsControl > ItemsPresenter > StackPanel > AppBarSeparator[20]
+    styles:
+      - Visibility=$CommandBarItemsVisibilityState
+
+  # Details Pane - Background
+  - target: Grid#DetailsViewControlRootGrid
+    styles:
+      - // [ Details Pane - Background ]
+      - Background=$WindowColor
+
+  # Details Pane - Icon & Image Thumbnail container
+  - target: StackPanel#DetailsViewThumbnail > Grid[1]
+    styles:
+      - Background=Transparent
+      - Height=Auto
+  - target: StackPanel#DetailsViewThumbnail > Grid[1] > Image#Icon
+    styles:
+      - Width=200
+      - Height=200
+      - Margin=0,24,0,0
+
+  # Details Pane - File Name
+  - target: StackPanel#DetailsViewThumbnail > Grid[2] > Image
+    styles:
+      - Visibility=Collapsed
+  - target: StackPanel#DetailsViewThumbnail > Grid[2] > TextBlock
+    styles:
+      - TextAlignment=Center
+      - TextWrapping=2
+      - Padding=0
+
+  # Details Pane - Remove the `Select a single file...` tip
+  - target: StackPanel#DetailsViewThumbnailStatusMessage
+    styles:
+      - Visibility=Collapsed
+
+  # Details Pane - Remove the Share Button & Status
+  - target: StackPanel#DetailsViewSharingStatus
+    styles:
+      - Visibility=Collapsed
+
+  # Details Pane - Details container
+  - target: StackPanel#DetailsViewProperties
+    styles:
+      - BorderBrush=#40909090
+      - BorderThickness=0,1,0,0
+      - Padding=0,16,0,0
+  - target: StackPanel#DetailsViewProperties > TextBlock
+    styles:
+      - Visibility=Collapsed
+
+  # Details Pane - Properties Button
+  - target: StackPanel#DetailsViewProperties > Button
+    styles:
+      - HorizontalAlignment=Center
+
+  # Details Pane - Remove the Scroll Bar
+  - target: Microsoft.UI.Xaml.Controls.Primitives.ScrollBar#VerticalScrollBar
+    styles:
+      - Visibility=Collapsed
+
+  # Home - Background
+  - target: Grid#HomeViewRootGrid
+    styles:
+      - // [ Home - Background ]
+      - Background=$WindowColor
+
+  # Gallery - Background
+  - target: Grid#GalleryRootGrid
+    styles:
+      - // [ Gallery - Background ]
+      - Background=$WindowColor
+
+  # Context Menu - Remove the Menu Items
+  # Share, Set as BG, Rotate right/left, Show more options
+  - target: AppBarButton#Windows.ModernShare
+    styles:
+      - // [ Context Menu - Share (Grid) ]
+      - Width=0
+      - IsEnabled=0
+  - target: Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBar > Grid#LayoutRoot > Grid#OuterContentRoot > Grid#ContentRoot > Grid#PrimaryItemsRoot > ItemsControl#PrimaryItemsControl > ItemsPresenter > StackPanel > AppBarSeparator
+    styles:
+      - Visibility=Collapsed
+  - target: AppBarButton#Windows.ModernShareFlyout
+    styles:
+      - // [ Context Menu - Share (List) ]
+      - Visibility=Collapsed
+  - target: AppBarButton#setdesktopwallpaper
+    styles:
+      - '// [ Context Menu - Image: Set as desktop background ]'
+      - Visibility=$ContextMenuItemsVisibilityState
+  - target: AppBarButton#rotate90
+    styles:
+      - '// [ Context Menu - Image: Rotate right ]'
+      - Visibility=$ContextMenuItemsVisibilityState
+  - target: AppBarButton#rotate270
+    styles:
+      - '// [ Context Menu - Image: Rotate left ]'
+      - Visibility=$ContextMenuItemsVisibilityState
+  - target: MenuFlyoutItem[Text=Search the Microsoft Store]
+    styles:
+      - // [ Context Menu - Open with → Search the Microsoft Store ]
+      - Visibility=Collapsed
+  - target: AppBarButton#expandtoclassic
+    styles:
+      - // [ Context Menu - Show more options ]
+      - Visibility=Collapsed
+  - target: CommandBarOverflowPresenter#SecondaryItemsControl > Grid#LayoutRoot > ScrollViewer > Border#Root > Grid > ScrollContentPresenter#ScrollContentPresenter > ItemsPresenter#ItemsPresenter > StackPanel > AppBarSeparator
+    styles:
+      - Visibility=Collapsed
+  - target: TextBlock#KeyboardAcceleratorTextLabel
+    styles:
+      - // [ Context Menu - Keyboard Accelerator Text Labels ]
+      - Visibility=Collapsed
+  - target: TextBlock#KeyboardAcceleratorTextBlock
+    styles:
+      - '// [ Tab Context Menu - Keyboard Accelerator Text Label: Ctrl+W for "Close tab" ]'
+      - Visibility=Collapsed
+
+  # [Extra] Command Bar - Center align the buttons
+  - target: // CommandBar#FileExplorerCommandBar
+    styles:
+      - // [ Command Bar - Center align the buttons ] [Part 1/2]
+      - HorizontalAlignment=Center
+      - Padding=0,0,0,0
+  - target: // CommandBar#FileExplorerSecondaryCommandBar
+    styles:
+      - // [ Command Bar - Center align the buttons ] [Part 2/2]
+      - Grid.Column=0
+
+styleConstants:
+  - // [ Details Pane, Home, Gallery - Background ] Match the BG color with custom window color such as Rectify11 dark theme
+  - // WindowColor=#202020
+  - '// [ Command Bar - Image: Set as background, Rotate left, Rotate right ]'
+  - // CommandBarItemsVisibilityState=Collapsed
+  - '// [ Context Menu - Image: Set as desktop background, Rotate right, Rotate left ]'
+  - // ContextMenuItemsVisibilityState=Collapsed
+resourceVariables:
+  - variableKey: ''
+    value: ''
+explorerFrameContainerHeight: 0
