@@ -156,7 +156,7 @@ First, install [Windhawk](https://windhawk.net/).
       Paste the YAML code into the mod settings' text editor.
     </li>
     <li>
-      Click "Save", and the changes take effect instantly.
+      Click "Save settings", and the changes take effect instantly.
     </li>
   </ol>
 </details>
@@ -197,7 +197,7 @@ First, install [Windhawk](https://windhawk.net/).
       Paste the YAML code into the mod settings' text editor.
     </li>
     <li>
-      Click "Save", and the changes take effect instantly. If the System Settings or Windows Security app is open, close and relaunch it.
+      Click "Save settings", and the changes take effect instantly. If the System Settings or Windows Security app is open, close and relaunch it.
     </li>
   </ol>
 </details>
