@@ -109,6 +109,17 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 * Removed the MS 365 and OneDrive buttons from the System page
 * Changed the pill shaped search box to a rectangle shaped one
 * Made the unfilled portion of network data usage indicator bars less eyesore with Dark theme
+
+<details>
+  <summary>
+    <b>Network data usage indicator bars: Before & After screenshots (click here to expand)</b>
+  </summary>
+  Before:
+  <img src="/screenshots/SystemSettings-NetworkDataUsageBars-Before.png">
+  After:
+  <img src="/screenshots/SystemSettings-NetworkDataUsageBars-After.png">
+</details>
+
 * Wrapped the (Bluetooth) device names into two lines
 
 
