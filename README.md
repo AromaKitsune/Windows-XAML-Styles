@@ -1,8 +1,8 @@
 # Windows XAML Styles
-A collection of my custom Windows XAML styles for Windhawk's various XAML styler mods for Windows 11.
+A collection of my custom Windows XAML styles for Windhawk's various XAML styler
+mods for Windows 11.
 
 These styles have been tested on Win11, version 25H2.
-
 
 ## Table of contents
 * Styles for UWP Apps
@@ -16,6 +16,7 @@ These styles have been tested on Win11, version 25H2.
   * [Further configuration](#further-configuration)
   * [How to make my own custom XAML styles?](#how-to-make-my-own-custom-xaml-styles)
 
+---
 
 ## File Explorer
 
@@ -39,11 +40,16 @@ For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-
   * Removed the two "Share" menu items
   * Removed the "Show more options" menu item
     * ℹ️ To use the legacy context menu, hold Shift + right-click.
-  * Removed the "Search the Microsoft Store" menu item from the "Open with" sub-menu
-    * ℹ️ For other languages, replace `Search the Microsoft Store` in `MenuFlyoutItem[Text=Search the Microsoft Store]`.
-  * Removed the keyboard accelerator text labels (such as: `Enter`, `Ctrl+Shift+C`, `Alt+Enter`, etc.)
-    * ℹ️ Only the text labels are removed, without affecting the keyboard shortcuts' functionality :)
+  * Removed the "Search the Microsoft Store" menu item from the "Open with"
+    sub-menu
+    * ℹ️ For other languages, replace `Search the Microsoft Store` in
+      `MenuFlyoutItem[Text=Search the Microsoft Store]`.
+  * Removed the keyboard accelerator text labels (such as: `Enter`,
+    `Ctrl+Shift+C`, `Alt+Enter`, etc.)
+    * ℹ️ Only the text labels are removed, without affecting the keyboard
+      shortcuts' functionality :)
 
+---
 
 ## Notification Center & Control Center
 
@@ -64,15 +70,18 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
   * Changed the circle shaped day/month/year slots to square shaped ones
   * Removed the focus assist section
 * Control Center
-  * Appears from the right (instead of bottom), just like the Notification Center
+  * Appears from the right (instead of bottom), just like the Notification
+    Center
   * Large album art image for the Media Controls
 * Translucent Text Input background
   * ℹ️ Read the "further configuration" section after first applying styles.
 
+---
 
 ## Lock Screen
 
-For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - Target process: `LockApp.exe`
+For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) -
+Target process: `LockApp.exe`
 
 [YAML code](/styles/LockScreen.yaml)
 
@@ -86,33 +95,42 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 * Widgets:
   * Translucent background
   * Aligned to the bottom-left of screen instead of bottom-center
-  * Custom title text - Replace the Weather location name with anything you want.
-  No more leaking your current location! :D
+  * Custom title text - Replace the Weather location name with anything you
+    want. No more leaking your current location! :D
     * ℹ️ Read the "further configuration" section after first applying styles.
-* Removed the UI elements for Fun Facts, Tips, and "Like the image that you see?"
-  * ℹ️ Those can be turned off via System Settings → Personalisation → Lock screen, but it affects only the non-Spotlight pics.
+* Removed the UI elements for Fun Facts, Tips, and "Like the image that you
+  see?"
+  * ℹ️ Those can be turned off via System Settings → Personalisation → Lock
+    screen, but it affects only the non-Spotlight pics.
     These custom styles can force remove them from Spotlight pics too.
 
+---
 
 ## System Settings
 
-For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - Target process: `SystemSettings.exe`
+For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) -
+Target process: `SystemSettings.exe`
 
 [YAML code](/styles/SystemSettings.yaml)
 
 ![](/screenshots/SystemSettings.png)
 
 ### List of UI tweaks:
-* Custom user profile text - Replace the user name text and "Local Account" text (or email address text, if linked with a MS account) with anything you want.
+* Custom user profile text - Replace the user name text and "Local Account" text
+  (or email address text, if linked with a MS account) with anything you want.
   No more leaking your real/full name and email address! :D
   * ℹ️ Read the "further configuration" section after first applying styles.
 * Removed the MS 365 and OneDrive buttons from the System page
 * Changed the pill shaped search box to a rectangle shaped one
-* Made the unfilled portion of network data usage indicator bars less eyesore with Dark theme
+* Made the unfilled portion of network data usage indicator bars less eyesore
+  with Dark theme
 
   <details>
     <summary>
-      <b>Network data usage indicator bars: Before & After screenshots (click here to expand)</b>
+      <b>
+        Network data usage indicator bars: Before & After screenshots (click
+        here to expand)
+      </b>
     </summary>
     Before:
     <img src="/screenshots/SystemSettings-NetworkDataUsageBars-Before.png">
@@ -122,10 +140,12 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 
 * Wrapped the (Bluetooth) device names into two lines
 
+---
 
 ## Windows Security
 
-For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) - Target process: `SecHealthUI.exe`
+For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) -
+Target process: `SecHealthUI.exe`
 
 [YAML code](/styles/WindowsSecurity.yaml)
 
@@ -135,6 +155,7 @@ For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-me
 * Acrylic background
 * Semi-bold page title font - The same way it is in Windows 11's System Settings
 
+---
 
 ## How to apply Custom XAML Styles
 
@@ -208,7 +229,8 @@ First, install [Windhawk](https://windhawk.net/).
       Paste the YAML code into the mod settings' text editor.
     </li>
     <li>
-      Click "Save settings", and the changes take effect instantly. If the System Settings or Windows Security app is open, close and relaunch it.
+      Click "Save settings", and the changes take effect instantly. If the
+      System Settings or Windows Security app is open, close and relaunch it.
     </li>
   </ol>
 </details>
@@ -240,7 +262,8 @@ First, install [Windhawk](https://windhawk.net/).
       Go to System Settings → Personalisation → Text input, and use Dark theme.
     </li>
     <li>
-      Restart <code>TextInputHost.exe</code> with Task Manager for changes to take effect.
+      Restart <code>TextInputHost.exe</code> with Task Manager for changes to
+      take effect.
     </li>
   </ol>
 </details>
@@ -260,16 +283,23 @@ First, install [Windhawk](https://windhawk.net/).
       Go to the mod's "Settings" tab.
     </li>
     <li>
-      Add <code>StackPanel#WidgetGroupPanel > ContentPresenter[1] > LockCanvas.LockCanvasWidgetFrame > Grid > Grid#WidgetFrameGrid > Grid > ContentControl#WidgetHeaderContent > ContentPresenter > Widgets.UWP.WidgetView.WidgetHeader > Grid > StackPanel#DefaultTitleStackPanel > TextBlock</code>
-      to the Target text box.
+      Add <code>StackPanel#WidgetGroupPanel > ContentPresenter[1] >
+      LockCanvas.LockCanvasWidgetFrame > Grid > Grid#WidgetFrameGrid > Grid >
+      ContentControl#WidgetHeaderContent > ContentPresenter >
+      Widgets.UWP.WidgetView.WidgetHeader > Grid >
+      StackPanel#DefaultTitleStackPanel > TextBlock</code> to the Target text
+      box.
       <ul>
         <li>
-          The number [1] in <code>ContentPresenter[1]</code> corresponds to Widgets' 1st slot. To change the Weather widget's title (location name) in the 2nd/3rd/4th slot, change [1] to [2], [3], or [4].
+          The number [1] in <code>ContentPresenter[1]</code> corresponds to
+          Widgets' 1st slot. To change the Weather widget's title (location
+          name) in the 2nd/3rd/4th slot, change [1] to [2], [3], or [4].
         </li>
       </ul>
     </li>
     <li>
-      Add <code>Text=</code> to the Styles text box, and type anything after it - example: <code>Text=Windhawk Streets</code>.
+      Add <code>Text=</code> to the Styles text box, and type anything after
+      it - example: <code>Text=Windhawk Streets</code>.
     </li>
     <li>
       Click "Save settings", and the changes take effect instantly.
@@ -292,13 +322,15 @@ First, install [Windhawk](https://windhawk.net/).
       Go to the mod's "Settings" tab.
     </li>
     <li>
-      Uncomment (remove <code>// </code> from) the first two targets: <code>TextBlock#UserName</code> and <code>TextBlock#UserAccount</code>.
+      Uncomment (remove <code>// </code> from) the first two targets:
+      <code>TextBlock#UserName</code> and <code>TextBlock#UserAccount</code>.
     </li>
     <li>
       Edit the text in <code>Text=</code>.
     </li>
     <li>
-      Click "Save settings", and the changes take effect the next time you launch the Settings app.
+      Click "Save settings", and the changes take effect the next time you
+      launch the Settings app.
     </li>
   </ol>
 </details>
@@ -308,5 +340,6 @@ First, install [Windhawk](https://windhawk.net/).
 
 Follow the [UWPSpy usage guide](https://github.com/bbmaster123/FWFU/blob/main/uwpspy.md).
 
-Once you know how to customise the UWP apps and want to customise the Lock Screen too, check out the
+Once you know how to customise the UWP apps and want to customise the Lock
+Screen too, check out the
 [Lock Screen styling guide](/guides/Lock-Screen-Styling-Guide.md).

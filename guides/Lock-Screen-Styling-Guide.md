@@ -1,43 +1,55 @@
 # Lock Screen Styling Guide
-This section shows how to customise the Lock Screen on Windows 10 and Windows 11.
+This section shows how to customise the Lock Screen on Windows 10 and Windows
+11.
 
-If this is your first time customising the XAML styles, check out the [UWPSpy usage guide](https://github.com/bbmaster123/FWFU/blob/main/uwpspy.md).
+If this is your first time customising the XAML styles, check out the
+[UWPSpy usage guide](https://github.com/bbmaster123/FWFU/blob/main/uwpspy.md).
 
 > [!NOTE]
 > Custom lock screen styles do not preserve after log out or system restart.
 
 1. Launch UWPSpy.
-2. Look for `LockApp.exe`. If it doesn't show up, lock your PC at least once by pressing `Win`+`L`, unlock your PC, then click "Refresh".
+2. Look for `LockApp.exe`. If it doesn't show up, lock your PC at least once by
+   pressing `Win`+`L`, unlock your PC, then click "Refresh".
 3. Select `LockApp.exe`.
-4. Now get your key presses timing ready; press `Enter` then immediately `Win`+`L`.
+4. Now get your key presses timing ready; press `Enter` then immediately
+   `Win`+`L`.
 5. The UWPSpy window should appear on the Lock Screen, you can now customise it.
 
-If you're customising the lock screen in a virtual machine, use an AutoHotkey script that lets you lock your guest OS session with `Ctrl`+`L`.
+If you're customising the lock screen in a virtual machine, use an AutoHotkey
+script that lets you lock your guest OS session with `Ctrl`+`L`.
 ```
 ^l::DllCall("user32.dll\LockWorkStation")
 ```
 
-`Ctrl`+`Alt`+`Del` method (without AHK). Not recommended because the timing is tighter, and you have to do it fast.
+`Ctrl`+`Alt`+`Del` method (without AHK). Not recommended because the timing is
+tighter, and you have to do it fast.
 * VirtualBox: `Enter` → `Right Ctrl`+`Delete` → `Enter`
 * VMware Workstation: `Enter` → `Ctrl`+`Alt`+`Insert` → `Enter`
 
 https://github.com/user-attachments/assets/0d58605e-544b-4918-99bf-126fc54bafec
 
-**Note:** Don't just use `Margin` to move the Time and Date HUD as shown in this video.
-Instead, use `HorizontalAlignment` and `VerticalAlignment` so it aligns well with different screen resolutions.
+**Note:** Don't just use `Margin` to move the Time and Date HUD as shown in this
+video. Instead, use `HorizontalAlignment` and `VerticalAlignment` so it aligns
+well with different screen resolutions.
 
-While customising the Lock Screen, you cannot copy the target elements texts to clipboard. To workaround this:
-1. Resize the UWPSpy window so it shows the tree-view of target elements you want to copy.
+While customising the Lock Screen, you cannot copy the target elements texts to
+clipboard. To workaround this:
+1. Resize the UWPSpy window so it shows the tree-view of target elements you
+   want to copy.
 2. Take a screenshot by pressing `Win`+`PrtScr`, or just `PrtScr`.
 3. Unlock your PC.
 4. Launch MS Paint.
 5. Paste the screenshot by pressing `Ctrl`+`V`.
-6. Use the text extraction (OCR) method such as Snipping Tool's text extraction feature or PowerToys' Text Extractor module.
+6. Use the text extraction (OCR) method such as Snipping Tool's text extraction
+   feature or PowerToys' Text Extractor module.
 7. Copy all texts.
-8. Paste the texts into Notepad. Since the OCR is not perfect, make sure to manually correct the spellings of target elements.
+8. Paste the texts into Notepad. Since the OCR is not perfect, make sure to
+   manually correct the spellings of target elements.
 
 Once you got those target elements:
-1. [Fork a Styler mod](/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md), changing a target process to `LockApp.exe`.
+1. [Fork a Styler mod](/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md),
+   changing a target process to `LockApp.exe`.
 2. Find the forked Styler mod in the "Installed Mods" section.
 3. Go to the mod's "Settings" tab.
 4. Add those targets and styles in the "Control styles" section.

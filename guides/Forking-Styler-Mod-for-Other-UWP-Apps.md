@@ -1,5 +1,6 @@
 # Forking Styler Mod for Other UWP Apps
-This section shows how to fork a Styler mod to target other UWP processes such as Lock Screen.
+This section shows how to fork a Styler mod to target other UWP processes such
+as Lock Screen.
 
 > [!NOTE]
 > Custom lock screen styles do not preserve after log out or system restart.
@@ -12,7 +13,8 @@ This section shows how to fork a Styler mod to target other UWP processes such a
 ![](/screenshots/Fork1.png)
 
 5. On the editor, change an ID and name of a mod.
-6. Remove the two lines of target processes, and replace the remaining target process with a different one:
+6. Remove the two lines of target processes, and replace the remaining target
+   process with a different one:
   - `LockApp.exe` for Lock Screen
   - `SystemSettings.exe` for System Settings
   - `SecHealthUI.exe` for Windows Security
@@ -24,4 +26,5 @@ After:
 ![](/screenshots/Fork3.png)
 
 7. When done, click the "Compile Mod" button.
-8. Click "Exit Editing Mode", and this compiled mod should appear in the "Installed Mods" section.
+8. Click "Exit Editing Mode", and this compiled mod should appear in the
+   "Installed Mods" section.
