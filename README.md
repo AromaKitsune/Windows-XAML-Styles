@@ -283,12 +283,9 @@ First, install [Windhawk](https://windhawk.net/).
       Go to the mod's "Settings" tab.
     </li>
     <li>
-      Add <code>StackPanel#WidgetGroupPanel > ContentPresenter[1] >
-      LockCanvas.LockCanvasWidgetFrame > Grid > Grid#WidgetFrameGrid > Grid >
-      ContentControl#WidgetHeaderContent > ContentPresenter >
-      Widgets.UWP.WidgetView.WidgetHeader > Grid >
-      StackPanel#DefaultTitleStackPanel > TextBlock</code> to the Target text
-      box.
+      Add
+      <code>StackPanel#WidgetGroupPanel > ContentPresenter[1] > LockCanvas.LockCanvasWidgetFrame > Grid > Grid#WidgetFrameGrid > Grid > ContentControl#WidgetHeaderContent > ContentPresenter > Widgets.UWP.WidgetView.WidgetHeader > Grid > StackPanel#DefaultTitleStackPanel > TextBlock</code>
+      to the Target text box.
       <ul>
         <li>
           The number [1] in <code>ContentPresenter[1]</code> corresponds to
