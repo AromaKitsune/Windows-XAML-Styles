@@ -4,17 +4,17 @@ mods for Windows 11.
 
 These styles have been tested on Win11, version 25H2.
 
-## Table of contents
-* Styles for UWP Apps
-  * [File Explorer](#file-explorer)
-  * [Notification Center & Control Center](#notification-center--control-center)
-  * [Lock Screen](#lock-screen)
-  * [System Settings](#system-settings)
-  * [Windows Security](#windows-security)
-* Info
-  * [How to apply Custom XAML Styles](#how-to-apply-custom-xaml-styles)
-  * [Further configuration](#further-configuration)
-  * [How to make my own custom XAML styles?](#how-to-make-my-own-custom-xaml-styles)
+## Styles for Apps using XAML
+* [File Explorer](#file-explorer)
+* [Notification Center & Control Center](#notification-center--control-center)
+* [Lock Screen](#lock-screen)
+* [System Settings](#system-settings)
+* [Windows Security](#windows-security)
+
+## Info
+* [How to apply Custom XAML Styles](#how-to-apply-custom-xaml-styles)
+* [Further configuration](#further-configuration)
+* [How to make my own custom XAML styles?](#how-to-make-my-own-custom-xaml-styles)
 
 ---
 
