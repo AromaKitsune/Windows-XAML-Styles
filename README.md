@@ -132,10 +132,12 @@ Target process: `SystemSettings.exe`
         here to expand)
       </b>
     </summary>
-    Before:
-    <img src="/screenshots/SystemSettings-NetworkDataUsageBars-Before.png">
-    After:
-    <img src="/screenshots/SystemSettings-NetworkDataUsageBars-After.png">
+
+    **Before:**
+    ![](/screenshots/SystemSettings-NetworkDataUsageBars-Before.png)
+
+    **After:**
+    ![](/screenshots/SystemSettings-NetworkDataUsageBars-After.png)
   </details>
 
 * Wrapped the (Bluetooth) device names into two lines
@@ -165,74 +167,34 @@ First, install [Windhawk](https://windhawk.net/).
   <summary>
     <b>File Explorer / Notification Center & Control Center</b>
   </summary>
-  <ol>
-    <li>
-      Launch the Windhawk app.
-    </li>
-    <li>
-      Click the "Explore" button.
-    </li>
-    <li>
-      Find and install the "Windows 11 [process] Styler" mod.
-    </li>
-    <li>
-      Go to the mod's "Settings" tab.
-    </li>
-    <li>
-      Switch to "Textual mode" and clear everything in the text editor.
-    </li>
-    <li>
-      Copy the YAML code from this GitHub repo.
-    </li>
-    <li>
-      Paste the YAML code into the mod settings' text editor.
-    </li>
-    <li>
-      Click "Save settings", and the changes take effect instantly.
-    </li>
-  </ol>
+
+  1. Launch the Windhawk app.
+  2. Click the "Explore" button.
+  3. Find and install the "Windows 11 [process] Styler" mod.
+  4. Go to the mod's "Settings" tab.
+  5. Switch to "Textual mode" and clear everything in the text editor.
+  6. Copy the YAML code from this GitHub repo.
+  7. Paste the YAML code into the mod settings' text editor.
+  8. Click "Save settings", and the changes take effect instantly.
 </details>
 
 <details>
   <summary>
     <b>Lock Screen / System Settings / Windows Security</b>
   </summary>
-  <ol>
-    <li>
-      <a href="/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md">
-      Fork a Styler mod</a>, changing a target process to:
-      <ul>
-        <li>
-          <code>LockApp.exe</code> for Lock Screen
-        </li>
-        <li>
-          <code>SystemSettings.exe</code> for System Settings
-        </li>
-        <li>
-          <code>SecHealthUI.exe</code> for Windows Security
-        </li>
-      </ul>
-    </li>
-    <li>
-      Find the forked Styler mod in the "Installed Mods" section.
-    </li>
-    <li>
-      Go to the mod's "Settings" tab.
-    </li>
-    <li>
-      Switch to "Textual mode" and clear everything in the text editor.
-    </li>
-    <li>
-      Copy the YAML code from this GitHub repo.
-    </li>
-    <li>
-      Paste the YAML code into the mod settings' text editor.
-    </li>
-    <li>
-      Click "Save settings", and the changes take effect instantly. If the
-      System Settings or Windows Security app is open, close and relaunch it.
-    </li>
-  </ol>
+
+  1. [Fork a Styler mod](/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md),
+     changing a target process to:
+     * `LockApp.exe` for Lock Screen
+     * `SystemSettings.exe` for System Settings
+     * `SecHealthUI.exe` for Windows Security
+  2. Find the forked Styler mod in the "Installed Mods" section.
+  3. Go to the mod's "Settings" tab.
+  4. Switch to "Textual mode" and clear everything in the text editor.
+  5. Copy the YAML code from this GitHub repo.
+  6. Paste the YAML code into the mod settings' text editor.
+  7. Click "Save settings", and the changes take effect instantly. If the System
+     Settings or Windows Security app is open, close and relaunch it.
 </details>
 
 
@@ -242,94 +204,47 @@ First, install [Windhawk](https://windhawk.net/).
   <summary>
     <b>Translucent Text Input Background</b>
   </summary>
-  <ol>
-    <li>
-      Launch the Windhawk app.
-    </li>
-    <li>
-      Find the "Windows 11 Notification Center Styler" mod.
-    </li>
-    <li>
-      Go to the mod's "Advanced" tab.
-    </li>
-    <li>
-      Add <code>TextInputHost.exe</code> to the custom process inclusion list.
-    </li>
-    <li>
-      Click "Save".
-    </li>
-    <li>
-      Go to System Settings → Personalisation → Text input, and use Dark theme.
-    </li>
-    <li>
-      Restart <code>TextInputHost.exe</code> with Task Manager for changes to
-      take effect.
-    </li>
-  </ol>
+
+  1. Launch the Windhawk app.
+  2. Find the "Windows 11 Notification Center Styler" mod.
+  3. Go to the mod's "Advanced" tab.
+  4. Add `TextInputHost.exe` to the custom process inclusion list.
+  5. Click "Save".
+  6. Go to System Settings → Personalisation → Text input, and use Dark theme.
+  7. Restart `TextInputHost.exe` with Task Manager for changes to take effect.
 </details>
 
 <details>
   <summary>
     <b>Lock Screen: Custom Widgets Title Text</b>
   </summary>
-  <ol>
-    <li>
-      Launch the Windhawk app.
-    </li>
-    <li>
-      Find the forked Styler mod in the "Installed Mods" section.
-    </li>
-    <li>
-      Go to the mod's "Settings" tab.
-    </li>
-    <li>
-      Add
-      <code>StackPanel#WidgetGroupPanel > ContentPresenter[1] > LockCanvas.LockCanvasWidgetFrame > Grid > Grid#WidgetFrameGrid > Grid > ContentControl#WidgetHeaderContent > ContentPresenter > Widgets.UWP.WidgetView.WidgetHeader > Grid > StackPanel#DefaultTitleStackPanel > TextBlock</code>
-      to the Target text box.
-      <ul>
-        <li>
-          The number [1] in <code>ContentPresenter[1]</code> corresponds to
-          Widgets' 1st slot. To change the Weather widget's title (location
-          name) in the 2nd/3rd/4th slot, change [1] to [2], [3], or [4].
-        </li>
-      </ul>
-    </li>
-    <li>
-      Add <code>Text=</code> to the Styles text box, and type anything after
-      it - example: <code>Text=Windhawk Streets</code>.
-    </li>
-    <li>
-      Click "Save settings", and the changes take effect instantly.
-    </li>
-  </ol>
+
+  1. Launch the Windhawk app.
+  2. Find the forked Styler mod in the "Installed Mods" section.
+  3. Go to the mod's "Settings" tab.
+  4. Add this target to the Target text box:
+     `StackPanel#WidgetGroupPanel > ContentPresenter[1] > LockCanvas.LockCanvasWidgetFrame > Grid > Grid#WidgetFrameGrid > Grid > ContentControl#WidgetHeaderContent > ContentPresenter > Widgets.UWP.WidgetView.WidgetHeader > Grid > StackPanel#DefaultTitleStackPanel > TextBlock`
+     * The number [1] in `ContentPresenter[1]` corresponds to Widgets' 1st slot.
+       To change the Weather widget's title (location name) in the 2nd/3rd/4th
+       slot, change [1] to [2], [3], or [4].
+  5. Add `Text=` to the Styles text box, and type anything after it - example:
+     `Text=Windhawk Streets`.
+  6. Click "Save settings", and the changes take effect instantly.
 </details>
 
 <details>
   <summary>
     <b>System Settings: Custom User Profile Text</b>
   </summary>
-  <ol>
-    <li>
-      Launch the Windhawk app.
-    </li>
-    <li>
-      Find the forked Styler mod in the "Installed Mods" section.
-    </li>
-    <li>
-      Go to the mod's "Settings" tab.
-    </li>
-    <li>
-      Uncomment (remove <code>// </code> from) the first two targets:
-      <code>TextBlock#UserName</code> and <code>TextBlock#UserAccount</code>.
-    </li>
-    <li>
-      Edit the text in <code>Text=</code>.
-    </li>
-    <li>
-      Click "Save settings", and the changes take effect the next time you
-      launch the Settings app.
-    </li>
-  </ol>
+
+  1. Launch the Windhawk app.
+  2. Find the forked Styler mod in the "Installed Mods" section.
+  3. Go to the mod's "Settings" tab.
+  4. Uncomment (remove `// ` from) the first two targets: `TextBlock#UserName`
+     and `TextBlock#UserAccount`.
+  5. Edit the text in `Text=`.
+  6. Click "Save settings", and the changes take effect the next time you launch
+     the Settings app.
 </details>
 
 
