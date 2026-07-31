@@ -1,6 +1,3 @@
-theme: ''
-disableNewStartMenuLayout: 0
-
 controlStyles:
   # User Profile Text
   - target: // TextBlock#UserName
@@ -17,23 +14,44 @@ controlStyles:
   - target: StackPanel#SettingsCommandSearchBoxBackground
     styles:
       - CornerRadius=4
+
   - target: TextBox#CommandSearchTextBox
     styles:
       - CornerRadius=4
-  - target: TextBox#CommandSearchTextBox > Grid > Button#DeleteButton > Grid#ButtonLayoutGrid
+
+  - target: >
+      TextBox#CommandSearchTextBox > Grid > Button#DeleteButton >
+      Grid#ButtonLayoutGrid
     styles:
       - CornerRadius=3
 
-  # Page Title
+  # Page Title - Add little more space between the top Search Box and Page Title
   - target: ContentControl#HeaderContent > ContentPresenter
     styles:
       - Margin=0,20,0,0
 
   # Hide the MS 365 & OneDrive buttons
-  - target: SystemSettings.View.AlignableContentControl#heroContent > ContentPresenter > SystemSettings.View.AlignableContentControl > ItemsControl > ItemsPresenter > StackPanel > ContentPresenter > SystemSettings.View.AlignableContentControl > ContentPresenter > SystemSettings.View.HeroUserControl#HeroUserControl > Grid#LayoutRoot > ItemsControl#CharmGrid > ItemsPresenter > SystemSettings.View.EntityWrapPanel#CharmEntityWrapPanel > ContentPresenter[1]
+  - target: >
+      SystemSettings.View.AlignableContentControl#heroContent >
+      ContentPresenter > SystemSettings.View.AlignableContentControl >
+      ItemsControl > ItemsPresenter > StackPanel > ContentPresenter >
+      SystemSettings.View.AlignableContentControl > ContentPresenter >
+      SystemSettings.View.HeroUserControl#HeroUserControl > Grid#LayoutRoot >
+      ItemsControl#CharmGrid > ItemsPresenter >
+      SystemSettings.View.EntityWrapPanel#CharmEntityWrapPanel >
+      ContentPresenter[1]
     styles:
       - Visibility=Collapsed
-  - target: SystemSettings.View.AlignableContentControl#heroContent > ContentPresenter > SystemSettings.View.AlignableContentControl > ItemsControl > ItemsPresenter > StackPanel > ContentPresenter > SystemSettings.View.AlignableContentControl > ContentPresenter > SystemSettings.View.HeroUserControl#HeroUserControl > Grid#LayoutRoot > ItemsControl#CharmGrid > ItemsPresenter > SystemSettings.View.EntityWrapPanel#CharmEntityWrapPanel > ContentPresenter[2]
+
+  - target: >
+      SystemSettings.View.AlignableContentControl#heroContent >
+      ContentPresenter > SystemSettings.View.AlignableContentControl >
+      ItemsControl > ItemsPresenter > StackPanel > ContentPresenter >
+      SystemSettings.View.AlignableContentControl > ContentPresenter >
+      SystemSettings.View.HeroUserControl#HeroUserControl > Grid#LayoutRoot >
+      ItemsControl#CharmGrid > ItemsPresenter >
+      SystemSettings.View.EntityWrapPanel#CharmEntityWrapPanel >
+      ContentPresenter[2]
     styles:
       - Visibility=Collapsed
 
@@ -45,7 +63,16 @@ controlStyles:
 
   # Bluetooth & devices - Device names
   # Wrap the device names into two lines
-  - target: SystemSettings.View.SettingsListView#DevicesHeroControlList > Border > ScrollViewer#ScrollViewer > Border#Root > Grid > ScrollContentPresenter#ScrollContentPresenter > ItemsPresenter > StackPanel > SystemSettings.View.SettingsListViewItem > Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter#Root > ContentControl > ContentPresenter > UserControl > Button#DevicesHeroControlButton > ContentPresenter#ContentPresenter > StackPanel > ContentPresenter > StackPanel > ContentControl > ContentPresenter > TextBlock
+  - target: >
+      SystemSettings.View.SettingsListView#DevicesHeroControlList > Border >
+      ScrollViewer#ScrollViewer > Border#Root > Grid >
+      ScrollContentPresenter#ScrollContentPresenter > ItemsPresenter >
+      StackPanel > SystemSettings.View.SettingsListViewItem >
+      Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter#Root >
+      ContentControl > ContentPresenter > UserControl >
+      Button#DevicesHeroControlButton > ContentPresenter#ContentPresenter >
+      StackPanel > ContentPresenter > StackPanel > ContentControl >
+      ContentPresenter > TextBlock
     styles:
       - TextWrapping=2
       - MaxLines=2
@@ -58,17 +85,7 @@ controlStyles:
       - Background@OpenInlineLeft=Transparent
       - // Background@OpenOverlayLeft:=<SolidColorBrush FallbackColor="{StaticResource SystemChromeMediumColor}" />
       - // Background@Closed:=<SolidColorBrush FallbackColor="{StaticResource SystemChromeMediumColor}" />
+
   - target: SystemSettings.View.AlignableContentControl#PermanentNavViewHeaderAlignControl
     styles:
       - HorizontalAlignment=Left
-
-webContentStyles:
-  - target: ''
-    styles:
-      - ''
-webContentCustomJs: ''
-styleConstants:
-  - ''
-resourceVariables:
-  - variableKey: ''
-    value: ''

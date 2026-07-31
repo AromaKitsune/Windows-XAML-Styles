@@ -16,7 +16,6 @@ as Lock Screen.
 6. Remove the two lines of target processes, and replace the remaining target
    process with a different one:
   - `LockApp.exe` for Lock Screen
-  - `SystemSettings.exe` for System Settings
   - `SecHealthUI.exe` for Windows Security
 
 Before:

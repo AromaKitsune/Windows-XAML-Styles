@@ -1,6 +1,3 @@
-theme: ''
-disableNewStartMenuLayout: 0
-
 controlStyles:
   # Time & Date HUD container
   - target: StackPanel#TimeAndDatePanel
@@ -13,6 +10,7 @@ controlStyles:
   - target: StackPanel#TimePanel
     styles:
       - HorizontalAlignment=Left
+
   - target: StackPanel#TimePanel > TextBlock#Time
     styles:
       - TextAlignment=Left
@@ -27,9 +25,11 @@ controlStyles:
   - target: TextBlock#SpeedBumpText
     styles:
       - TextAlignment=Left
+
   - target: TextBlock#SecureGestureIcon
     styles:
       - Visibility=Collapsed
+
   - target: TextBlock#SecureGestureText
     styles:
       - TextAlignment=Left
@@ -49,25 +49,33 @@ controlStyles:
   - target: Grid#WidgetCanvasPanel
     styles:
       - Margin=32
+
   - target: StackPanel#WidgetsContainer
     styles:
       - HorizontalAlignment=Left
+
   - target: StackPanel#WidgetGroupPanel
     styles:
       - Margin=0
+
   - target: Grid#WidgetFrameGrid
     styles:
       - Background:=$MainBgColor
       - BorderBrush=$BorderColor
       - BorderThickness=1
       - CornerRadius=8
+
   - target: ContentPresenter#WidgetContent
     styles:
       - Background=Transparent
+
   - target: Border#WidgetBorder
     styles:
       - BorderThickness=0
-  - target: StackPanel#WidgetGroupPanel > ContentPresenter > LockCanvas.LockCanvasWidgetFrame > Grid > Border
+
+  - target: >
+      StackPanel#WidgetGroupPanel > ContentPresenter >
+      LockCanvas.LockCanvasWidgetFrame > Grid > Border
     styles:
       - BorderThickness=0
 
@@ -103,15 +111,18 @@ controlStyles:
     styles:
       - VerticalAlignment=Top
       - Margin=0,10,0,0
+
   - target: Grid#MediaTransportControls > StackPanel > TextBlock
     styles:
       - TextAlignment=Left
+
   - target: Grid#MediaTransportControls > StackPanel > TextBlock[1]
     styles:
       - Foreground=#FFFFFF
       - FontSize=24
       - TextWrapping=2
       - MaxLines=2
+
   - target: Grid#MediaTransportControls > StackPanel > TextBlock[2]
     styles:
       - Foreground=#FFFFFF
@@ -131,24 +142,35 @@ controlStyles:
   - target: Windows.UI.Xaml.Controls.Primitives.RepeatButton#PreviousButton
     styles:
       - Margin=4,0,0,0
-  - target: Windows.UI.Xaml.Controls.Primitives.RepeatButton#PreviousButton > ContentPresenter#ContentPresenter@CommonStates > TextBlock
+
+  - target: >
+      Windows.UI.Xaml.Controls.Primitives.RepeatButton#PreviousButton >
+      ContentPresenter#ContentPresenter@CommonStates > TextBlock
     styles:
       - Foreground@Normal=#FFFFFF
       - Foreground@PointerOver=#FFFFFF
       - Text=
       - FontSize=20
+
   - target: Button#PlayPauseButton
     styles:
       - Margin=26,0,26,0
-  - target: Button#PlayPauseButton > ContentPresenter#ContentPresenter@CommonStates > TextBlock
+
+  - target: >
+      Button#PlayPauseButton > ContentPresenter#ContentPresenter@CommonStates >
+      TextBlock
     styles:
       - Foreground@Normal=#FFFFFF
       - Foreground@PointerOver=#FFFFFF
       - FontSize=20
+
   - target: Windows.UI.Xaml.Controls.Primitives.RepeatButton#NextButton
     styles:
       - Margin=0,0,4,0
-  - target: Windows.UI.Xaml.Controls.Primitives.RepeatButton#NextButton > ContentPresenter#ContentPresenter@CommonStates > TextBlock
+
+  - target: >
+      Windows.UI.Xaml.Controls.Primitives.RepeatButton#NextButton >
+      ContentPresenter#ContentPresenter@CommonStates > TextBlock
     styles:
       - Foreground@Normal=#FFFFFF
       - Foreground@PointerOver=#FFFFFF
@@ -156,32 +178,51 @@ controlStyles:
       - FontSize=20
 
   # Media Controls - Media Buttons' visual states
-  - target: Windows.UI.Xaml.Controls.Primitives.RepeatButton#PreviousButton > ContentPresenter#ContentPresenter@CommonStates
+  - target: >
+      Windows.UI.Xaml.Controls.Primitives.RepeatButton#PreviousButton >
+      ContentPresenter#ContentPresenter@CommonStates
     styles:
       - Background@Normal:=<SolidColorBrush Color="{ThemeResource ControlFillColorDefault}" />
       - Background@PointerOver:=<SolidColorBrush Color="{ThemeResource ControlFillColorSecondary}" />
       - Background@Pressed:=<SolidColorBrush Color="{ThemeResource ControlFillColorTertiary}" />
-      - BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"> <GradientStop Color="{ThemeResource ControlStrokeColorSecondary}" Offset="0.1" /> <GradientStop Color="{ThemeResource ControlStrokeColorDefault}" Offset="0.11" /> </LinearGradientBrush>
+      - >
+        BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="{ThemeResource ControlStrokeColorSecondary}" Offset="0.1" />
+        <GradientStop Color="{ThemeResource ControlStrokeColorDefault}" Offset="0.11" />
+        </LinearGradientBrush>
       - BorderThickness=1
       - Width=44
       - Height=44
       - Padding=0
-  - target: Button#PlayPauseButton > ContentPresenter#ContentPresenter@CommonStates
+
+  - target: >
+      Button#PlayPauseButton > ContentPresenter#ContentPresenter@CommonStates
     styles:
       - Background@Normal:=<SolidColorBrush Color="{ThemeResource ControlFillColorDefault}" />
       - Background@PointerOver:=<SolidColorBrush Color="{ThemeResource ControlFillColorSecondary}" />
       - Background@Pressed:=<SolidColorBrush Color="{ThemeResource ControlFillColorTertiary}" />
-      - BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"> <GradientStop Color="{ThemeResource ControlStrokeColorSecondary}" Offset="0.1" /> <GradientStop Color="{ThemeResource ControlStrokeColorDefault}" Offset="0.11" /> </LinearGradientBrush>
+      - >
+        BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="{ThemeResource ControlStrokeColorSecondary}" Offset="0.1" />
+        <GradientStop Color="{ThemeResource ControlStrokeColorDefault}" Offset="0.11" />
+        </LinearGradientBrush>
       - BorderThickness=1
       - Width=44
       - Height=44
       - Padding=0
-  - target: Windows.UI.Xaml.Controls.Primitives.RepeatButton#NextButton > ContentPresenter#ContentPresenter@CommonStates
+
+  - target: >
+      Windows.UI.Xaml.Controls.Primitives.RepeatButton#NextButton >
+      ContentPresenter#ContentPresenter@CommonStates
     styles:
       - Background@Normal:=<SolidColorBrush Color="{ThemeResource ControlFillColorDefault}" />
       - Background@PointerOver:=<SolidColorBrush Color="{ThemeResource ControlFillColorSecondary}" />
       - Background@Pressed:=<SolidColorBrush Color="{ThemeResource ControlFillColorTertiary}" />
-      - BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"> <GradientStop Color="{ThemeResource ControlStrokeColorSecondary}" Offset="0.1" /> <GradientStop Color="{ThemeResource ControlStrokeColorDefault}" Offset="0.11" /> </LinearGradientBrush>
+      - >
+        BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+        <GradientStop Color="{ThemeResource ControlStrokeColorSecondary}" Offset="0.1" />
+        <GradientStop Color="{ThemeResource ControlStrokeColorDefault}" Offset="0.11" />
+        </LinearGradientBrush>
       - BorderThickness=1
       - Width=44
       - Height=44
@@ -191,18 +232,11 @@ controlStyles:
   - target: Grid#AlarmsIconPanelPadding
     styles:
       - Visibility=Collapsed
+
   - target: Grid#AlarmsIconPanel
     styles:
       - Visibility=Collapsed
 
-webContentStyles:
-  - target: ''
-    styles:
-      - ''
-webContentCustomJs: ''
 styleConstants:
   - MainBgColor=<WindhawkBlur BlurAmount="25" TintColor="#25323232" />
   - BorderColor=#40202020
-resourceVariables:
-  - variableKey: ''
-    value: ''

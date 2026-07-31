@@ -49,6 +49,10 @@ For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-
     * ℹ️ Only the text labels are removed, without affecting the keyboard
       shortcuts' functionality :)
 
+**Command Bar buttons addition/removal note:** I recommend installing the
+[Explorer Command Bar](https://windhawk.net/mods/explorer-command-bar) mod to
+add custom buttons and hide the built-in buttons.
+
 ---
 
 ## Notification Center & Control Center
@@ -108,8 +112,7 @@ Target process: `LockApp.exe`
 
 ## System Settings
 
-For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) -
-Target process: `SystemSettings.exe`
+For [Windows 11 Settings Styler](https://windhawk.net/mods/windows-11-settings-styler)
 
 [YAML code](/styles/SystemSettings.yaml)
 
@@ -165,12 +168,12 @@ First, install [Windhawk](https://windhawk.net/).
 
 <details>
   <summary>
-    <b>File Explorer / Notification Center & Control Center</b>
+    <b>File Explorer / Notification Center & Control Center/ System Settings</b>
   </summary>
 
   1. Launch the Windhawk app.
   2. Click the "Explore" button.
-  3. Find and install the "Windows 11 [process] Styler" mod.
+  3. Find and install the "Windows 11 [XAML] Styler" mod.
   4. Go to the mod's "Settings" tab.
   5. Switch to "Textual mode" and clear everything in the text editor.
   6. Copy the YAML code from this GitHub repo.
@@ -180,21 +183,20 @@ First, install [Windhawk](https://windhawk.net/).
 
 <details>
   <summary>
-    <b>Lock Screen / System Settings / Windows Security</b>
+    <b>Lock Screen / Windows Security</b>
   </summary>
 
   1. [Fork a Styler mod](/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md),
      changing a target process to:
      * `LockApp.exe` for Lock Screen
-     * `SystemSettings.exe` for System Settings
      * `SecHealthUI.exe` for Windows Security
   2. Find the forked Styler mod in the "Installed Mods" section.
   3. Go to the mod's "Settings" tab.
   4. Switch to "Textual mode" and clear everything in the text editor.
   5. Copy the YAML code from this GitHub repo.
   6. Paste the YAML code into the mod settings' text editor.
-  7. Click "Save settings", and the changes take effect instantly. If the System
-     Settings or Windows Security app is open, close and relaunch it.
+  7. Click "Save settings", and the changes take effect instantly. If the
+     Windows Security app is open, close and relaunch it.
 </details>
 
 
