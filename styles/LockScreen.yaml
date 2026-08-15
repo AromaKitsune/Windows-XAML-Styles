@@ -1,12 +1,12 @@
 controlStyles:
-  # Time & Date HUD container
+  # Time & Date Panel container
   - target: StackPanel#TimeAndDatePanel
     styles:
       - VerticalAlignment=Top
       - HorizontalAlignment=Left
       - Margin=48,24,48,0
 
-  # Time HUD
+  # Time Panel
   - target: StackPanel#TimePanel
     styles:
       - HorizontalAlignment=Left
@@ -15,7 +15,7 @@ controlStyles:
     styles:
       - TextAlignment=Left
 
-  # Date HUD
+  # Date Panel
   - target: StackPanel#TimeAndDatePanel > TextBlock#Date
     styles:
       - TextAlignment=Left
@@ -34,7 +34,7 @@ controlStyles:
     styles:
       - TextAlignment=Left
 
-  # Fun facts, Tips, and `Like the image that you see?`
+  # Fun facts, Tips, and "Like the image that you see?"
   - target: Grid#HotspotContainer
     styles:
       - Visibility=Collapsed

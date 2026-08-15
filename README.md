@@ -92,7 +92,7 @@ Target process: `LockApp.exe`
 ![](/screenshots/LockScreen.png)
 
 ### List of UI tweaks:
-* Moved the Time & Date HUD to the top-left corner of the screen
+* Moved the Time & Date Panel to the top-left corner of the screen
 * Media Controls:
   * Translucent background
   * Large album art image

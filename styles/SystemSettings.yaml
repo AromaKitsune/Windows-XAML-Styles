@@ -1,3 +1,5 @@
+theme: ClassicSearchBar
+
 controlStyles:
   # User Profile Text
   - target: // TextBlock#UserName
@@ -5,30 +7,11 @@ controlStyles:
       - Text=Username Here
       - FontSize=16
       - ToolTipService.ToolTip:=
+
   - target: // TextBlock#UserAccount
     styles:
       - Text=Microsoft Account
       - ToolTipService.ToolTip:=
-
-  # Search Box
-  - target: StackPanel#SettingsCommandSearchBoxBackground
-    styles:
-      - CornerRadius=4
-
-  - target: TextBox#CommandSearchTextBox
-    styles:
-      - CornerRadius=4
-
-  - target: >
-      TextBox#CommandSearchTextBox > Grid > Button#DeleteButton >
-      Grid#ButtonLayoutGrid
-    styles:
-      - CornerRadius=3
-
-  # Page Title - Add little more space between the top Search Box and Page Title
-  - target: ContentControl#HeaderContent > ContentPresenter
-    styles:
-      - Margin=0,20,0,0
 
   # Hide the MS 365 & OneDrive buttons
   - target: >
@@ -79,13 +62,8 @@ controlStyles:
 
   # Fix some issues when navigating to Personalization → Background
   # - The in-line navigation pane BG becomes opaque, resulting in no Mica effect
-  # - The page title is center aligned when leaving the Background section
   - target: Grid@DisplayModeStates > Grid#PaneRoot
     styles:
       - Background@OpenInlineLeft=Transparent
       - // Background@OpenOverlayLeft:=<SolidColorBrush FallbackColor="{StaticResource SystemChromeMediumColor}" />
       - // Background@Closed:=<SolidColorBrush FallbackColor="{StaticResource SystemChromeMediumColor}" />
-
-  - target: SystemSettings.View.AlignableContentControl#PermanentNavViewHeaderAlignControl
-    styles:
-      - HorizontalAlignment=Left

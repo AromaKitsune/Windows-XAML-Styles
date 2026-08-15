@@ -18,7 +18,7 @@ controlStyles:
     styles:
       - Background:=$MainBgColor
 
-  # Page Title
+  # Page Title - Security at a glance
   - target: TextBlock#title
     styles:
       - FontSize=28
@@ -28,6 +28,7 @@ controlStyles:
     styles:
       - FontSize=16
 
+  # Page Title - Category pages
   - target: TextBlock#PageTitle
     styles:
       - FontSize=28
