@@ -16,8 +16,9 @@ If this is your first time customising the XAML styles, check out the
    `Win`+`L`.
 5. The UWPSpy window should appear on the Lock Screen, you can now customise it.
 
-If you're customising the lock screen in a virtual machine, use an AutoHotkey
-script that lets you lock your guest OS session with `Ctrl`+`L`.
+If you're customising the lock screen in a virtual machine, do not hit
+`Win`+`L`, as it locks the host OS session. Instead, use an AutoHotkey script
+that lets you lock the guest OS session with `Ctrl`+`L`.
 ```
 ^l::DllCall("user32.dll\LockWorkStation")
 ```
