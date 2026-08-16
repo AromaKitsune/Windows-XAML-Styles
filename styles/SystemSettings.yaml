@@ -62,8 +62,13 @@ controlStyles:
 
   # Fix some issues when navigating to Personalization → Background
   # - The in-line navigation pane BG becomes opaque, resulting in no Mica effect
+  # - The page title is center aligned when leaving the Background section
   - target: Grid@DisplayModeStates > Grid#PaneRoot
     styles:
       - Background@OpenInlineLeft=Transparent
       - // Background@OpenOverlayLeft:=<SolidColorBrush FallbackColor="{StaticResource SystemChromeMediumColor}" />
       - // Background@Closed:=<SolidColorBrush FallbackColor="{StaticResource SystemChromeMediumColor}" />
+
+  - target: SystemSettings.View.AlignableContentControl#PermanentNavViewHeaderAlignControl
+    styles:
+      - HorizontalAlignment=Left
