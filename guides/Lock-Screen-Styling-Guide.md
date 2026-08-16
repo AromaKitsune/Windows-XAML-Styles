@@ -29,9 +29,9 @@ tighter, and you have to do it fast.
 
 https://github.com/user-attachments/assets/0d58605e-544b-4918-99bf-126fc54bafec
 
-**Note:** Don't just use `Margin` to move the Time and Date HUD as shown in this
-video. Instead, use `HorizontalAlignment` and `VerticalAlignment` so it aligns
-well with different screen resolutions.
+**Note:** Don't just use `Margin` to move the Time and Date panel as shown in
+this video. Instead, use `HorizontalAlignment` and `VerticalAlignment` so it
+aligns well with different screen resolutions.
 
 While customising the Lock Screen, you cannot copy the target elements texts to
 clipboard. To workaround this:
@@ -55,12 +55,13 @@ Once you got those target elements:
 4. Add those targets and styles in the "Control styles" section.
 5. Click "Save settings", and the changes take effect instantly.
 
+---
 
 ## List of target UI elements (Windows 11)
 
-## Time & Date HUD
+## Time & Date Panel
 
-### Time & Date HUD container
+### Time & Date Panel container
 
 Target:
 ```
@@ -74,7 +75,7 @@ HorizontalAlignment=Left
 Margin=50,20,0,0
 ```
 
-### Time HUD
+### Time Panel
 
 Target:
 ```
@@ -86,7 +87,7 @@ Style:
 HorizontalAlignment=Left
 ```
 
-### Date HUD
+### Date Panel
 
 Target:
 ```
@@ -98,6 +99,7 @@ Style:
 HorizontalAlignment=Left
 ```
 
+---
 
 ## Fun Facts, Tips, and "Like the image that you see?"
 
@@ -137,6 +139,7 @@ Style:
 Visibility=Collapsed
 ```
 
+---
 
 ## Status icons
 
