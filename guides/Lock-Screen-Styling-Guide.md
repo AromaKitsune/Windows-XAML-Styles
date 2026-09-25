@@ -30,7 +30,7 @@ tighter, and you have to do it fast.
 
 https://github.com/user-attachments/assets/0d58605e-544b-4918-99bf-126fc54bafec
 
-**Note:** Don't just use `Margin` to move the Time and Date panel as shown in
+**Note:** Don't just use `Margin` to move the time and date panel as shown in
 this video. Instead, use `HorizontalAlignment` and `VerticalAlignment` so it
 aligns well with different screen resolutions.
 
@@ -51,7 +51,7 @@ clipboard. To workaround this:
 Once you got those target elements:
 1. [Fork a Styler mod](/guides/Forking-Styler-Mod-for-Other-UWP-Apps.md),
    changing a target process to `LockApp.exe`.
-2. Find the forked Styler mod in the "Installed Mods" section.
+2. Find the forked Styler mod in the "Installed mods" section.
 3. Go to the mod's "Settings" tab.
 4. Add those targets and styles in the "Control styles" section.
 5. Click "Save settings", and the changes take effect instantly.
@@ -60,9 +60,9 @@ Once you got those target elements:
 
 ## List of target UI elements (Windows 11)
 
-## Time & Date Panel
+## Time & date panel
 
-### Time & Date Panel container
+### Time & date panel container
 
 Target:
 ```
@@ -76,7 +76,7 @@ HorizontalAlignment=Left
 Margin=50,20,0,0
 ```
 
-### Time Panel
+### Time panel
 
 Target:
 ```
@@ -88,7 +88,7 @@ Style:
 HorizontalAlignment=Left
 ```
 
-### Date Panel
+### Date panel
 
 Target:
 ```
@@ -102,7 +102,7 @@ HorizontalAlignment=Left
 
 ---
 
-## Fun Facts, Tips, and "Like the image that you see?"
+## Fun facts, tips, and "Like the image that you see?"
 
 ### All of those
 
@@ -116,7 +116,7 @@ Style:
 Visibility=Collapsed
 ```
 
-### Fun Facts / Tips
+### Fun facts / tips
 
 Target:
 ```

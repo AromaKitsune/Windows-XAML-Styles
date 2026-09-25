@@ -4,7 +4,7 @@ mods for Windows 11.
 
 These styles have been tested on Win11, version 25H2.
 
-## Styles for Apps using XAML
+## Styles for apps using XAML
 * [File Explorer](#file-explorer)
 * [Notification Center & Control Center](#notification-center--control-center)
 * [Lock Screen](#lock-screen)
@@ -12,7 +12,7 @@ These styles have been tested on Win11, version 25H2.
 * [Windows Security](#windows-security)
 
 ## Info
-* [How to apply Custom XAML Styles](#how-to-apply-custom-xaml-styles)
+* [How to apply custom XAML styles](#how-to-apply-custom-xaml-styles)
 * [Further configuration](#further-configuration)
 * [How to make my own custom XAML styles?](#how-to-make-my-own-custom-xaml-styles)
 
@@ -29,14 +29,14 @@ For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-
 ### List of UI tweaks:
 * Removed the tab's Close button
   * ℹ️ To close the tab, middle-click it or press `Ctrl`+`W`.
-* Navigation Bar & Command Bar:
+* Navigation bar & command bar:
   * Alternative button glyphs: Back, Forward, Up, More
   * Mica effect extended to the Command Bar
   * Italicised search box text - The same way it was in Windows Vista and 7
-* Details Pane:
+* Details pane:
   * Dynamic image container height
   * Removed the Share button
-* Context Menu:
+* Context menu:
   * Removed the two "Share" menu items
   * Removed the "Show more options" menu item
     * ℹ️ To use the legacy context menu, hold Shift + right-click.
@@ -76,7 +76,7 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
 * Control Center
   * Appears from the right (instead of bottom), just like the Notification
     Center
-  * Large album art image for the Media Controls
+  * Large album art image for the media controls
 * Translucent Text Input background
   * ℹ️ Read the "further configuration" section after first applying styles.
 
@@ -92,8 +92,8 @@ Target process: `LockApp.exe`
 ![](/screenshots/LockScreen.png)
 
 ### List of UI tweaks:
-* Moved the Time & Date Panel to the top-left corner of the screen
-* Media Controls:
+* Moved the time & date panel to the top-left corner of the screen
+* Media controls:
   * Translucent background
   * Large album art image
 * Widgets:
@@ -102,7 +102,7 @@ Target process: `LockApp.exe`
   * Custom title text - Replace the Weather location name with anything you
     want. No more leaking your current location! :D
     * ℹ️ Read the "further configuration" section after first applying styles.
-* Removed the UI elements for Fun Facts, Tips, and "Like the image that you
+* Removed the UI elements for fun facts, tips, and "Like the image that you
   see?"
   * ℹ️ Those can be turned off via System Settings → Personalisation → Lock
     screen, but it affects only the non-Spotlight pics.
@@ -162,7 +162,7 @@ Target process: `SecHealthUI.exe`
 
 ---
 
-## How to apply Custom XAML Styles
+## How to apply custom XAML styles
 
 First, install [Windhawk](https://windhawk.net/).
 
@@ -190,7 +190,7 @@ First, install [Windhawk](https://windhawk.net/).
      changing a target process to:
      * `LockApp.exe` for Lock Screen
      * `SecHealthUI.exe` for Windows Security
-  2. Find the forked Styler mod in the "Installed Mods" section.
+  2. Find the forked Styler mod in the "Installed mods" section.
   3. Go to the mod's "Settings" tab.
   4. Switch to "Textual mode" and clear everything in the text editor.
   5. Copy the YAML code from this GitHub repo.
@@ -204,7 +204,7 @@ First, install [Windhawk](https://windhawk.net/).
 
 <details>
   <summary>
-    <b>Translucent Text Input Background</b>
+    <b>Translucent Text Input background</b>
   </summary>
 
   1. Launch the Windhawk app.
@@ -218,11 +218,11 @@ First, install [Windhawk](https://windhawk.net/).
 
 <details>
   <summary>
-    <b>Lock Screen: Custom Widgets Title Text</b>
+    <b>Lock Screen: Custom Widgets title text</b>
   </summary>
 
   1. Launch the Windhawk app.
-  2. Find the forked Styler mod in the "Installed Mods" section.
+  2. Find the forked Styler mod in the "Installed mods" section.
   3. Go to the mod's "Settings" tab.
   4. Add this target to the Target text box:
      `StackPanel#WidgetGroupPanel > ContentPresenter[1] > LockCanvas.LockCanvasWidgetFrame > Grid > Grid#WidgetFrameGrid > Grid > ContentControl#WidgetHeaderContent > ContentPresenter > Widgets.UWP.WidgetView.WidgetHeader > Grid > StackPanel#DefaultTitleStackPanel > TextBlock`
@@ -230,17 +230,17 @@ First, install [Windhawk](https://windhawk.net/).
        To change the Weather widget's title (location name) in the 2nd/3rd/4th
        slot, change [1] to [2], [3], or [4].
   5. Add `Text=` to the Styles text box, and type anything after it - example:
-     `Text=Windhawk Streets`.
+     `Text=Windhawk Street`.
   6. Click "Save settings", and the changes take effect instantly.
 </details>
 
 <details>
   <summary>
-    <b>System Settings: Custom User Profile Text</b>
+    <b>System Settings: Custom user profile text</b>
   </summary>
 
   1. Launch the Windhawk app.
-  2. Find the forked Styler mod in the "Installed Mods" section.
+  2. Find the forked Styler mod in the "Installed mods" section.
   3. Go to the mod's "Settings" tab.
   4. Uncomment (remove `// ` from) the first two targets: `TextBlock#UserName`
      and `TextBlock#UserAccount`.

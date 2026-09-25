@@ -24,6 +24,6 @@ Before:
 After:
 ![](/screenshots/Fork3.png)
 
-7. When done, click the "Compile Mod" button.
-8. Click "Exit Editing Mode", and this compiled mod should appear in the
-   "Installed Mods" section.
+7. When done, click the "Compile mod" button.
+8. Exit the editor, and this compiled mod should appear in the
+   "Installed mods" section.
