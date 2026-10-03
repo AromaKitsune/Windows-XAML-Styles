@@ -7,7 +7,8 @@ If this is your first time customising the XAML styles, check out the
 
 > [!NOTE]
 > Custom lock screen styles do not preserve after log out or system restart,
-> because the lock screen is hosted by `LogonUI.exe` instead of `LockApp.exe`.
+> because the lock screen in this state is hosted by `LogonUI.exe` instead of
+> `LockApp.exe`.
 
 1. Launch UWPSpy.
 2. Look for `LockApp.exe`. If it doesn't show up, lock your PC at least once by
@@ -24,9 +25,9 @@ that lets you lock the guest OS session with `Ctrl`+`L`.
 ^l::DllCall("user32.dll\LockWorkStation")
 ```
 
-`Ctrl`+`Alt`+`Del` method (without AHK). Not recommended because the timing is
-tighter, and you have to do it fast.
-* VirtualBox: `Enter` → `Right Ctrl`+`Delete` → `Enter`
+It can be done without AHK, but not recommended because the timing is tighter,
+and you have to do it fast.
+* VirtualBox: `Enter` → host key (default: `Right Ctrl`)+`Delete` → `Enter`
 * VMware Workstation: `Enter` → `Ctrl`+`Alt`+`Insert` → `Enter`
 
 https://github.com/user-attachments/assets/0d58605e-544b-4918-99bf-126fc54bafec
