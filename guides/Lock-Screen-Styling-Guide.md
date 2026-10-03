@@ -6,7 +6,8 @@ If this is your first time customising the XAML styles, check out the
 [UWPSpy usage guide](https://github.com/bbmaster123/FWFU/blob/main/uwpspy.md).
 
 > [!NOTE]
-> Custom lock screen styles do not preserve after log out or system restart.
+> Custom lock screen styles do not preserve after log out or system restart,
+> because the lock screen is hosted by `LogonUI.exe` instead of `LockApp.exe`.
 
 1. Launch UWPSpy.
 2. Look for `LockApp.exe`. If it doesn't show up, lock your PC at least once by
