@@ -13,7 +13,78 @@ controlStyles:
       - Text=Microsoft Account
       - ToolTipService.ToolTip:=
 
-  # Hide the MS 365 & OneDrive buttons
+  # Banner
+  - target: >
+      SystemSettings.View.AlignableContentControl#heroContent >
+      ContentPresenter > SystemSettings.View.AlignableContentControl >
+      ItemsControl > ItemsPresenter > StackPanel > ContentPresenter >
+      SystemSettings.View.AlignableContentControl > ContentPresenter >
+      SystemSettings.View.HeroUserControl#HeroUserControl > Grid#LayoutRoot >
+      Grid#ProfileLayout
+    styles:
+      - MaxWidth:=
+
+  - target: >
+      SystemSettings.View.AlignableContentControl#heroContent >
+      ContentPresenter > SystemSettings.View.AlignableContentControl >
+      ItemsControl > ItemsPresenter > StackPanel > ContentPresenter >
+      SystemSettings.View.AlignableContentControl > ContentPresenter >
+      SystemSettings.View.HeroUserControl#HeroUserControl > Grid#LayoutRoot >
+      Grid#ProfileLayout > Border > ItemsControl > ItemsPresenter > StackPanel >
+      ContentPresenter[1] > StackPanel#SystemHeroContentStack
+    styles:
+      - Margin=0
+
+  # Banner - PC Name
+  - target: >
+      // SystemSettings.View.AlignableContentControl#heroContent >
+      ContentPresenter > SystemSettings.View.AlignableContentControl >
+      ItemsControl > ItemsPresenter > StackPanel > ContentPresenter >
+      SystemSettings.View.AlignableContentControl > ContentPresenter >
+      SystemSettings.View.HeroUserControl#HeroUserControl > Grid#LayoutRoot >
+      Grid#ProfileLayout > Border > ItemsControl > ItemsPresenter > StackPanel >
+      ContentPresenter[1] > StackPanel#SystemHeroContentStack > TextBlock#Title
+    styles:
+      - ''
+
+  # Banner - Motherboard Name
+  - target: >
+      SystemSettings.View.AlignableContentControl#heroContent >
+      ContentPresenter > SystemSettings.View.AlignableContentControl >
+      ItemsControl > ItemsPresenter > StackPanel > ContentPresenter >
+      SystemSettings.View.AlignableContentControl > ContentPresenter >
+      SystemSettings.View.HeroUserControl#HeroUserControl > Grid#LayoutRoot >
+      Grid#ProfileLayout > Border > ItemsControl > ItemsPresenter > StackPanel >
+      ContentPresenter[1] > StackPanel#SystemHeroContentStack >
+      TextBlock#Description
+    styles:
+      - FontWeight:=
+
+  # Banner - Hide the "Rename" button
+  - target: >
+      SystemSettings.View.AlignableContentControl#heroContent >
+      ContentPresenter > SystemSettings.View.AlignableContentControl >
+      ItemsControl > ItemsPresenter > StackPanel > ContentPresenter >
+      SystemSettings.View.AlignableContentControl > ContentPresenter >
+      SystemSettings.View.HeroUserControl#HeroUserControl > Grid#LayoutRoot >
+      Grid#ProfileLayout > Border > ItemsControl > ItemsPresenter > StackPanel >
+      ContentPresenter[1] > StackPanel#SystemHeroContentStack > HyperlinkButton
+    styles:
+      - Visibility=Collapsed
+
+  # Banner - Hide the "System requirements not met" text
+  - target: >
+      SystemSettings.View.AlignableContentControl#heroContent >
+      ContentPresenter > SystemSettings.View.AlignableContentControl >
+      ItemsControl > ItemsPresenter > StackPanel > ContentPresenter >
+      SystemSettings.View.AlignableContentControl > ContentPresenter >
+      SystemSettings.View.HeroUserControl#HeroUserControl > Grid#LayoutRoot >
+      Grid#ProfileLayout > Border > ItemsControl > ItemsPresenter > StackPanel >
+      ContentPresenter[2] > Grid#UnsupportedHardwareContentGrid
+    styles:
+      - Visibility=Collapsed
+
+  # Banner - Hide the MS 365 & OneDrive buttons
   - target: >
       SystemSettings.View.AlignableContentControl#heroContent >
       ContentPresenter > SystemSettings.View.AlignableContentControl >

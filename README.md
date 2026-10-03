@@ -119,12 +119,18 @@ For [Windows 11 Settings Styler](https://windhawk.net/mods/windows-11-settings-s
 ![](/screenshots/SystemSettings.png)
 
 ### List of UI tweaks:
+* Styler mod's built-in theme: ClassicSearchBar
+  * ℹ️ If you prefer the search bar on the title bar, set the "Theme" setting
+  to "None".
 * Custom user profile text - Replace the user name text and "Local Account" text
   (or email address text, if linked with a MS account) with anything you want.
   No more leaking your real/full name and email address! :D
   * ℹ️ Read the "further configuration" section after first applying styles.
-* Removed the MS 365 and OneDrive buttons from the System page
-* Changed the pill shaped search box to a rectangle shaped one
+* System page banner
+  * Removed the "Rename" button as it is redundant, and can be done via
+    System → About
+  * Removed the "System requirements not met" text
+  * Removed the MS 365 and OneDrive buttons
 * Made the unfilled portion of network data usage indicator bars less eyesore
   with Dark theme
 
