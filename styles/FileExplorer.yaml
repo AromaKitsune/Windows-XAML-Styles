@@ -106,7 +106,9 @@ controlStyles:
       - Height=16
 
   # Command Bar
-  - target: Grid#CommandBarControlRootGrid
+  - target: >
+      FileExplorerExtensions.CommandBarControl_Wave1 > Grid,
+      Grid#CommandBarControlRootGrid
     styles:
       - Background:=<SolidColorBrush Color="{ThemeResource LayerOnMicaBaseAltFillColorDefault}" Opacity="1" />
       - BorderThickness=0,0,0,1
@@ -114,9 +116,12 @@ controlStyles:
   - target: CommandBar#FileExplorerCommandBar
     styles:
       - Background=Transparent
+
+  - target: CommandBar#FileExplorerCommandBar > Grid#LayoutRoot
+    styles:
       - Margin=0,-4,0,0
 
-  - target: CommandBar#FileExplorerSecondaryCommandBar
+  - target: CommandBar#FileExplorerSecondaryCommandBar > Grid#LayoutRoot
     styles:
       - Margin=0,-4,0,0
 
