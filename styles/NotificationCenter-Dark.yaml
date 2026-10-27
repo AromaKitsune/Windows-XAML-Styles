@@ -217,8 +217,3 @@ controlStyles:
   - target: StackPanel#PrimaryAndSecondaryTextContainer > TextBlock#Subtitle
     styles:
       - TextAlignment=Center
-
-  # Fix the Wi-Fi/Bluetooth toggle switch misalignment
-  - target: ToggleSwitch#HeaderToggleSwitch > Grid > Grid
-    styles:
-      - MinWidth:=
