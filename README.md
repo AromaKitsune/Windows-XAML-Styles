@@ -9,6 +9,7 @@ These styles have been tested on Win11, version 25H2.
 * [Notification Center & Control Center](#notification-center--control-center)
 * [Lock Screen](#lock-screen)
 * [System Settings](#system-settings)
+* [Taskbar](#taskbar)
 * [Windows Security](#windows-security)
 
 ## Info
@@ -84,7 +85,7 @@ recommended to install the
 "[Quick Settings Media Progress Bar](https://windhawk.net/mods/quick-settings-media-progress-bar)"
 mod to add a slider bar to the Control Center's media player widget.
 
-### ⚠ Important note: Media controls
+### ⚠️ Important note: Media controls
 The large media player widget is intended for high resolution and low DPI
 scaling. It will not fit in the screen if the screen resolution is low and DPI
 scaling is high!
@@ -169,6 +170,25 @@ For [Windows 11 Settings Styler](https://windhawk.net/mods/windows-11-settings-s
   </details>
 
 * Wrapped the (Bluetooth) device names into two lines
+
+---
+
+## Taskbar
+
+For [Windows 11 Taskbar Styler](https://windhawk.net/mods/windows-11-taskbar-styler)
+
+[YAML code](/styles/Taskbar.yaml)
+
+![](/screenshots/OSD.png)
+
+### List of UI tweaks:
+* Stacked-layout OSD card for volume and brightness indicators
+  * ℹ️ Because the virtual desktop indicator shares the same OSD card, it is
+    also enlarged, leaving wasted space around the "Desktop N" text, and cannot
+    be reverted to a compact layout individually. It is recommended to install
+    the
+    "[Disable Virtual Desktop Popups](https://windhawk.net/mods/virtual-desktop-popups-disable)"
+    mod to suppress this popup.
 
 ---
 

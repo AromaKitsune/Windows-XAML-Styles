@@ -1,0 +1,73 @@
+controlStyles:
+  # On-Screen Indicator
+  - target: Grid#ConfirmatorMainGrid
+    styles:
+      - Width=200
+      - Height=200
+      - Margin=0,0,0,120
+
+  # On-Screen Indicator - Volume OSD
+  - target: Grid#VolumeConfirmator
+    styles:
+      - VerticalAlignment:=
+      - Padding=16,0,16,0
+      - ColumnDefinitions:=
+
+  # On-Screen Indicator - Volume OSD: Volume Button
+  - target: Grid#VolumeConfirmator > Button
+    styles:
+      - Width=96
+      - Height=96
+      - VerticalAlignment=Bottom
+      - Margin=0,0,0,64
+
+  # On-Screen Indicator - Volume OSD: Volume Icon
+  - target: >-
+      Grid#VolumeConfirmator > Button > ContentPresenter#ContentPresenter >
+      Microsoft.UI.Xaml.Controls.AnimatedIcon#VolumeIcon
+    styles:
+      - Width=96
+      - Height=96
+      - Margin=0
+
+  # On-Screen Indicator - Volume OSD: Volume Slider
+  - target: Grid#VolumeConfirmator > Slider#volumeSlider
+    styles:
+      - Width=Auto
+      - Grid.Column:=
+      - VerticalAlignment=Bottom
+      - Margin=0
+      - Padding=0
+
+  # On-Screen Indicator - Volume OSD: Volume Level Text
+  - target: Grid#VolumeConfirmator > TextBlock#volumeLevelText
+    styles:
+      - FontSize=24
+      - VerticalAlignment=Bottom
+      - Margin=0,0,0,32
+
+  # On-Screen Indicator - Brightness OSD
+  - target: Grid#BrightnessConfirmator
+    styles:
+      - VerticalAlignment:=
+      - Padding=16,0,16,0
+      - ColumnDefinitions:=
+
+  # On-Screen Indicator - Brightness OSD: Brightness Icon
+  - target: >-
+      Grid#BrightnessConfirmator >
+      Microsoft.UI.Xaml.Controls.AnimatedIcon#BrightnessIcon
+    styles:
+      - Width=96
+      - Height=96
+      - VerticalAlignment=Bottom
+      - Margin=0,0,0,56
+
+  # On-Screen Indicator - Brightness OSD: Brightness Slider
+  - target: Grid#BrightnessConfirmator > Slider#brightnessSlider
+    styles:
+      - Width=Auto
+      - Grid.Column:=
+      - VerticalAlignment=Bottom
+      - Margin=0
+      - Padding=0
