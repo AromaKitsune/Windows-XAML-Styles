@@ -212,7 +212,10 @@ First, install [Windhawk](https://windhawk.net/).
 
 <details>
   <summary>
-    <b>File Explorer / Notification Center & Control Center/ System Settings</b>
+    <b>
+      File Explorer / Notification Center & Control Center/ System Settings /
+      Taskbar
+    </b>
   </summary>
 
   1. Launch the Windhawk app.
