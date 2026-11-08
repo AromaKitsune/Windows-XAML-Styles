@@ -183,7 +183,7 @@ For [Windows 11 Taskbar Styler](https://windhawk.net/mods/windows-11-taskbar-sty
 
 ### List of UI tweaks:
 * Stacked-layout OSD card for volume and brightness indicators
-  * ℹ️ The indicators' position should be at bottom center.
+  * ℹ️ Recommended indicators' position: Bottom center
   * ℹ️ Because the virtual desktop indicator shares the same OSD card, it is
     also enlarged, leaving wasted space around the "Desktop N" text, and cannot
     be reverted to a compact layout individually. It is recommended to install
