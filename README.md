@@ -139,7 +139,8 @@ For [Windows 11 Settings Styler](https://windhawk.net/mods/windows-11-settings-s
 ![](/screenshots/SystemSettings.png)
 
 ### List of UI tweaks:
-* Styler mod's built-in theme: ClassicSearchBar
+* Styler mod's built-in theme:
+  [ClassicSearchBar](https://github.com/ramensoftware/windows-11-settings-styling-guide/blob/main/Themes/ClassicSearchBar/README.md)
   * ℹ️ If you prefer the search bar on the title bar, set the "Theme" setting
   to "None".
 * Custom user profile text - Replace the user name text and "Local Account" text
