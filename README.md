@@ -16,11 +16,14 @@ These styles have been tested on Win11, version 25H2.
 * [How to apply custom XAML styles](#how-to-apply-custom-xaml-styles)
 * [Further configuration](#further-configuration)
 * [How to make my own custom XAML styles?](#how-to-make-my-own-custom-xaml-styles)
+* [License](#license)
 
 ---
 
-## File Explorer
+<br>
+<h2 align="center">List of styles for apps using XAML</h2>
 
+## File Explorer
 For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-explorer-styler)
 
 [YAML code](/styles/FileExplorer.yaml)
@@ -55,7 +58,6 @@ add custom buttons and hide the built-in buttons.
 ---
 
 ## Notification Center & Control Center
-
 For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11-notification-center-styler)
 
 [YAML code (for Dark theme)](/styles/NotificationCenter-Dark.yaml)
@@ -103,7 +105,6 @@ Recommended minimum resolutions for DPI values:
 ---
 
 ## Lock Screen
-
 For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) -
 Target process: `LockApp.exe`
 
@@ -131,7 +132,6 @@ Target process: `LockApp.exe`
 ---
 
 ## System Settings
-
 For [Windows 11 Settings Styler](https://windhawk.net/mods/windows-11-settings-styler)
 
 [YAML code](/styles/SystemSettings.yaml)
@@ -174,7 +174,6 @@ For [Windows 11 Settings Styler](https://windhawk.net/mods/windows-11-settings-s
 ---
 
 ## Taskbar
-
 For [Windows 11 Taskbar Styler](https://windhawk.net/mods/windows-11-taskbar-styler)
 
 [YAML code](/styles/Taskbar.yaml)
@@ -192,7 +191,6 @@ For [Windows 11 Taskbar Styler](https://windhawk.net/mods/windows-11-taskbar-sty
 ---
 
 ## Windows Security
-
 For [Windows 11 Start Menu Styler](https://windhawk.net/mods/windows-11-start-menu-styler) -
 Target process: `SecHealthUI.exe`
 
@@ -206,8 +204,10 @@ Target process: `SecHealthUI.exe`
 
 ---
 
-## How to apply custom XAML styles
+<br>
+<h2 align="center">Info</h2>
 
+## How to apply custom XAML styles
 First, install [Windhawk](https://windhawk.net/).
 
 <details>
@@ -243,10 +243,7 @@ First, install [Windhawk](https://windhawk.net/).
      Windows Security app is open, close and relaunch it.
 </details>
 
----
-
 ## Further configuration
-
 <details>
   <summary>
     <b>Translucent Text Input background</b>
@@ -294,9 +291,7 @@ First, install [Windhawk](https://windhawk.net/).
      the Settings app.
 </details>
 
-
 ## How to make my own custom XAML styles?
-
 Follow the [UWPSpy usage guide](https://github.com/bbmaster123/FWFU/blob/main/uwpspy.md).
 
 Once you know how to customise the UWP apps and want to customise the Lock
