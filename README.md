@@ -2,9 +2,9 @@
 A collection of my custom Windows XAML styles for Windhawk's various XAML styler
 mods for Windows 11.
 
-These styles have been tested on Win11, version 25H2.
+These styles have been tested on Windows 11, version 26H2.
 
-## Styles for apps using XAML
+## Styles for XAML-based UI elements
 * [File Explorer](#file-explorer)
 * [Notification Center & Control Center](#notification-center--control-center)
 * [Lock Screen](#lock-screen)
@@ -21,7 +21,7 @@ These styles have been tested on Win11, version 25H2.
 ---
 
 <br>
-<h2 align="center">List of styles for apps using XAML</h2>
+<h2 align="center">List of styles for XAML-based UI elements</h2>
 
 ## File Explorer
 For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-explorer-styler)
@@ -220,7 +220,8 @@ First, install [Windhawk](https://windhawk.net/).
 
   1. Launch the Windhawk app.
   2. Click the "Explore" button.
-  3. Find and install the "Windows 11 [XAML] Styler" mod.
+  3. Find and install the relevant Styler mod (e.g.,
+     "Windows 11 File Explorer Styler").
   4. Go to the mod's "Settings" tab.
   5. Switch to "Textual mode" and clear everything in the text editor.
   6. Copy the YAML code from this GitHub repo.
