@@ -37,17 +37,15 @@ For [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-
   * Dynamic image container height
   * Removed the Share button
 * Context menu:
-  * Removed the two "Share" menu items
-  * Removed the "Show more options" menu item
-    * ℹ️ To use the legacy context menu, hold Shift + right-click.
+  * Removed the "Share" menu item (grid/list)
   * Removed the "Search the Microsoft Store" menu item from the "Open with"
     sub-menu
     * ℹ️ For other languages, replace `Search the Microsoft Store` in
       `MenuFlyoutItem[Text=Search the Microsoft Store]`.
   * Removed the keyboard accelerator text labels (such as: `Enter`,
     `Ctrl+Shift+C`, `Alt+Enter`, etc.)
-    * ℹ️ Only the text labels are removed, without affecting the keyboard
-      shortcuts' functionality :)
+    * ℹ️ Only the text labels are removed - those keyboard shortcuts remain
+      functional.
 
 **Command Bar buttons addition/removal note:** I recommend installing the
 [Explorer Command Bar](https://windhawk.net/mods/explorer-command-bar) mod to
@@ -77,8 +75,29 @@ For [Windows 11 Notification Center Styler](https://windhawk.net/mods/windows-11
   * Appears from the right (instead of bottom), just like the Notification
     Center
   * Large album art image for the media controls
+  * Enlarged toggle button icons
 * Translucent Text Input background
   * ℹ️ Read the "further configuration" section after first applying styles.
+
+For the best experience with the Control Center's media player, it is
+recommended to install the
+"[Quick Settings Media Progress Bar](https://windhawk.net/mods/quick-settings-media-progress-bar)"
+mod to add a slider bar to the Control Center's media player widget.
+
+### ⚠ Important note: Media controls
+The large media player widget is intended for high resolution and low DPI
+scaling. It will not fit in the screen if the screen resolution is low and DPI
+scaling is high!
+
+Example: It fits in a 1080p screen at 100% DPI for a desktop PC monitor, and
+doesn't fit in a 1080p screen at 125% DPI for a laptop display.
+
+Recommended minimum resolutions for DPI values:
+* 100%: 1080p
+* 125%: 1440p
+* 150%: 4K
+* 175%: 4K
+* 200%: 4K
 
 ---
 

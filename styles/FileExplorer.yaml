@@ -198,12 +198,11 @@ controlStyles:
       - Background=$WindowColor
 
   # Context Menu - Remove the Menu Items
-  # Share, Set as BG, Rotate right/left, Show more options
+  # Share, Set as desktop BG
   - target: AppBarButton#Windows.ModernShare
     styles:
-      - // [ Context Menu - Share (Grid) ]
-      - Width=0
-      - IsEnabled=0
+      - // [ Context Menu - Share (Grid/List) ]
+      - Visibility=Collapsed
 
   - target: >
       Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBar >
@@ -212,42 +211,15 @@ controlStyles:
       ItemsPresenter > StackPanel > AppBarSeparator
     styles:
       - Visibility=Collapsed
-  - target: AppBarButton#Windows.ModernShareFlyout
-    styles:
-      - // [ Context Menu - Share (List) ]
-      - Visibility=Collapsed
 
   - target: AppBarButton#setdesktopwallpaper
     styles:
-      - '// [ Context Menu - Image: Set as desktop background ]'
-      - Visibility=$ContextMenuItemsVisibilityState
-
-  - target: AppBarButton#rotate90
-    styles:
-      - '// [ Context Menu - Image: Rotate right ]'
-      - Visibility=$ContextMenuItemsVisibilityState
-
-  - target: AppBarButton#rotate270
-    styles:
-      - '// [ Context Menu - Image: Rotate left ]'
+      - '// [ Context Menu - Image: Set as desktop BG ]'
       - Visibility=$ContextMenuItemsVisibilityState
 
   - target: MenuFlyoutItem[Text=Search the Microsoft Store]
     styles:
       - // [ Context Menu - Open with → Search the Microsoft Store ]
-      - Visibility=Collapsed
-
-  - target: AppBarButton#expandtoclassic
-    styles:
-      - // [ Context Menu - Show more options ]
-      - Visibility=Collapsed
-
-  - target: >
-      CommandBarOverflowPresenter#SecondaryItemsControl > Grid#LayoutRoot >
-      ScrollViewer > Border#Root > Grid >
-      ScrollContentPresenter#ScrollContentPresenter >
-      ItemsPresenter#ItemsPresenter > StackPanel > AppBarSeparator
-    styles:
       - Visibility=Collapsed
 
   - target: TextBlock#KeyboardAcceleratorTextLabel
@@ -280,10 +252,6 @@ styleConstants:
     custom window color such as Rectify11 dark theme
   - // WindowColor=#202020
 
-  - '// [ Command Bar - Image: Set as background, Rotate left, Rotate right ]'
-  - // CommandBarItemsVisibilityState=Collapsed
-
   - >
-    // [ Context Menu - Image: Set as desktop background, Rotate right, Rotate
-    left ]
+    // [ Context Menu - Image: Set as desktop BG ]
   - // ContextMenuItemsVisibilityState=Collapsed

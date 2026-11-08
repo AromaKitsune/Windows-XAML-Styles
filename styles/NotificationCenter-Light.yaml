@@ -1,3 +1,9 @@
+# For the best experience with the Control Center's media player, it is
+# recommended to install the "Quick Settings Media Progress Bar" mod to add a
+# slider bar to the Control Center's media player widget.
+#
+# https://windhawk.net/mods/quick-settings-media-progress-bar
+
 controlStyles:
   # Notification Center - Shrink the notification center height
   - target: Grid#NotificationCenterGrid
@@ -70,10 +76,41 @@ controlStyles:
       - RenderTransform:=<RotateTransform Angle="90" />
       - RenderTransformOrigin=0.5,0.5
 
+  # Control Center - 24px Toggle Button Icons
+  - target: >
+      ControlCenter.PaginatedToggleButton#ToggleButton >
+      ContentPresenter#ContentPresenter > Grid#SplitToggleContent >
+      Microsoft.UI.Xaml.Controls.AnimatedIcon
+    styles:
+      - Width=$ControlCenterToggleButtonIconSize
+      - Height=$ControlCenterToggleButtonIconSize
+
+  - target: >
+      ControlCenter.PaginatedToggleButton#SplitL2Button >
+      ContentPresenter#ContentPresenter > FontIcon
+    styles:
+      - FontSize=$ControlCenterToggleButtonIconSize
+
+  - target: >
+      ControlCenter.PaginatedToggleButton#ToggleButton >
+      ContentPresenter#ContentPresenter > Grid >
+      Microsoft.UI.Xaml.Controls.AnimatedIcon
+    styles:
+      - Width=$ControlCenterToggleButtonIconSize
+      - Height=$ControlCenterToggleButtonIconSize
+
+  - target: >
+      ControlCenter.PaginatedToggleButton#ToggleButton >
+      ContentPresenter#ContentPresenter > Grid > FontIcon
+    styles:
+      - FontSize=$ControlCenterToggleButtonChevronSize
+
   # Media Controls
+  # With progress bar    : Height=514
+  # Without progress bar : Height=470
   - target: Grid#MediaTransportControlsRegion
     styles:
-      - Height=470
+      - Height=514
 
   # Media Controls - Album Art, Title & Artist names container
   - target: Grid#AlbumTextAndArtContainer
@@ -109,10 +146,15 @@ controlStyles:
       - TextAlignment=Center
 
   # Media Controls - Media Buttons container
+  # Progress bar position & vertical offset:
+  # - Above playback buttons : VerticalAlignment=Bottom
+  # - Below playback buttons : VerticalAlignment=Top
+  # - Vertical Offset - Above Buttons : 60 DIPs
+  # - Vertical Offset - Below Buttons : 0 DIPs
   - target: ListView#MediaButtonsListView
     styles:
-      - VerticalAlignment=Top
-      - Margin=0,12,0,0
+      - VerticalAlignment=Bottom
+      - Margin=0,12,0,0 # For top-aligned playback buttons
       - Height=48
 
   # Media Controls - Media Buttons: Previous, Play/Pause, Next
@@ -217,3 +259,7 @@ controlStyles:
   - target: StackPanel#PrimaryAndSecondaryTextContainer > TextBlock#Subtitle
     styles:
       - TextAlignment=Center
+
+styleConstants:
+  - ControlCenterToggleButtonIconSize=24
+  - ControlCenterToggleButtonChevronSize=20
