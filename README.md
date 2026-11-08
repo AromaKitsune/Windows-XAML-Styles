@@ -243,6 +243,7 @@ First, install [Windhawk](https://windhawk.net/).
      Windows Security app is open, close and relaunch it.
 </details>
 
+---
 
 ## Further configuration
 
@@ -301,3 +302,6 @@ Follow the [UWPSpy usage guide](https://github.com/bbmaster123/FWFU/blob/main/uw
 Once you know how to customise the UWP apps and want to customise the Lock
 Screen too, check out the
 [Lock Screen styling guide](/guides/Lock-Screen-Styling-Guide.md).
+
+## License
+[MIT License](/LICENSE)
