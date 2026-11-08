@@ -182,11 +182,10 @@ For [Windows 11 Taskbar Styler](https://windhawk.net/mods/windows-11-taskbar-sty
 ![](/screenshots/OSD.png)
 
 ### List of UI tweaks:
-* Stacked-layout OSD card for volume and brightness indicators
-  * ℹ️ Because the virtual desktop indicator shares the same OSD card, it is
-    also enlarged, leaving wasted space around the "Desktop N" text, and cannot
-    be reverted to a compact layout individually. It is recommended to install
-    the
+* Stacked-layout OSD for volume and brightness indicators
+  * ℹ️ Because the virtual desktop indicator shares the same OSD, it is also
+    enlarged, leaving wasted space around the "Desktop N" text, and cannot be
+    reverted to a compact layout individually. It is recommended to install the
     "[Disable Virtual Desktop Popups](https://windhawk.net/mods/virtual-desktop-popups-disable)"
     mod to suppress this popup.
 
